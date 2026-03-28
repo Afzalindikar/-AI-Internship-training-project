@@ -56,3 +56,56 @@ The system aims to:
 - Integration with ETL tools (e.g., Meltano)  
 
 ---
+
+## ⚙️ System Workflow
+
+1. *Input Collection*
+   - Accepts URLs, PDF files, CSV files, and other supported formats  
+
+2. *Source Detection*
+   - Automatically identifies input type (web, PDF, CSV, etc.)  
+
+3. *Data Extraction*
+   - Extracts relevant content using source-specific extractors  
+
+4. *Data Cleaning*
+   - Removes noise, unnecessary characters, and formatting issues  
+
+5. *Normalization*
+   - Converts all extracted data into a unified schema  
+
+6. *Output Generation*
+   - Stores structured data in JSON/CSV format for further use  
+
+---
+
+## 📊 Output Format
+
+Example structured output:
+
+```json
+{
+  "title": "Sample Title",
+  "content": "Extracted and cleaned content...",
+  "source": "input_source",
+  "source_type": "pdf/web/csv"
+}
+
+## 🚀 Key Features
+
+- Multi-source data extraction  
+- Automatic file type detection  
+- Modular and extensible architecture  
+- Handles missing and inconsistent data  
+- Generates LLM-ready datasets  
+- Fully based on open-source tools  
+
+---
+
+## 🔮 Future Enhancements
+
+- Support for additional formats (Excel, APIs, databases)  
+- Advanced schema mapping and auto-field detection  
+- Integration with vector databases for RAG pipelines  
+- UI dashboard for monitoring and visualization  
+- Parallel processing for large-scale data extraction
