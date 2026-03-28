@@ -91,6 +91,8 @@ Example structured output:
   "source_type": "pdf/web/csv"
 }
 
+---
+
 ## 🚀 Key Features
 
 - Multi-source data extraction  
