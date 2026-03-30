@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "total_pages: 15",
+    "output": "{\"source\": \"pdf\", \"content\": {\"text\": null, \"tables\": null, \"total_pages\": 15}, \"metadata\": {\"title\": \"1c1522a2_CNS 5\", \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"1c1522a2_CNS 5 .pdf\", \"extracted_at\": \"2026-03-29T16:23:14.873369+00:00\", \"source_type\": \"pdf\", \"total_pages\": 15}}"
+  }
+]

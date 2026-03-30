@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Liam Anderson | E-Mail: liam@mail.com | Mobile: +1-555-2001 | Organisation: AlphaTech | Designation: Developer | Annual Income: 95000 | Country: USA",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: liam anderson | e-mail: liam@mail.com | mobile: +1-555-2001 | organisation: alphatech | designation: developer | annual income: 95000 | country: usa\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Sophia Robinson | E-Mail: sophia@mail.com | Mobile: +1-555-2002 | Organisation: BetaSoft | Designation: Analyst | Annual Income: 72000 | Country: UK",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: sophia robinson | e-mail: sophia@mail.com | mobile: +1-555-2002 | organisation: betasoft | designation: analyst | annual income: 72000 | country: uk\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Noah Williams | E-Mail: noah@mail.com | Mobile: +1-555-2003 | Organisation: GammaData | Designation: Engineer | Annual Income: 88000 | Country: Canada",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: noah williams | e-mail: noah@mail.com | mobile: +1-555-2003 | organisation: gammadata | designation: engineer | annual income: 88000 | country: canada\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Emma Davis | E-Mail: emma@mail.com | Mobile: +1-555-2004 | Organisation: DeltaCloud | Designation: Manager | Annual Income: 110000 | Country: Australia",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: emma davis | e-mail: emma@mail.com | mobile: +1-555-2004 | organisation: deltacloud | designation: manager | annual income: 110000 | country: australia\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Oliver Martinez | E-Mail: oliver@mail.com | Mobile: +1-555-2005 | Organisation: EpsilonAI | Designation: Designer | Annual Income: 65000 | Country: Germany",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: oliver martinez | e-mail: oliver@mail.com | mobile: +1-555-2005 | organisation: epsilonai | designation: designer | annual income: 65000 | country: germany\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Ava Thompson | E-Mail: ava@mail.com | Mobile: +1-555-2006 | Organisation: ZetaLabs | Designation: Architect | Annual Income: 120000 | Country: France",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: ava thompson | e-mail: ava@mail.com | mobile: +1-555-2006 | organisation: zetalabs | designation: architect | annual income: 120000 | country: france\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: William Jackson | E-Mail: will@mail.com | Mobile: +1-555-2007 | Organisation: EtaGroup | Designation: Lead | Annual Income: 105000 | Country: India",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: william jackson | e-mail: will@mail.com | mobile: +1-555-2007 | organisation: etagroup | designation: lead | annual income: 105000 | country: india\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Isabella White | E-Mail: isabella@mail.com | Mobile: +1-555-2008 | Organisation: ThetaWorks | Designation: Consultant | Annual Income: 93000 | Country: Brazil",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: isabella white | e-mail: isabella@mail.com | mobile: +1-555-2008 | organisation: thetaworks | designation: consultant | annual income: 93000 | country: brazil\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: James Harris | E-Mail: james@mail.com | Mobile: +1-555-2009 | Organisation: IotaNet | Designation: Director | Annual Income: 150000 | Country: Japan",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: james harris | e-mail: james@mail.com | mobile: +1-555-2009 | organisation: iotanet | designation: director | annual income: 150000 | country: japan\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Customer Name: Mia Clark | E-Mail: mia@mail.com | Mobile: +1-555-2010 | Organisation: KappaBase | Designation: Intern | Annual Income: 42000 | Country: Mexico",
+    "output": "{\"source\": \"excel\", \"content\": \"customer name: mia clark | e-mail: mia@mail.com | mobile: +1-555-2010 | organisation: kappabase | designation: intern | annual income: 42000 | country: mexico\", \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.xlsx\", \"extracted_at\": \"2026-03-28T02:36:17.362267+00:00\", \"source_type\": \"excel\"}}"
+  }
+]

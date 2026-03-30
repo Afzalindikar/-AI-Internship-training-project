@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "total_pages: 9",
+    "output": "{\"source\": \"pdf\", \"content\": {\"text\": null, \"tables\": null, \"total_pages\": 9}, \"metadata\": {\"title\": \"afbb00e2_CN 1.1\", \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"afbb00e2_CN 1.1.pdf\", \"extracted_at\": \"2026-03-29T16:23:15.092198+00:00\", \"source_type\": \"pdf\", \"total_pages\": 9}}"
+  }
+]

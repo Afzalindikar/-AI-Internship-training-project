@@ -1,0 +1,24 @@
+[
+  {
+    "source": "pdf",
+    "content": {
+      "text": null,
+      "tables": null,
+      "total_pages": 6
+    },
+    "metadata": {
+      "title": "5c6a30af_CNS M-5 IMP Q&A",
+      "author": null,
+      "date": "D:20251026055353Z",
+      "url": null,
+      "file_name": "5c6a30af_CNS M-5 IMP Q&A.pdf",
+      "extracted_at": "2026-03-29T16:29:32.905833+00:00",
+      "source_type": "pdf",
+      "total_pages": 6
+    },
+    "raw": "",
+    "id": "fb579ab3-ebe1-4298-8f59-2b39c0068d3d",
+    "failed": false,
+    "error": null
+  }
+]

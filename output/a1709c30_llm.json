@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "Title: Streamlit",
+    "output": "{\"source\": \"web\", \"content\": {\"job_title\": \"streamlit\", \"headings\": [], \"paragraphs\": [], \"tables\": [], \"url\": []}, \"metadata\": {\"title\": \"Streamlit\", \"author\": null, \"date\": null, \"url\": \"http://localhost:8501/\", \"file_name\": null, \"extracted_at\": \"2026-03-28T07:58:03.091344+00:00\", \"source_type\": \"web\"}}"
+  }
+]

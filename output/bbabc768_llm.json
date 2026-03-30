@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 1 | Full Name: Alice Johnson | Email Address: alice.johnson@email.com | Telephone: +1-555-0101 | Company Name: Acme Corp | Job Title: Software Engineer | Age: 29 | City: New York | Country: USA | Salary: 95000 | Date: 2024-01-15",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 1, \"name\": \"alice johnson\", \"email\": \"alice.johnson@email.com\", \"phone\": \"+1-555-0101\", \"company\": \"acme corp\", \"job_title\": \"software engineer\", \"age\": 29, \"city\": \"new york\", \"country\": \"usa\", \"salary\": 95000, \"date\": \"2024-01-15\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 2 | Full Name: Bob  Smith | Email Address: bob.smith@email.com | Telephone: +1-555-0102 | Company Name: TechGlobal | Job Title: Data Analyst | Age: 34 | City: San Francisco | Country: USA | Salary: 88000 | Date: 2024-01-16",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 2, \"name\": \"bob smith\", \"email\": \"bob.smith@email.com\", \"phone\": \"+1-555-0102\", \"company\": \"techglobal\", \"job_title\": \"data analyst\", \"age\": 34, \"city\": \"san francisco\", \"country\": \"usa\", \"salary\": 88000, \"date\": \"2024-01-16\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 3 | Full Name: Carol White | Email Address: carol.white@email.com | Telephone: +44-20-5555-0103 | Company Name: InnovateLtd | Job Title: Product Manager | Age: 31 | City: London | Country: UK | Salary: 72000 | Date: 2024-01-17",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 3, \"name\": \"carol white\", \"email\": \"carol.white@email.com\", \"phone\": \"+44-20-5555-0103\", \"company\": \"innovateltd\", \"job_title\": \"product manager\", \"age\": 31, \"city\": \"london\", \"country\": \"uk\", \"salary\": 72000, \"date\": \"2024-01-17\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 4 | Full Name: David Brown | Email Address: david.brown@email.com | Telephone: +91-98765-43210 | Company Name: DataDriven Inc | Job Title: ML Engineer | Age: 27 | City: Bangalore | Country: India | Salary: 65000 | Date: 2024-01-18",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 4, \"name\": \"david brown\", \"email\": \"david.brown@email.com\", \"phone\": \"+91-98765-43210\", \"company\": \"datadriven inc\", \"job_title\": \"ml engineer\", \"age\": 27, \"city\": \"bangalore\", \"country\": \"india\", \"salary\": 65000, \"date\": \"2024-01-18\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 5 | Full Name: Eva  Martinez | Email Address: eva.martinez@email.com | Telephone: +34-91-555-0105 | Company Name: CloudSystems | Job Title: DevOps Lead | Age: 38 | City: Madrid | Country: Spain | Salary: 78000 | Date: 2024-01-19",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 5, \"name\": \"eva martinez\", \"email\": \"eva.martinez@email.com\", \"phone\": \"+34-91-555-0105\", \"company\": \"cloudsystems\", \"job_title\": \"devops lead\", \"age\": 38, \"city\": \"madrid\", \"country\": \"spain\", \"salary\": 78000, \"date\": \"2024-01-19\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 6 | Full Name: Frank Lee | Email Address: frank.lee@email.com | Telephone: +1-555-0106 | Company Name: Analytics Pro | Job Title: Data Scientist | Age: 33 | City: Chicago | Country: USA | Salary: 102000 | Date: 2024-01-20",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 6, \"name\": \"frank lee\", \"email\": \"frank.lee@email.com\", \"phone\": \"+1-555-0106\", \"company\": \"analytics pro\", \"job_title\": \"data scientist\", \"age\": 33, \"city\": \"chicago\", \"country\": \"usa\", \"salary\": 102000, \"date\": \"2024-01-20\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 7 | Full Name: Grace Kim | Email Address: grace.kim@email.com | Telephone: +82-2-555-0107 | Company Name: NextGen Tech | Job Title: UX Designer | Age: 26 | City: Seoul | Country: South Korea | Salary: 55000 | Date: 2024-01-21",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 7, \"name\": \"grace kim\", \"email\": \"grace.kim@email.com\", \"phone\": \"+82-2-555-0107\", \"company\": \"nextgen tech\", \"job_title\": \"ux designer\", \"age\": 26, \"city\": \"seoul\", \"country\": \"south korea\", \"salary\": 55000, \"date\": \"2024-01-21\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 8 | Full Name: Henry Wilson | Email Address: henry.wilson@email.com | Telephone: +1-555-0108 | Company Name: Acme Corp | Job Title: Backend Developer | Age: 30 | City: Austin | Country: USA | Salary: 91000 | Date: 2024-01-22",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 8, \"name\": \"henry wilson\", \"email\": \"henry.wilson@email.com\", \"phone\": \"+1-555-0108\", \"company\": \"acme corp\", \"job_title\": \"backend developer\", \"age\": 30, \"city\": \"austin\", \"country\": \"usa\", \"salary\": 91000, \"date\": \"2024-01-22\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 9 | Full Name: Iris Chen | Email Address: iris.chen@email.com | Telephone: +86-10-5555-0109 | Company Name: DataDriven Inc | Job Title: Business Analyst | Age: 35 | City: Shanghai | Country: China | Salary: 70000 | Date: 2024-01-23",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 9, \"name\": \"iris chen\", \"email\": \"iris.chen@email.com\", \"phone\": \"+86-10-5555-0109\", \"company\": \"datadriven inc\", \"job_title\": \"business analyst\", \"age\": 35, \"city\": \"shanghai\", \"country\": \"china\", \"salary\": 70000, \"date\": \"2024-01-23\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  },
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "id: 10 | Full Name: Jack Taylor | Email Address: jack.taylor@email.com | Telephone: +1-555-0110 | Company Name: CloudSystems | Job Title: CTO | Age: 45 | City: Seattle | Country: USA | Salary: 145000 | Date: 2024-01-24",
+    "output": "{\"source\": \"csv\", \"content\": {\"record_id\": 10, \"name\": \"jack taylor\", \"email\": \"jack.taylor@email.com\", \"phone\": \"+1-555-0110\", \"company\": \"cloudsystems\", \"job_title\": \"cto\", \"age\": 45, \"city\": \"seattle\", \"country\": \"usa\", \"salary\": 145000, \"date\": \"2024-01-24\"}, \"metadata\": {\"title\": null, \"author\": null, \"date\": null, \"url\": null, \"file_name\": \"sample.csv\", \"extracted_at\": \"2026-03-28T08:08:30.152847+00:00\", \"source_type\": \"csv\"}}"
+  }
+]

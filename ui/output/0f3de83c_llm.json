@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "total_pages: 2",
+    "output": "{\"source\": \"pdf\", \"content\": {\"text\": null, \"tables\": null, \"total_pages\": 2}, \"metadata\": {\"title\": \"New Doc 10-28-2025 15.31\", \"author\": \"OKEN Scanner\", \"date\": null, \"url\": null, \"file_name\": \"a89d29b2_New Doc 10-28-2025 15.31.pdf\", \"extracted_at\": \"2026-03-29T16:04:19.658036+00:00\", \"source_type\": \"pdf\", \"total_pages\": 2}}"
+  }
+]

@@ -1,0 +1,75 @@
+content_page,content_tables,content_text,content_total_pages,error,failed,id,metadata_author,metadata_date,metadata_extracted_at,metadata_file_name,metadata_page,metadata_source_type,metadata_title,metadata_total_pages,metadata_url,raw,source
+1,,"progress project 1 lost & found reunion a multi-modal semantic search engine for lost items the story it's monday morning at bldeacet. gopal, a final-year student, walks into the lost & found o(cid:431)ice in a panic. ""i lost my airpods max headphones yesterday in the library! they're gold-colored with a leather case. i have a photo of them. can you help me find them?"" the lost & found coordinator, raj, opens a dusty spreadsheet with 600+ items from the past 6 months:  ""brown bag""  ""black something""  ""electronics - unclear""  ""found near canteen"" raj manually scrolls through 15 minutes looking for headphones. no luck. the headphones were donated 2 weeks ago. the problem every semester, this happens to 50+ students: 1. vague descriptions - items logged as ""black bag"" without details 2. no visual search - photos of lost items sit in phones, not in the database 3. manual matching - sta(cid:431) can't semantically understand ""wireless headphones"" matches ""apple airpods"" 4. items get lost - no one knows what's in the lost & found, so items get donated/thrown away 5. frustration - students give up, buy new items, lost & found becomes a dump",3,,False,e9617a7b-821e-4fee-a70c-83c020d30517,Aditya M,D:20260309101915+05'30',2026-03-29T14:24:47.205042+00:00,Lost.pdf,1,pdf,Microsoft Word - Document1,3,,"PROGRESS PROJECT 1
+LOST & FOUND REUNION
+A Multi-Modal Semantic Search Engine for Lost Items
+THE STORY
+It's Monday morning at BLDEACET. Gopal, a Final-year student, walks into the Lost &
+Found o(cid:431)ice in a panic.
+""I lost my AirPods Max headphones yesterday in the library! They're gold-colored with a
+leather case. I have a photo of them. Can you help me find them?""
+The Lost & Found coordinator, Raj, opens a dusty spreadsheet with 600+ items from the
+past 6 months:
+ ""Brown bag""
+ ""Black something""
+ ""Electronics - unclear""
+ ""Found near canteen""
+Raj manually scrolls through 15 minutes looking for headphones. No luck.
+The headphones were donated 2 weeks ago.
+THE PROBLEM
+Every semester, this happens to 50+ students:
+1. Vague Descriptions - Items logged as ""black bag"" without details
+2. No Visual Search - Photos of lost items sit in phones, not in the database
+3. Manual Matching - Sta(cid:431) can't semantically understand ""wireless headphones""
+matches ""Apple AirPods""
+4. Items Get Lost - No one knows what's in the Lost & Found, so items get
+donated/thrown away
+5. Frustration - Students give up, buy new items, Lost & Found becomes a dump",pdf
+2,,"your mission you are hired to build ""lost & found reunion"" - a multi-modal semantic search engine that: (cid:33158)(cid:57393) lets students search with both images and text (cid:33158)(cid:57393) understands meaning - ""wireless headphones"" = ""airpods"" = ""earbuds"" (cid:33158)(cid:57393) finds matches even if descriptions don't match word-for-word (cid:33158)(cid:57393) ranks results by relevance with confidence scores (cid:33158)(cid:57393) explains matches - why each item is a potential match (cid:33158)(cid:57393) builds its own dataset - you scrape real product data and create realistic lost item descriptions end-to-end workflow summary phase 1: data sourcing (3-4 min) scrape 100-200 random distinct products from shopping sites with 4 images of them. get product names, descriptions, images, prices use llm to generate realistic lost item descriptions from the product description scrapped output: scraped_products.csv + images/ phase 2: data preparation (3-4 min) download images locally and rename them to map it to columns or however it is convenient to proceed further. standardize categories remove duplicates & broken data create combined searchable text output: lost_found_dataset_cleaned.csv (550 items) phase 3: data analysis (4-5 min) embed text with sentence-transformers embed images with clip (multi-modal) or any other model comfortable. store in chroma vector database?fassi or any other vector store comfortable. output: lost_found_embeddings.pkl + chroma db/fassi etc. whichever you are comfortable. phase 4: data search and storytelling (4-5 min) build multi-modal search (text + image) use local llm to explain each match display results with confidence scores & stories wrap in stream lit ui/gradio",3,,False,9cb12dd0-261b-4911-83f8-c3deadcd1d7c,Aditya M,D:20260309101915+05'30',2026-03-29T14:24:47.470007+00:00,Lost.pdf,2,pdf,Microsoft Word - Document1,3,,"YOUR MISSION
+You are hired to build ""Lost & Found Reunion"" - a multi-modal semantic search
+engine that:
+(cid:33158)(cid:57393) Lets students search with BOTH images AND text
+(cid:33158)(cid:57393) Understands meaning - ""wireless headphones"" = ""AirPods"" = ""earbuds""
+(cid:33158)(cid:57393) Finds matches even if descriptions don't match word-for-word
+(cid:33158)(cid:57393) Ranks results by relevance with confidence scores
+(cid:33158)(cid:57393) Explains matches - why each item is a potential match
+(cid:33158)(cid:57393) Builds its own dataset - you scrape real product data and create realistic lost item
+descriptions
+END-TO-END WORKFLOW SUMMARY
+PHASE 1: DATA SOURCING (3-4 min)
+Scrape 100-200 random distinct products from shopping sites with 4 Images of them.
+Get product names, descriptions, images, prices
+Use LLM to generate realistic lost item descriptions from the Product description
+Scrapped
+Output: scraped_products.csv + images/
+PHASE 2: DATA PREPARATION (3-4 min)
+Download images locally and rename them to map it to columns or however it is
+convenient to proceed further.
+Standardize categories
+Remove duplicates & broken data
+Create combined searchable text
+Output: lost_found_dataset_cleaned.csv (550 items)
+PHASE 3: DATA ANALYSIS (4-5 min)
+Embed text with Sentence-Transformers
+Embed images with CLIP (multi-modal) or any other model comfortable.
+Store in Chroma vector database?FASSI or any other Vector store Comfortable.
+Output: lost_found_embeddings.pkl + Chroma DB/FASSI etc. Whichever you are
+Comfortable.
+PHASE 4: DATA Search and STORYTELLING (4-5 min)
+Build multi-modal search (text + image)
+Use local LLM to explain each match
+Display results with confidence scores & stories
+Wrap in Stream lit UI/Gradio",pdf
+3,,"output: working search engine + generated insights what tools you'll use (student chooses) (cid:33158)(cid:57393) python 3.11+ (cid:33158)(cid:57393) sentence-transformers (text embeddings) (cid:33158)(cid:57393) transformers + clip (image embeddings) (cid:33158)(cid:57393) chroma or pinecone (vector database) (cid:33158)(cid:57393) ollama or localai (local llm - llama 2, mistral, etc.) (cid:33158)(cid:57393) pandas (data cleaning) (cid:33158)(cid:57393) beautiful soup or selenium (web scraping) (cid:33158)(cid:57393) pillow (image processing) (cid:33158)(cid:57393) stream lit /gradio (web ui - easiest) (cid:33158)(cid:57393) fastapi + uvicorn (api backend) (cid:33158)(cid:57393) opencv (advanced image processing) (cid:33158)(cid:57393) scrapy (advanced scraping)",3,,False,8fbdac89-c215-409f-a5f9-c688e0121354,Aditya M,D:20260309101915+05'30',2026-03-29T14:24:47.548491+00:00,Lost.pdf,3,pdf,Microsoft Word - Document1,3,,"Output: Working search engine + Generated insights
+WHAT TOOLS YOU'LL USE (Student Chooses)
+(cid:33158)(cid:57393) Python 3.11+
+(cid:33158)(cid:57393) Sentence-Transformers (text embeddings)
+(cid:33158)(cid:57393) transformers + CLIP (image embeddings)
+(cid:33158)(cid:57393) Chroma or Pinecone (vector database)
+(cid:33158)(cid:57393) Ollama or LocalAI (local LLM - Llama 2, Mistral, etc.)
+(cid:33158)(cid:57393) pandas (data cleaning)
+(cid:33158)(cid:57393) Beautiful Soup or Selenium (web scraping)
+(cid:33158)(cid:57393) Pillow (image processing)
+(cid:33158)(cid:57393) Stream lit /Gradio (web UI - easiest)
+(cid:33158)(cid:57393) FastAPI + Uvicorn (API backend)
+(cid:33158)(cid:57393) OpenCV (advanced image processing)
+(cid:33158)(cid:57393) Scrapy (advanced scraping)",pdf

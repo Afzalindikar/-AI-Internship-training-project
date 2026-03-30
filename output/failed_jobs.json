@@ -1,0 +1,10 @@
+[
+  {
+    "job_id": "40c6a0f6-6c83-4e66-bfbf-48500bba06bd",
+    "source": "https://example.com",
+    "error": "All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\afzal\\Downloads\\afzal\\afzal\\pipeline\\orchestrator.py\", line 139, in run\n    raw_output = self._extract_with_retry(validated_source, source_type, job_id)\n  File \"C:\\Users\\afzal\\Downloads\\afzal\\afzal\\pipeline\\orchestrator.py\", line 399, in _extract_with_retry\n    raise RuntimeError(\n        f\"All {self.max_retries} extraction attempts failed for '{source}': {last_exc}\"\n    )\nRuntimeError: All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))\n",
+    "timestamp": "2026-03-29T08:09:41.858909+00:00",
+    "total_time_seconds": 17.098
+  }
+]

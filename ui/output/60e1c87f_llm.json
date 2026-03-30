@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Extract and summarise the key information from the following text.",
+    "input": "total_pages: 6",
+    "output": "{\"source\": \"pdf\", \"content\": {\"text\": null, \"tables\": null, \"total_pages\": 6}, \"metadata\": {\"title\": \"a2735eac_CNS M-5 IMP Q&A\", \"author\": null, \"date\": \"D:20251026055353Z\", \"url\": null, \"file_name\": \"a2735eac_CNS M-5 IMP Q&A.pdf\", \"extracted_at\": \"2026-03-29T16:06:08.422010+00:00\", \"source_type\": \"pdf\", \"total_pages\": 6}}"
+  }
+]

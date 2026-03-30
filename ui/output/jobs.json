@@ -1,0 +1,2345 @@
+[
+  {
+    "job_id": "6e72cb1a-658e-45e0-9a17-ac74abe76a55",
+    "status": "SUCCESS",
+    "source": "https://en.wikipedia.org/wiki/Main_Page",
+    "created_at": "2026-03-29T14:02:26.361152+00:00",
+    "updated_at": "2026-03-29T14:02:27.815764+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6e72cb1a_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6e72cb1a_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6e72cb1a_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6e72cb1a_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 1.388,
+      "clean": 0.043,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 1.451
+  },
+  {
+    "job_id": "e6ec6343-f03f-496c-9aa0-a887aa318178",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T14:06:14.408217+00:00",
+    "updated_at": "2026-03-29T14:06:14.490966+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6ec6343_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6ec6343_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6ec6343_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.004,
+      "extract": 0.035,
+      "clean": 0.002,
+      "normalize": 0.002,
+      "map": 0.0,
+      "save": 0.015
+    },
+    "total_time_seconds": 0.077
+  },
+  {
+    "job_id": "e737ae4d-db6a-4b8e-bebd-475f47d8e93d",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:06:14.408990+00:00",
+    "updated_at": "2026-03-29T14:06:14.505512+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e737ae4d_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e737ae4d_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e737ae4d_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.004,
+      "extract": 0.053,
+      "clean": 0.001,
+      "normalize": 0.0,
+      "map": 0.001,
+      "save": 0.015
+    },
+    "total_time_seconds": 0.092
+  },
+  {
+    "job_id": "f381c5b0-cf56-4de8-b93d-fc87a345c84f",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:06:14.410208+00:00",
+    "updated_at": "2026-03-29T14:06:14.814966+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f381c5b0_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f381c5b0_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f381c5b0_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f381c5b0_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.005,
+      "extract": 0.354,
+      "clean": 0.01,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.013
+    },
+    "total_time_seconds": 0.4
+  },
+  {
+    "job_id": "1a516b09-3ff5-42e1-9ec3-6b2b56c827ad",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T14:07:09.682971+00:00",
+    "updated_at": "2026-03-29T14:07:09.955356+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1a516b09_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1a516b09_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1a516b09_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.055,
+      "clean": 0.001,
+      "normalize": 0.006,
+      "map": 0.001,
+      "save": 0.069
+    },
+    "total_time_seconds": 0.186
+  },
+  {
+    "job_id": "03338379-2579-427c-9f0a-9caf57002760",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:07:09.683631+00:00",
+    "updated_at": "2026-03-29T14:07:10.142347+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\03338379_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\03338379_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\03338379_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.233,
+      "clean": 0.002,
+      "normalize": 0.022,
+      "map": 0.028,
+      "save": 0.014
+    },
+    "total_time_seconds": 0.453
+  },
+  {
+    "job_id": "25fef5de-f748-4f0a-b7f4-30928e09ee97",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:07:09.684867+00:00",
+    "updated_at": "2026-03-29T14:07:10.155685+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\25fef5de_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\25fef5de_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\25fef5de_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\25fef5de_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.415,
+      "clean": 0.007,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.019
+    },
+    "total_time_seconds": 0.467
+  },
+  {
+    "job_id": "7722be8c-8658-4fe5-834d-92bf82df4601",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T14:09:15.266629+00:00",
+    "updated_at": "2026-03-29T14:09:15.641942+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7722be8c_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7722be8c_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7722be8c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.058,
+      "clean": 0.002,
+      "normalize": 0.002,
+      "map": 0.003,
+      "save": 0.21
+    },
+    "total_time_seconds": 0.365
+  },
+  {
+    "job_id": "3bfc8fd7-983f-4f5d-8461-5b950c818c0e",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:09:15.268269+00:00",
+    "updated_at": "2026-03-29T14:09:15.656649+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3bfc8fd7_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3bfc8fd7_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3bfc8fd7_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.189,
+      "clean": 0.052,
+      "normalize": 0.036,
+      "map": 0.001,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.383
+  },
+  {
+    "job_id": "59a59586-78e7-4a22-876f-175a36152338",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:09:15.269339+00:00",
+    "updated_at": "2026-03-29T14:09:15.666259+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\59a59586_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\59a59586_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\59a59586_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\59a59586_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.344,
+      "clean": 0.007,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.016
+    },
+    "total_time_seconds": 0.392
+  },
+  {
+    "job_id": "95f23e3c-3d3a-401c-a96f-0f86345c70e7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card (1).pdf",
+    "created_at": "2026-03-29T14:17:01.531632+00:00",
+    "updated_at": "2026-03-29T14:17:01.848004+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\95f23e3c_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\95f23e3c_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\95f23e3c_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\95f23e3c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.283,
+      "clean": 0.009,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.312
+  },
+  {
+    "job_id": "3379317b-1a3a-4884-a706-463fcb7ac7a3",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:17:01.850844+00:00",
+    "updated_at": "2026-03-29T14:17:02.179066+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3379317b_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3379317b_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3379317b_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3379317b_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.3,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.325
+  },
+  {
+    "job_id": "2385e965-6cca-4263-9b02-d70869b2c8e3",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card (1).pdf",
+    "created_at": "2026-03-29T14:17:32.336626+00:00",
+    "updated_at": "2026-03-29T14:17:32.657738+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2385e965_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2385e965_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2385e965_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2385e965_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.292,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.318
+  },
+  {
+    "job_id": "e10bfba2-ce0a-4648-9dd0-3f2a76a8d658",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:17:32.661299+00:00",
+    "updated_at": "2026-03-29T14:17:32.989525+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e10bfba2_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e10bfba2_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e10bfba2_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e10bfba2_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.3,
+      "clean": 0.005,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.325
+  },
+  {
+    "job_id": "31d87d2e-1258-4140-924a-5ea92cf8c838",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:17:32.992974+00:00",
+    "updated_at": "2026-03-29T14:17:33.035279+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\31d87d2e_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\31d87d2e_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\31d87d2e_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.022,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.039
+  },
+  {
+    "job_id": "6ae0a7d8-36ea-4096-a379-634fa506b6f4",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card (1).pdf",
+    "created_at": "2026-03-29T14:18:38.254425+00:00",
+    "updated_at": "2026-03-29T14:18:38.597992+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6ae0a7d8_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6ae0a7d8_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6ae0a7d8_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6ae0a7d8_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.312,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.34
+  },
+  {
+    "job_id": "b0d1026b-34ef-4814-adfe-ce2030b1c9e2",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:18:38.616836+00:00",
+    "updated_at": "2026-03-29T14:18:38.948465+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b0d1026b_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b0d1026b_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b0d1026b_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b0d1026b_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.3,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.329
+  },
+  {
+    "job_id": "c26f20d0-07d5-424d-bea4-cf78bc0f7a41",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:18:38.951500+00:00",
+    "updated_at": "2026-03-29T14:18:38.996191+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c26f20d0_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c26f20d0_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c26f20d0_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.024,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.041
+  },
+  {
+    "job_id": "289cdcd2-f250-498c-8fa0-c0895bf3f7bb",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:19:40.267595+00:00",
+    "updated_at": "2026-03-29T14:19:40.607723+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\289cdcd2_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\289cdcd2_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\289cdcd2_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\289cdcd2_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.309,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.336
+  },
+  {
+    "job_id": "8ea40469-d842-4e29-aba8-48f3ca7245eb",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:19:40.610897+00:00",
+    "updated_at": "2026-03-29T14:19:40.656634+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8ea40469_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8ea40469_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8ea40469_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.025,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.042
+  },
+  {
+    "job_id": "0840f656-66e3-4282-9a3d-9d4d5ede3a6c",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\CV99764774_Mohammad Indikar.pdf",
+    "created_at": "2026-03-29T14:19:40.659964+00:00",
+    "updated_at": "2026-03-29T14:19:41.200477+00:00",
+    "record_count": 2,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0840f656_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0840f656_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0840f656_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0840f656_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.508,
+      "clean": 0.007,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.537
+  },
+  {
+    "job_id": "50282c8d-e4e3-46cb-b656-504e6ac2c254",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:20:34.551714+00:00",
+    "updated_at": "2026-03-29T14:20:34.888923+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\50282c8d_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\50282c8d_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\50282c8d_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\50282c8d_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.306,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.333
+  },
+  {
+    "job_id": "a9556e4e-0ee8-4a34-b332-c984dfd0c352",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T14:20:34.892473+00:00",
+    "updated_at": "2026-03-29T14:20:34.943273+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\a9556e4e_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\a9556e4e_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\a9556e4e_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.025,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.045
+  },
+  {
+    "job_id": "1906e0b2-b5bb-43e8-962e-1a166c2fa88d",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\CV99764774_Mohammad Indikar.pdf",
+    "created_at": "2026-03-29T14:20:34.947714+00:00",
+    "updated_at": "2026-03-29T14:20:35.514659+00:00",
+    "record_count": 2,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1906e0b2_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1906e0b2_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1906e0b2_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1906e0b2_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.535,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.563
+  },
+  {
+    "job_id": "5eef2f7c-3eb9-43e0-8fd7-0f8111fb7ab2",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\CNS M-5 IMP Q&A.pdf",
+    "created_at": "2026-03-29T14:23:21.766585+00:00",
+    "updated_at": "2026-03-29T14:23:22.146066+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5eef2f7c_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5eef2f7c_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5eef2f7c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.358,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.376
+  },
+  {
+    "job_id": "d79481bd-d09e-4f38-949f-c3052d232844",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\21CS733-SOLUTIONS-SET2.pdf",
+    "created_at": "2026-03-29T14:23:22.150406+00:00",
+    "updated_at": "2026-03-29T14:23:29.668358+00:00",
+    "record_count": 35,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d79481bd_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d79481bd_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d79481bd_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d79481bd_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 7.438,
+      "clean": 0.036,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.026
+    },
+    "total_time_seconds": 7.515
+  },
+  {
+    "job_id": "4b4253c3-f892-4507-85a2-cbb60d832e67",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\21CS733-SOLUTIONS-SET1.pdf",
+    "created_at": "2026-03-29T14:23:29.672644+00:00",
+    "updated_at": "2026-03-29T14:23:38.218227+00:00",
+    "record_count": 37,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b4253c3_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b4253c3_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b4253c3_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b4253c3_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 8.062,
+      "clean": 0.437,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.031
+    },
+    "total_time_seconds": 8.542
+  },
+  {
+    "job_id": "cc0b58be-eea4-4f4a-bb70-e1e3308abc7d",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card (1).pdf",
+    "created_at": "2026-03-29T14:23:56.408655+00:00",
+    "updated_at": "2026-03-29T14:23:56.712618+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\cc0b58be_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\cc0b58be_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\cc0b58be_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\cc0b58be_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.272,
+      "clean": 0.006,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.3
+  },
+  {
+    "job_id": "e6888c52-3f23-455b-b05c-d414dd89be8a",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:23:56.717332+00:00",
+    "updated_at": "2026-03-29T14:23:57.033268+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6888c52_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6888c52_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6888c52_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e6888c52_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.277,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.312
+  },
+  {
+    "job_id": "041ece51-ed10-462d-b23d-faa299c75e5c",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Lost.pdf",
+    "created_at": "2026-03-29T14:23:57.037621+00:00",
+    "updated_at": "2026-03-29T14:23:57.551242+00:00",
+    "record_count": 3,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\041ece51_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\041ece51_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\041ece51_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\041ece51_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.481,
+      "clean": 0.007,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.511
+  },
+  {
+    "job_id": "b3a2d5fe-c28c-4a6d-a7af-b1094e45a059",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card (1).pdf",
+    "created_at": "2026-03-29T14:24:46.176801+00:00",
+    "updated_at": "2026-03-29T14:24:46.664878+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b3a2d5fe_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b3a2d5fe_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b3a2d5fe_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b3a2d5fe_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.453,
+      "clean": 0.007,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.485
+  },
+  {
+    "job_id": "8176ad0a-43a7-4bc2-aa11-f12ec5db70e9",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:24:46.669109+00:00",
+    "updated_at": "2026-03-29T14:24:46.956660+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8176ad0a_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8176ad0a_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8176ad0a_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\8176ad0a_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.253,
+      "clean": 0.006,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.284
+  },
+  {
+    "job_id": "6b517e95-0f40-410f-93da-74abf8e146f6",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Lost.pdf",
+    "created_at": "2026-03-29T14:24:46.960449+00:00",
+    "updated_at": "2026-03-29T14:24:47.569975+00:00",
+    "record_count": 3,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6b517e95_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6b517e95_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6b517e95_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6b517e95_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.577,
+      "clean": 0.004,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.607
+  },
+  {
+    "job_id": "7c7f4d55-96f5-42e0-a8ca-c82abb17d63f",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:37:56.167186+00:00",
+    "updated_at": "2026-03-29T14:37:56.507662+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7c7f4d55_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7c7f4d55_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7c7f4d55_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7c7f4d55_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.303,
+      "clean": 0.009,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.337
+  },
+  {
+    "job_id": "3a0335ad-6405-4f24-bbd6-e0d82c7a56e7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Mohammad_Afzal_Indikar_Styled_CV.pdf",
+    "created_at": "2026-03-29T14:37:56.513396+00:00",
+    "updated_at": "2026-03-29T14:37:56.652258+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a0335ad_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a0335ad_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a0335ad_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a0335ad_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.107,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.135
+  },
+  {
+    "job_id": "6212c671-010f-4b1a-a70a-a5514f54db42",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Handwritten.pdf",
+    "created_at": "2026-03-29T14:37:56.656878+00:00",
+    "updated_at": "2026-03-29T14:37:56.794086+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6212c671_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6212c671_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6212c671_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.113,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.134
+  },
+  {
+    "job_id": "80f72d5f-5473-4c1d-aed0-525f47f82ca0",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-29T14:38:33.040753+00:00",
+    "updated_at": "2026-03-29T14:38:33.357636+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\80f72d5f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\80f72d5f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\80f72d5f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\80f72d5f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.286,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.313
+  },
+  {
+    "job_id": "284b81e9-1580-4015-8a5d-1d5086d386a0",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Mohammad_Afzal_Indikar_Styled_CV.pdf",
+    "created_at": "2026-03-29T14:38:33.362025+00:00",
+    "updated_at": "2026-03-29T14:38:33.503562+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\284b81e9_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\284b81e9_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\284b81e9_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\284b81e9_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.11,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.138
+  },
+  {
+    "job_id": "41da6f3e-02f1-4133-9522-d201cf8a54bd",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\Handwritten.pdf",
+    "created_at": "2026-03-29T14:38:33.508865+00:00",
+    "updated_at": "2026-03-29T14:38:33.660571+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\41da6f3e_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\41da6f3e_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\41da6f3e_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.129,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.149
+  },
+  {
+    "job_id": "c50c7c1c-82b4-4881-846b-0d37d47ad286",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\d68e947f_Admit Card.pdf",
+    "created_at": "2026-03-29T14:58:01.720704+00:00",
+    "updated_at": "2026-03-29T14:58:02.085038+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c50c7c1c_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c50c7c1c_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c50c7c1c_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c50c7c1c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.321,
+      "clean": 0.01,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.013
+    },
+    "total_time_seconds": 0.361
+  },
+  {
+    "job_id": "45c922dd-42cd-4f5f-8c28-b83d3920e6a1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\3a0c9d8d_PC Model Papers Solved.pdf",
+    "created_at": "2026-03-29T14:58:02.096348+00:00",
+    "updated_at": "2026-03-29T14:58:11.382130+00:00",
+    "record_count": 41,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45c922dd_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45c922dd_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45c922dd_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45c922dd_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 9.18,
+      "clean": 0.053,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.03
+    },
+    "total_time_seconds": 9.282
+  },
+  {
+    "job_id": "0f2af9ab-e21e-4cf6-b217-6dbbe73b42a9",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\0d27fc81_Mohammad_Afzal_Indikar_Styled_CV.pdf",
+    "created_at": "2026-03-29T14:58:11.389638+00:00",
+    "updated_at": "2026-03-29T14:58:11.548906+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f2af9ab_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f2af9ab_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f2af9ab_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f2af9ab_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.121,
+      "clean": 0.005,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.155
+  },
+  {
+    "job_id": "4b9ea3c9-64d6-4f9b-8260-52fa96f68cc2",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\293b98e0_Mohammad_Afzal_Indikar_Styled_CV.pdf",
+    "created_at": "2026-03-29T15:03:51.786349+00:00",
+    "updated_at": "2026-03-29T15:03:51.966001+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b9ea3c9_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b9ea3c9_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b9ea3c9_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\4b9ea3c9_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.137,
+      "clean": 0.009,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.175
+  },
+  {
+    "job_id": "072b06e1-0003-42c9-a944-8a98df7a3217",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\568c5673_CNS M-5 IMP Q&A.pdf",
+    "created_at": "2026-03-29T15:03:51.972027+00:00",
+    "updated_at": "2026-03-29T15:03:52.362830+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\072b06e1_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\072b06e1_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\072b06e1_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.363,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.387
+  },
+  {
+    "job_id": "810bff29-a8ef-4e0f-91ad-81dcbf43896c",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\da8a793d_10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T15:03:52.368404+00:00",
+    "updated_at": "2026-03-29T15:03:52.407390+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\810bff29_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\810bff29_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\810bff29_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.012,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.035
+  },
+  {
+    "job_id": "b514bfd3-0a6f-4fb4-a531-bfb6bd442866",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\2d9806c7_Mohammad_Afzal_Indikar_Styled_CV.pdf",
+    "created_at": "2026-03-29T15:04:08.760049+00:00",
+    "updated_at": "2026-03-29T15:04:08.953418+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b514bfd3_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b514bfd3_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b514bfd3_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b514bfd3_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.156,
+      "clean": 0.006,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.189
+  },
+  {
+    "job_id": "2353b872-b4da-4aef-8fe2-866edcc3ab90",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\de72216f_CNS M-5 IMP Q&A.pdf",
+    "created_at": "2026-03-29T15:04:08.959854+00:00",
+    "updated_at": "2026-03-29T15:04:09.348986+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2353b872_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2353b872_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\2353b872_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.361,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.385
+  },
+  {
+    "job_id": "6f24ef9d-3be3-4c13-a802-979df5f31be1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\8f216fda_10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T15:04:09.356077+00:00",
+    "updated_at": "2026-03-29T15:04:09.398771+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6f24ef9d_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6f24ef9d_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6f24ef9d_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.012,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.039
+  },
+  {
+    "job_id": "bb61ee98-9808-466e-bc36-805b50ba3f06",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\93c49faf_Cryptography & Network Security.pdf",
+    "created_at": "2026-03-29T15:13:34.549736+00:00",
+    "updated_at": "2026-03-29T15:13:37.548124+00:00",
+    "record_count": 13,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bb61ee98_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bb61ee98_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bb61ee98_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bb61ee98_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 2.868,
+      "clean": 0.065,
+      "normalize": 0.005,
+      "map": 0.001,
+      "save": 0.029
+    },
+    "total_time_seconds": 2.991
+  },
+  {
+    "job_id": "d0e08a3d-3fe0-4a9b-9e9b-707f793027c5",
+    "status": "FAILED",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\57f2fd9c_Admit Card.pdf",
+    "created_at": "2026-03-29T15:13:37.557473+00:00",
+    "updated_at": "2026-03-29T15:13:37.589780+00:00",
+    "record_count": 0,
+    "output_paths": {},
+    "errors": [
+      "File not found: 'C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\57f2fd9c_Admit Card.pdf'"
+    ],
+    "results": [],
+    "error": "File not found: 'C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\57f2fd9c_Admit Card.pdf'",
+    "total_time_seconds": 0.026
+  },
+  {
+    "job_id": "3c8eb7af-17d4-487e-8c83-c2112770fc95",
+    "status": "FAILED",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\09b71cc6_afzal resume (1) (3)(1).pdf",
+    "created_at": "2026-03-29T15:13:37.596239+00:00",
+    "updated_at": "2026-03-29T15:13:37.646822+00:00",
+    "record_count": 0,
+    "output_paths": {},
+    "errors": [
+      "File not found: 'C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\09b71cc6_afzal resume (1) (3)(1).pdf'"
+    ],
+    "results": [],
+    "error": "File not found: 'C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\09b71cc6_afzal resume (1) (3)(1).pdf'",
+    "total_time_seconds": 0.019
+  },
+  {
+    "job_id": "c0db94bc-a80f-4b86-a7b9-0713484f845e",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\02ae88fe_Cryptography & Network Security.pdf",
+    "created_at": "2026-03-29T15:13:39.368267+00:00",
+    "updated_at": "2026-03-29T15:13:42.033739+00:00",
+    "record_count": 13,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c0db94bc_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c0db94bc_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c0db94bc_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\c0db94bc_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 2.6,
+      "clean": 0.018,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.02
+    },
+    "total_time_seconds": 2.659
+  },
+  {
+    "job_id": "f9daa173-ef9b-44c5-a028-9bf7b7c1772e",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\96ad4fc8_Admit Card.pdf",
+    "created_at": "2026-03-29T15:13:42.041649+00:00",
+    "updated_at": "2026-03-29T15:13:42.425943+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f9daa173_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f9daa173_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f9daa173_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f9daa173_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.345,
+      "clean": 0.005,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.381
+  },
+  {
+    "job_id": "1322d21f-b8e9-4a17-b18a-5654defb54d5",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\d0d5cf58_afzal resume (1) (3)(1).pdf",
+    "created_at": "2026-03-29T15:13:42.432547+00:00",
+    "updated_at": "2026-03-29T15:13:43.148172+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1322d21f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1322d21f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1322d21f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\1322d21f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.673,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.71
+  },
+  {
+    "job_id": "fa8db5d0-53d5-4a46-8eec-a61a639493ba",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\fb7bbcee_CN 1.1.pdf",
+    "created_at": "2026-03-29T15:17:23.676209+00:00",
+    "updated_at": "2026-03-29T15:17:23.769180+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fa8db5d0_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fa8db5d0_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fa8db5d0_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.061,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.089
+  },
+  {
+    "job_id": "45e8e020-a5ed-4f5c-8be9-12859bc060fb",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\03495ba5_CN 2 .pdf",
+    "created_at": "2026-03-29T15:17:23.777186+00:00",
+    "updated_at": "2026-03-29T15:17:23.870705+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45e8e020_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45e8e020_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\45e8e020_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.06,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.09
+  },
+  {
+    "job_id": "56e087c9-c6f1-4fab-a1df-d663a70fd5f6",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\f1bc31b1_CNS 4 .pdf",
+    "created_at": "2026-03-29T15:17:23.880247+00:00",
+    "updated_at": "2026-03-29T15:17:24.069375+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\56e087c9_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\56e087c9_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\56e087c9_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.155,
+      "clean": 0.0,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.185
+  },
+  {
+    "job_id": "5bd506cf-4d80-4e23-b028-b5646f5a7e0a",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\c89ffd26_CN 1.1.pdf",
+    "created_at": "2026-03-29T15:17:50.779132+00:00",
+    "updated_at": "2026-03-29T15:17:50.865992+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5bd506cf_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5bd506cf_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5bd506cf_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.057,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.083
+  },
+  {
+    "job_id": "b6add917-c24a-475c-8882-ec9e6c674a7f",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\4828cf19_CN 2 .pdf",
+    "created_at": "2026-03-29T15:17:50.875609+00:00",
+    "updated_at": "2026-03-29T15:17:51.020841+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b6add917_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b6add917_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b6add917_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.104,
+      "clean": 0.0,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.137
+  },
+  {
+    "job_id": "7b1e8bab-889f-4c68-b067-db28e3936efe",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\142069f6_CNS 4 .pdf",
+    "created_at": "2026-03-29T15:17:51.030326+00:00",
+    "updated_at": "2026-03-29T15:17:51.236656+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b1e8bab_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b1e8bab_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b1e8bab_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.164,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.193
+  },
+  {
+    "job_id": "98eee89a-3cc0-4bae-a6e4-e55ad8991cd1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\a2181a3b_CNS 3.pdf",
+    "created_at": "2026-03-29T15:18:21.630752+00:00",
+    "updated_at": "2026-03-29T15:18:21.771310+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\98eee89a_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\98eee89a_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\98eee89a_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.111,
+      "clean": 0.001,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.137
+  },
+  {
+    "job_id": "af17cca7-ffb4-4303-87b2-4287577b53b1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\10134d61_CN 1.1.pdf",
+    "created_at": "2026-03-29T15:18:21.778757+00:00",
+    "updated_at": "2026-03-29T15:18:21.861281+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af17cca7_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af17cca7_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af17cca7_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.05,
+      "clean": 0.001,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.078
+  },
+  {
+    "job_id": "af4a35b8-f267-494f-9064-7468a0e75d89",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\33c95628_CN 2 .pdf",
+    "created_at": "2026-03-29T15:18:21.869021+00:00",
+    "updated_at": "2026-03-29T15:18:22.005806+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af4a35b8_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af4a35b8_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\af4a35b8_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.096,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.017
+    },
+    "total_time_seconds": 0.133
+  },
+  {
+    "job_id": "b68d2c42-5846-4dac-ba95-4ebc5db65527",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\c91a91e8_New Doc 10-28-2025 15.31.pdf",
+    "created_at": "2026-03-29T15:40:04.004002+00:00",
+    "updated_at": "2026-03-29T15:40:04.055941+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b68d2c42_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b68d2c42_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\b68d2c42_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.003,
+      "extract": 0.02,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.047
+  },
+  {
+    "job_id": "6c0aee78-79cd-471a-98d8-5d0c996aade7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\b545c712_Annual_Exam_Form_dm_2019.pdf",
+    "created_at": "2026-03-29T15:40:04.063014+00:00",
+    "updated_at": "2026-03-29T15:40:04.130127+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6c0aee78_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6c0aee78_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\6c0aee78_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.035,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.063
+  },
+  {
+    "job_id": "f05a2295-bdbf-4e72-8536-89943c648518",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\1d4c18d2_CamScanner 02-28-2023 12.03.29.pdf",
+    "created_at": "2026-03-29T15:40:04.139693+00:00",
+    "updated_at": "2026-03-29T15:40:04.199747+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f05a2295_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f05a2295_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f05a2295_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.015,
+      "clean": 0.0,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.016
+    },
+    "total_time_seconds": 0.056
+  },
+  {
+    "job_id": "fd1dad18-96da-428c-9daf-2187eb0a44d7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\d39a9c36_Handwritten.pdf",
+    "created_at": "2026-03-29T15:54:06.792972+00:00",
+    "updated_at": "2026-03-29T15:54:06.956770+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fd1dad18_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fd1dad18_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\fd1dad18_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.13,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.16
+  },
+  {
+    "job_id": "3a1e7436-58e7-42a1-add1-996a3baaf434",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\60661706_BCS703-module-2-textbook.pdf",
+    "created_at": "2026-03-29T15:54:06.966573+00:00",
+    "updated_at": "2026-03-29T15:54:16.458973+00:00",
+    "record_count": 38,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a1e7436_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a1e7436_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a1e7436_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3a1e7436_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 9.383,
+      "clean": 0.049,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.03
+    },
+    "total_time_seconds": 9.488
+  },
+  {
+    "job_id": "020f5124-30b5-45d5-a7ea-81b7b38f4ff2",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\e9530208_resume.pdf",
+    "created_at": "2026-03-29T15:54:16.467075+00:00",
+    "updated_at": "2026-03-29T15:54:17.332630+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\020f5124_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\020f5124_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\020f5124_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\020f5124_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.819,
+      "clean": 0.007,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.015
+    },
+    "total_time_seconds": 0.861
+  },
+  {
+    "job_id": "71603a00-8fd2-47f8-a85c-18d139d3074e",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\6be16034_Handwritten.pdf",
+    "created_at": "2026-03-29T15:56:12.425000+00:00",
+    "updated_at": "2026-03-29T15:56:12.629130+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\71603a00_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\71603a00_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\71603a00_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.163,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.192
+  },
+  {
+    "job_id": "7e665d53-177c-4ece-a357-9d372b6c57fe",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\ebb7323a_BCS703-module-2-textbook.pdf",
+    "created_at": "2026-03-29T15:56:12.636692+00:00",
+    "updated_at": "2026-03-29T15:56:23.180917+00:00",
+    "record_count": 38,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7e665d53_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7e665d53_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7e665d53_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7e665d53_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 10.444,
+      "clean": 0.043,
+      "normalize": 0.002,
+      "map": 0.001,
+      "save": 0.031
+    },
+    "total_time_seconds": 10.541
+  },
+  {
+    "job_id": "bbd3436b-4cc5-429f-ab14-1a27686b763a",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\f6f7e7bb_resume.pdf",
+    "created_at": "2026-03-29T15:56:23.192654+00:00",
+    "updated_at": "2026-03-29T15:56:23.966454+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bbd3436b_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bbd3436b_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bbd3436b_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bbd3436b_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.716,
+      "clean": 0.006,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.758
+  },
+  {
+    "job_id": "5ae86f59-cd75-48c6-a42f-90dd31f798fa",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\ad8a1a2c_CNS 5 .pdf",
+    "created_at": "2026-03-29T15:59:29.779388+00:00",
+    "updated_at": "2026-03-29T15:59:29.894927+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5ae86f59_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5ae86f59_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\5ae86f59_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.083,
+      "clean": 0.0,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 0.11
+  },
+  {
+    "job_id": "87b242e8-f17f-4df4-aea9-47c0d39a7b02",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\1d51e82c_CNS 3.pdf",
+    "created_at": "2026-03-29T15:59:29.904084+00:00",
+    "updated_at": "2026-03-29T15:59:30.032634+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\87b242e8_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\87b242e8_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\87b242e8_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.084,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.017
+    },
+    "total_time_seconds": 0.125
+  },
+  {
+    "job_id": "acf804a2-2535-4908-b7d9-af25efbe4524",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\ff33fa32_CN 1.1.pdf",
+    "created_at": "2026-03-29T15:59:30.040146+00:00",
+    "updated_at": "2026-03-29T15:59:30.125874+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\acf804a2_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\acf804a2_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\acf804a2_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.05,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 0.082
+  },
+  {
+    "job_id": "567d6ebf-071d-4d6a-83cf-10d3970b16c1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\899e846b_Admit Card (1).pdf",
+    "created_at": "2026-03-29T16:03:53.388063+00:00",
+    "updated_at": "2026-03-29T16:03:53.722301+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\567d6ebf_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\567d6ebf_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\567d6ebf_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\567d6ebf_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.295,
+      "clean": 0.009,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.331
+  },
+  {
+    "job_id": "e7413077-00d3-4241-a5a9-f7409644d026",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\0ea15555_Admit Card (1).pdf",
+    "created_at": "2026-03-29T16:04:19.004591+00:00",
+    "updated_at": "2026-03-29T16:04:19.317641+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e7413077_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e7413077_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e7413077_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\e7413077_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.277,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.309
+  },
+  {
+    "job_id": "d1999efa-f657-41cd-8106-f46bb7e357a7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\6a7ea550_Admit Card.pdf",
+    "created_at": "2026-03-29T16:04:19.325801+00:00",
+    "updated_at": "2026-03-29T16:04:19.618531+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d1999efa_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d1999efa_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d1999efa_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d1999efa_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.25,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.288
+  },
+  {
+    "job_id": "0f3de83c-c34f-4f14-9942-65956c544aeb",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\a89d29b2_New Doc 10-28-2025 15.31.pdf",
+    "created_at": "2026-03-29T16:04:19.626695+00:00",
+    "updated_at": "2026-03-29T16:04:19.679987+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f3de83c_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f3de83c_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f3de83c_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0f3de83c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.015,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.049
+  },
+  {
+    "job_id": "3d2a8c10-d9ab-4cfb-9ce8-19f716883e8a",
+    "status": "SUCCESS",
+    "source": "https://en.wikipedia.org/wiki/Main_Page",
+    "created_at": "2026-03-29T16:05:08.742268+00:00",
+    "updated_at": "2026-03-29T16:05:11.255740+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3d2a8c10_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3d2a8c10_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3d2a8c10_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\3d2a8c10_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 2.476,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.01
+    },
+    "total_time_seconds": 2.508
+  },
+  {
+    "job_id": "0535d514-7eb7-474d-8d4a-f7715fa4c6b8",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\270a8667_Admit Card (1).pdf",
+    "created_at": "2026-03-29T16:06:07.448816+00:00",
+    "updated_at": "2026-03-29T16:06:07.761709+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0535d514_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0535d514_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0535d514_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\0535d514_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.273,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.011
+    },
+    "total_time_seconds": 0.309
+  },
+  {
+    "job_id": "d4c71afe-206d-4b08-a20d-00c32dea46f6",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\f158068d_Admit Card.pdf",
+    "created_at": "2026-03-29T16:06:07.771721+00:00",
+    "updated_at": "2026-03-29T16:06:08.057592+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d4c71afe_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d4c71afe_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d4c71afe_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\d4c71afe_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.245,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.013
+    },
+    "total_time_seconds": 0.283
+  },
+  {
+    "job_id": "60e1c87f-a60a-4a46-9f06-d3a97df46962",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\a2735eac_CNS M-5 IMP Q&A.pdf",
+    "created_at": "2026-03-29T16:06:08.066841+00:00",
+    "updated_at": "2026-03-29T16:06:08.445773+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\60e1c87f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\60e1c87f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\60e1c87f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\60e1c87f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.337,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.012
+    },
+    "total_time_seconds": 0.374
+  },
+  {
+    "job_id": "0a7cf1ff-31a6-4791-8274-2f6fce59fe71",
+    "status": "FAILED",
+    "source": {
+      "source": "pdf",
+      "content": {
+        "text": "tcs nqt all india batch 2026 admit card: tcs nqt all india batch 2026 registration number dt20267778395 candidate name mohammad afzal altafhusen indikar date of birth 24-10-2002 paste your photograph here **clear photo is mandatory exam venue ion digital zone idz airport road to appear for the exam masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 date of test reporting time gate closure time test timing 26/mar/2026 12:30 pm 01:30 pm 2:00 pm - 5:10 pm candidate’s signature (to be signed in the presence of the invigilator at the time of examination) barcode roll no: tag263220209 instructions – to be strictly followed: 1) please ensure you carry the following documents with you to the test center, on the day of exam: a) printed copy of admit card (pls note- a copy of the physical/hard copy of your admit card is mandatory for admission into the examination venue). you must carry one photo and paste the same on the hall ticket at the exam venue) b) original government issued photo identity proof for verification, such as aadhaar card / driving license / passport / voter id / pan card only. id card with incomplete dob details will not be considered valid. (note: the id card must have the complete dob details, including date, month, and year.) 2) report to the test centre well before the gate closure time, otherwise entry will not be permitted. 3) prohibited items: do not wear any jewellery or other items containing metal. bags, mobile phones or any other electronic gadgets such as smart watches, digital key, calculators and other electronic devices are strictly prohibited in the examination hall. there is no facility for safekeeping of your personal belongings outside the test hall and we are not responsible for its loss. only admit card, original photo id card & photo will be allowed inside the test hall. 4) unfair means: adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be published. you will also not be able to participate in any subsequent selection process or tests. 5) request for change of test centre will not be entertained. 6) friends and relatives accompanying the candidate will not be allowed inside the test centre. you will not be permitted to appear for the exam if you fail to carry the admit card, photo and/ or any one of the mandatory government issued photo identity card. declaration: i hereby certify that i meet the eligibility criteria to take the test and the information furnished by me in the registration/application form is factually correct and subject to verification by tcs. later at any point in time during the selection process if any information is found to be incorrect, my scores obtained in the test can be withheld / or invalidated. signature of candidate",
+        "tables": "tcs nqt all india batch 2026 | | | | | | | | admit card: tcs nqt all india batch 2026 | | | | registration number | dt20267778395 | | | candidate name | mohammad afzal altafhusen indikar | | | date of birth | 24-10-2002 | | | paste your photograph here exam venue | ion digital zone idz airport road masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 | | | **clear photo is mandatory to appear for the exam date of test | reporting time | gate closure time | test timing | candidate’s signature (to be signed in the presence of the invigilator at the time of examination) 26/mar/2026 | 12:30 pm | 01:30 pm | 2:00 pm - 5:10 pm | barcode | | | roll no: tag263220209 |",
+        "page": 1,
+        "total_pages": 1
+      },
+      "metadata": {
+        "title": "TCS.cdr",
+        "author": "PA",
+        "date": "D:20260227130616+05'30'",
+        "url": null,
+        "file_name": "Admit Card.pdf",
+        "extracted_at": "2026-03-29T14:19:40.584556+00:00",
+        "source_type": "pdf",
+        "page": 1,
+        "total_pages": 1
+      },
+      "raw": "TCS NQT All India Batch 2026\nAdmit Card: TCS NQT All India Batch 2026\nRegistration Number DT20267778395\nCandidate Name Mohammad Afzal Altafhusen Indikar\nDate of Birth 24-10-2002\nPaste your photograph here\n**Clear photo is mandatory\nExam Venue iON Digital Zone iDZ Airport Road to appear for the exam\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016\nDate of Test Reporting Time Gate Closure Time Test Timing\n26/Mar/2026 12:30 PM 01:30 PM 2:00 PM - 5:10 PM\nCandidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\nBarCode Roll No: TAG263220209\nInstructions – To Be Strictly Followed:\n1) Please ensure you carry the following documents with you to the Test Center, on the day of exam:\na) Printed copy of Admit Card (Pls note- A copy of the physical/hard copy of your Admit card is mandatory for admission into the examination\nvenue). You must carry one photo and paste the same on the Hall ticket at the exam venue)\nb) Original Government issued Photo Identity proof for verification, such as Aadhaar Card / Driving License / Passport / Voter ID / PAN Card\nonly. ID card with incomplete DOB details will not be considered valid. (Note: The ID card must have the complete DOB details,\nincluding date, month, and year.)\n2) Report to the test centre well before the gate closure time, otherwise entry will NOT be permitted.\n3) Prohibited Items: DO NOT wear any jewellery or other items containing metal. Bags, Mobile phones or any other electronic gadgets such as\nSmart watches, Digital Key, calculators and other electronic devices are strictly prohibited in the examination hall. There is no facility for\nsafekeeping of your personal belongings outside the test hall and we are not responsible for its loss. Only Admit Card, original Photo ID Card &\nPhoto will be allowed inside the test hall.\n4) Unfair Means: Adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be\npublished. You will also not be able to participate in any subsequent selection process or tests.\n5) Request for change of test centre will NOT be entertained.\n6) Friends and relatives accompanying the candidate will NOT be allowed inside the test centre.\nYou will NOT be permitted to appear for the Exam if you fail to carry the Admit Card, photo and/ or any one of the mandatory\nGovernment issued Photo Identity Card.\nDeclaration:\nI hereby certify that I meet the eligibility criteria to take the test and the information furnished by me in the Registration/Application Form is\nfactually correct and subject to verification by TCS. Later at any point in time during the selection process if any information is found to be incorrect,\nmy scores obtained in the test can be withheld / or invalidated.\nSignature of Candidate\n\nTables:\nTCS NQT All India Batch 2026 |  |  |  | \n |  |  |  | \nAdmit Card: TCS NQT All India Batch 2026 |  |  |  | \nRegistration Number | DT20267778395 |  |  | \nCandidate Name | Mohammad Afzal Altafhusen Indikar |  |  | \nDate of Birth | 24-10-2002 |  |  | Paste your photograph here\nExam Venue | iON Digital Zone iDZ Airport Road\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016 |  |  | **Clear photo is mandatory\nto appear for the exam\nDate of Test | Reporting Time | Gate Closure Time | Test Timing | Candidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\n26/Mar/2026 | 12:30 PM | 01:30 PM | 2:00 PM - 5:10 PM | \nBarCode |  |  | Roll No: TAG263220209 | ",
+      "id": "20971783-bbf2-422c-83e5-913bac59969d",
+      "failed": false,
+      "error": null
+    },
+    "created_at": "2026-03-29T16:09:34.913546+00:00",
+    "updated_at": "2026-03-29T16:09:34.938707+00:00",
+    "record_count": 0,
+    "output_paths": {},
+    "errors": [
+      "Source must be a string."
+    ],
+    "results": [],
+    "error": "Source must be a string.",
+    "total_time_seconds": 0.02
+  },
+  {
+    "job_id": "bfe5f868-f23f-4bde-a664-58c3d613ce1c",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\AppData\\Local\\Temp\\batch_Admit Card (1).pdf_v4huwfng.pdf",
+    "created_at": "2026-03-29T16:21:57.140351+00:00",
+    "updated_at": "2026-03-29T16:21:57.520698+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bfe5f868_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bfe5f868_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bfe5f868_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\bfe5f868_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.337,
+      "clean": 0.009,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.377
+  },
+  {
+    "job_id": "ba5ba98f-9434-4297-92a9-3375f315d5e5",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\fa2f7a3c_CN1.pdf",
+    "created_at": "2026-03-29T16:23:14.587812+00:00",
+    "updated_at": "2026-03-29T16:23:14.661322+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba5ba98f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba5ba98f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba5ba98f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba5ba98f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.038,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.07
+  },
+  {
+    "job_id": "f6122260-63bd-4745-812f-e1e4857074a0",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\71cb144f_CN 2 .pdf",
+    "created_at": "2026-03-29T16:23:14.669841+00:00",
+    "updated_at": "2026-03-29T16:23:14.782883+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f6122260_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f6122260_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f6122260_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\f6122260_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.073,
+      "clean": 0.004,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.11
+  },
+  {
+    "job_id": "92a2c3e3-1af4-4b5e-83e8-4b6249b652d7",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\1c1522a2_CNS 5 .pdf",
+    "created_at": "2026-03-29T16:23:14.792580+00:00",
+    "updated_at": "2026-03-29T16:23:14.893150+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\92a2c3e3_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\92a2c3e3_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\92a2c3e3_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\92a2c3e3_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.062,
+      "clean": 0.003,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.097
+  },
+  {
+    "job_id": "7b6d1f3f-c72f-49dd-affe-81a249c86c6d",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\a9289b38_CNS 3.pdf",
+    "created_at": "2026-03-29T16:23:14.901950+00:00",
+    "updated_at": "2026-03-29T16:23:15.012383+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b6d1f3f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b6d1f3f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b6d1f3f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\7b6d1f3f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.07,
+      "clean": 0.003,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.105
+  },
+  {
+    "job_id": "ba8e1e40-88b8-4f43-bca3-8bb7a591dca1",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\data\\input\\_uploads\\afbb00e2_CN 1.1.pdf",
+    "created_at": "2026-03-29T16:23:15.021751+00:00",
+    "updated_at": "2026-03-29T16:23:15.112492+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba8e1e40_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba8e1e40_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba8e1e40_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\ui\\output\\ba8e1e40_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.05,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 0.086
+  },
+  {
+    "job_id": "61af399f-a99a-418d-b566-3476bb12c441",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\data\\input\\_uploads\\e9d1a6b4_afzal resume (1) (3)(1) (1).pdf",
+    "created_at": "2026-03-29T16:29:31.627116+00:00",
+    "updated_at": "2026-03-29T16:29:32.276533+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\61af399f_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\61af399f_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\61af399f_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\61af399f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.589,
+      "clean": 0.012,
+      "normalize": 0.002,
+      "map": 0.001,
+      "save": 0.018
+    },
+    "total_time_seconds": 0.645
+  },
+  {
+    "job_id": "e309436b-43f5-4cd0-921f-1dfccad2f80b",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\data\\input\\_uploads\\fb735b2f_Mohammad_Afzal_Indikar_CV.pdf",
+    "created_at": "2026-03-29T16:29:32.289716+00:00",
+    "updated_at": "2026-03-29T16:29:32.496021+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\e309436b_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\e309436b_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\e309436b_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\e309436b_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.153,
+      "clean": 0.005,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.014
+    },
+    "total_time_seconds": 0.202
+  },
+  {
+    "job_id": "3d3ed39d-6f47-460e-ad37-d7266431fde0",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\data\\input\\_uploads\\5c6a30af_CNS M-5 IMP Q&A.pdf",
+    "created_at": "2026-03-29T16:29:32.510189+00:00",
+    "updated_at": "2026-03-29T16:29:32.946918+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\3d3ed39d_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\3d3ed39d_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\3d3ed39d_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\3d3ed39d_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.377,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.024
+    },
+    "total_time_seconds": 0.427
+  },
+  {
+    "job_id": "c50e40c5-332a-4742-b15b-f0bebbb61fa5",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\data\\input\\_uploads\\7e69c40d_10th &12 th marks card &Tc_2.pdf",
+    "created_at": "2026-03-29T19:04:41.908774+00:00",
+    "updated_at": "2026-03-29T19:04:41.997773+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\c50e40c5_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\c50e40c5_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\c50e40c5_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal (2)\\afzal\\afzal\\ui\\output\\c50e40c5_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.016,
+      "clean": 0.033,
+      "normalize": 0.001,
+      "map": 0.001,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.085
+  }
+]

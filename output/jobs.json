@@ -1,0 +1,517 @@
+[
+  {
+    "job_id": "35a1f220-73b7-4ce1-b480-97e9b36d7835",
+    "status": "SUCCESS",
+    "source": "data/input/sample.csv",
+    "created_at": "2026-03-28T02:45:52.736846+00:00",
+    "updated_at": "2026-03-28T02:45:52.778162+00:00",
+    "record_count": 10,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\35a1f220_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\35a1f220_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\35a1f220_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\35a1f220_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.012,
+      "clean": 0.018,
+      "normalize": 0.0,
+      "map": 0.002,
+      "save": 0.004
+    },
+    "total_time_seconds": 0.04
+  },
+  {
+    "job_id": "c61c475f-a130-4453-8278-47fd0129bf30",
+    "status": "SUCCESS",
+    "source": "data/input/sample.csv",
+    "created_at": "2026-03-28T02:58:13.162071+00:00",
+    "updated_at": "2026-03-28T02:58:13.203000+00:00",
+    "record_count": 10,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c61c475f_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c61c475f_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c61c475f_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c61c475f_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.011,
+      "clean": 0.017,
+      "normalize": 0.0,
+      "map": 0.001,
+      "save": 0.005
+    },
+    "total_time_seconds": 0.039
+  },
+  {
+    "job_id": "3a973fb5-b5fc-4fce-b26e-1c50d3e90e1a",
+    "status": "SUCCESS",
+    "source": "data/input/Admit Card.pdf",
+    "created_at": "2026-03-28T05:22:10.756760+00:00",
+    "updated_at": "2026-03-28T05:22:11.250394+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3a973fb5_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3a973fb5_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3a973fb5_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3a973fb5_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.46,
+      "clean": 0.021,
+      "normalize": 0.0,
+      "map": 0.002,
+      "save": 0.005
+    },
+    "total_time_seconds": 0.492
+  },
+  {
+    "job_id": "7198882a-4870-41c8-b204-f68a01bf1b68",
+    "status": "SUCCESS",
+    "source": "data/input/download-resume.pdf",
+    "created_at": "2026-03-28T05:22:11.251395+00:00",
+    "updated_at": "2026-03-28T05:22:14.623359+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7198882a_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7198882a_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7198882a_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7198882a_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 3.359,
+      "clean": 0.003,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 3.371
+  },
+  {
+    "job_id": "6b108550-1f20-4e58-b54d-359b9a772d87",
+    "status": "SUCCESS",
+    "source": "data/input/TCS-NQT-Paper-1.pdf",
+    "created_at": "2026-03-28T05:22:14.624359+00:00",
+    "updated_at": "2026-03-28T05:22:20.457743+00:00",
+    "record_count": 27,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\6b108550_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\6b108550_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\6b108550_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\6b108550_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 5.809,
+      "clean": 0.01,
+      "normalize": 0.0,
+      "map": 0.001,
+      "save": 0.008
+    },
+    "total_time_seconds": 5.832
+  },
+  {
+    "job_id": "2e145a11-0f61-4837-b60a-bcf8518929a7",
+    "status": "SUCCESS",
+    "source": "data/input/Admit Card.pdf",
+    "created_at": "2026-03-28T05:36:48.332887+00:00",
+    "updated_at": "2026-03-28T05:36:48.697174+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\2e145a11_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\2e145a11_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\2e145a11_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\2e145a11_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.318,
+      "clean": 0.022,
+      "normalize": 0.0,
+      "map": 0.003,
+      "save": 0.01
+    },
+    "total_time_seconds": 0.36
+  },
+  {
+    "job_id": "938c6cdb-5394-43a0-96d6-3b7c1a468980",
+    "status": "SUCCESS",
+    "source": "data/input/download-resume.pdf",
+    "created_at": "2026-03-28T05:36:48.699187+00:00",
+    "updated_at": "2026-03-28T05:36:51.059212+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\938c6cdb_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\938c6cdb_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\938c6cdb_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\938c6cdb_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 2.334,
+      "clean": 0.005,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 2.357
+  },
+  {
+    "job_id": "ca4d5ef2-73f9-4970-aa11-a14afe4d4bd7",
+    "status": "SUCCESS",
+    "source": "data/input/TCS-NQT-Paper-1.pdf",
+    "created_at": "2026-03-28T05:36:51.061211+00:00",
+    "updated_at": "2026-03-28T05:36:59.528097+00:00",
+    "record_count": 27,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ca4d5ef2_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ca4d5ef2_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ca4d5ef2_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ca4d5ef2_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 8.415,
+      "clean": 0.013,
+      "normalize": 0.001,
+      "map": 0.003,
+      "save": 0.021
+    },
+    "total_time_seconds": 8.461
+  },
+  {
+    "job_id": "7379b01b-ed13-40ab-9409-547e82314943",
+    "status": "SUCCESS",
+    "source": "https://airheads.hpe.com/discussion",
+    "created_at": "2026-03-28T06:18:15.950114+00:00",
+    "updated_at": "2026-03-28T06:18:19.413323+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7379b01b_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7379b01b_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7379b01b_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\7379b01b_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 3.419,
+      "clean": 0.02,
+      "normalize": 0.0,
+      "map": 0.003,
+      "save": 0.01
+    },
+    "total_time_seconds": 3.459
+  },
+  {
+    "job_id": "c27210b6-2d52-4acc-93b5-d08e638b5aa5",
+    "status": "SUCCESS",
+    "source": "https://airheads.hpe.com/discussion",
+    "created_at": "2026-03-28T07:48:24.348210+00:00",
+    "updated_at": "2026-03-28T07:48:27.688256+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c27210b6_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c27210b6_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c27210b6_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\c27210b6_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 3.306,
+      "clean": 0.018,
+      "normalize": 0.0,
+      "map": 0.003,
+      "save": 0.005
+    },
+    "total_time_seconds": 3.337
+  },
+  {
+    "job_id": "4a816dea-14d9-494b-be7f-6eff776cd8c2",
+    "status": "SUCCESS",
+    "source": "https://airheads.hpe.com/discussion",
+    "created_at": "2026-03-28T07:57:36.178835+00:00",
+    "updated_at": "2026-03-28T07:57:39.346800+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\4a816dea_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\4a816dea_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\4a816dea_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\4a816dea_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.0,
+      "extract": 3.142,
+      "clean": 0.006,
+      "normalize": 0.0,
+      "map": 0.001,
+      "save": 0.01
+    },
+    "total_time_seconds": 3.166
+  },
+  {
+    "job_id": "a1709c30-b08b-40e2-82df-377a81870e15",
+    "status": "SUCCESS",
+    "source": "http://localhost:8501/",
+    "created_at": "2026-03-28T07:58:03.071778+00:00",
+    "updated_at": "2026-03-28T07:58:03.102588+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\a1709c30_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\a1709c30_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\a1709c30_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\a1709c30_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.0,
+      "extract": 0.016,
+      "clean": 0.004,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.004
+    },
+    "total_time_seconds": 0.029
+  },
+  {
+    "job_id": "bdbb7698-b464-4525-b323-7b928cc3428a",
+    "status": "SUCCESS",
+    "source": "https://airheads.hpe.com/discussion",
+    "created_at": "2026-03-28T07:58:44.526989+00:00",
+    "updated_at": "2026-03-28T07:58:48.387128+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bdbb7698_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bdbb7698_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bdbb7698_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bdbb7698_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.0,
+      "extract": 3.844,
+      "clean": 0.003,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.007
+    },
+    "total_time_seconds": 3.859
+  },
+  {
+    "job_id": "ef5963aa-5bf6-4503-91ed-567cb04aa0d3",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\data\\input\\_uploads\\TCS-NQT-Paper-1.pdf",
+    "created_at": "2026-03-28T08:00:23.455118+00:00",
+    "updated_at": "2026-03-28T08:00:30.524485+00:00",
+    "record_count": 27,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ef5963aa_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ef5963aa_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ef5963aa_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\ef5963aa_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 7.006,
+      "clean": 0.036,
+      "normalize": 0.001,
+      "map": 0.002,
+      "save": 0.009
+    },
+    "total_time_seconds": 7.067
+  },
+  {
+    "job_id": "0cde1e60-8675-46df-952e-c8576dca0ec9",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\data\\input\\_uploads\\download-resume.pdf",
+    "created_at": "2026-03-28T08:00:23.456136+00:00",
+    "updated_at": "2026-03-28T08:00:28.872251+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\0cde1e60_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\0cde1e60_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\0cde1e60_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\0cde1e60_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 5.391,
+      "clean": 0.003,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 5.413
+  },
+  {
+    "job_id": "3d9accea-0355-4aff-9027-b9358adcb846",
+    "status": "SUCCESS",
+    "source": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\data\\input\\_uploads\\Admit Card.pdf",
+    "created_at": "2026-03-28T08:00:23.457113+00:00",
+    "updated_at": "2026-03-28T08:00:27.155571+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3d9accea_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3d9accea_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3d9accea_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\3d9accea_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 2.396,
+      "clean": 0.084,
+      "normalize": 0.032,
+      "map": 0.031,
+      "save": 0.767
+    },
+    "total_time_seconds": 3.479
+  },
+  {
+    "job_id": "5ceb7b0c-99bd-4045-8ef2-461715f2574d",
+    "status": "SUCCESS",
+    "source": "https://airheads.hpe.com/discussion",
+    "created_at": "2026-03-28T08:00:23.458621+00:00",
+    "updated_at": "2026-03-28T08:00:28.490334+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\5ceb7b0c_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\5ceb7b0c_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\5ceb7b0c_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\5ceb7b0c_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 5.0,
+      "clean": 0.003,
+      "normalize": 0.001,
+      "map": 0.0,
+      "save": 0.009
+    },
+    "total_time_seconds": 5.029
+  },
+  {
+    "job_id": "bbabc768-274a-4748-81f7-c6323b2211a4",
+    "status": "SUCCESS",
+    "source": "data/input/sample.csv",
+    "created_at": "2026-03-28T08:08:30.149643+00:00",
+    "updated_at": "2026-03-28T08:08:30.179132+00:00",
+    "record_count": 10,
+    "output_paths": {
+      "json": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bbabc768_output.json",
+      "csv": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bbabc768_output.csv",
+      "llm": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bbabc768_llm.json",
+      "summary": "C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bbabc768_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 0.007,
+      "clean": 0.012,
+      "normalize": 0.0,
+      "map": 0.001,
+      "save": 0.004
+    },
+    "total_time_seconds": 0.029
+  },
+  {
+    "job_id": "40c6a0f6-6c83-4e66-bfbf-48500bba06bd",
+    "status": "FAILED",
+    "source": "https://example.com",
+    "created_at": "2026-03-29T08:09:24.759755+00:00",
+    "updated_at": "2026-03-29T08:09:41.862014+00:00",
+    "record_count": 0,
+    "output_paths": {},
+    "errors": [
+      "All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+    ],
+    "results": [],
+    "error": "All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))",
+    "total_time_seconds": 17.098
+  },
+  {
+    "job_id": "8fb085e7-e81b-4d09-b200-697a038453c4",
+    "status": "SUCCESS",
+    "source": "https://en.wikipedia.org/wiki/Data_extraction",
+    "created_at": "2026-03-29T09:33:01.386067+00:00",
+    "updated_at": "2026-03-29T09:33:03.730795+00:00",
+    "record_count": 1,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\8fb085e7_output.json",
+      "csv": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\8fb085e7_output.csv",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\8fb085e7_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\8fb085e7_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.001,
+      "extract": 2.299,
+      "clean": 0.026,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.008
+    },
+    "total_time_seconds": 2.343
+  },
+  {
+    "job_id": "f1836bee-faf1-4712-b64a-6f531a715ef8",
+    "status": "SUCCESS",
+    "source": "data/input/_uploads/10134d61_CN 1.1.pdf",
+    "created_at": "2026-03-29T15:20:21.989449+00:00",
+    "updated_at": "2026-03-29T15:20:22.062670+00:00",
+    "record_count": 0,
+    "output_paths": {
+      "json": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\f1836bee_output.json",
+      "csv": "",
+      "llm": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\f1836bee_llm.json",
+      "summary": "C:\\Users\\afzal\\Downloads\\afzal\\afzal\\output\\f1836bee_summary.json"
+    },
+    "errors": [],
+    "results": [],
+    "step_timings": {
+      "detect": 0.002,
+      "extract": 0.05,
+      "clean": 0.0,
+      "normalize": 0.0,
+      "map": 0.0,
+      "save": 0.006
+    },
+    "total_time_seconds": 0.068
+  }
+]

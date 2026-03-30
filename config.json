@@ -1,0 +1,28 @@
+{
+  "enable_ocr": true,
+  "max_retries": 3,
+  "output_format": "json",
+  "batch_size": 10,
+  "logging_level": "INFO",
+  "output_dir": "output",
+  "dedup": true,
+  "fuzzy_dedup": false,
+  "parallel": false,
+  "llm_format": "instruction",
+  "web": {
+    "timeout": 15,
+    "use_playwright": false,
+    "user_agent": "Mozilla/5.0 (compatible; DataExtractionEngine/1.0)"
+  },
+  "pdf": {
+    "language": "eng",
+    "dpi": 300
+  },
+  "db": {
+    "tables": []
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000
+  }
+}

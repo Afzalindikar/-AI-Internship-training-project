@@ -1,0 +1,1443 @@
+[2026-03-29 19:32:26] [INFO] [pipeline] [JOB START] job_id=6e72cb1a-658e-45e0-9a17-ac74abe76a55 source=https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 19:32:26] [INFO] [pipeline] [DETECT][6e72cb1a] Detecting source type for: https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 19:32:26] [INFO] [pipeline] [DETECT][6e72cb1a] Source type -> url (in 0.00s)
+[2026-03-29 19:32:26] [INFO] [pipeline] [EXTRACT][6e72cb1a] Extracting from url: https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 19:32:27] [INFO] [pipeline] [EXTRACT][6e72cb1a] Extracted 1 raw records (in 1.39s)
+[2026-03-29 19:32:27] [INFO] [pipeline] [CLEAN][6e72cb1a] Cleaning and deduplicating records
+[2026-03-29 19:32:27] [INFO] [pipeline] [CLEAN][6e72cb1a] 1 records after cleaning (in 0.04s)
+[2026-03-29 19:32:27] [INFO] [pipeline] [NORMALIZE][6e72cb1a] Normalizing to unified schema
+[2026-03-29 19:32:27] [INFO] [pipeline] [NORMALIZE][6e72cb1a] 1 records normalized (in 0.00s)
+[2026-03-29 19:32:27] [INFO] [pipeline] [MAP][6e72cb1a] Applying Smart Field Mapper
+[2026-03-29 19:32:27] [INFO] [pipeline] [MAP][6e72cb1a] Field mapping complete (in 0.00s)
+[2026-03-29 19:32:27] [INFO] [pipeline] [SAVE][6e72cb1a] Saving outputs
+[2026-03-29 19:32:27] [INFO] [pipeline] [SAVE][6e72cb1a] Saved 3 files (in 0.01s)
+[2026-03-29 19:32:27] [INFO] [pipeline] [PIPELINE] Total execution time: 1.45s | job_id=6e72cb1a-658e-45e0-9a17-ac74abe76a55 | records=1
+[2026-03-29 19:32:27] [INFO] [pipeline] [JOB DONE] job_id=6e72cb1a-658e-45e0-9a17-ac74abe76a55
+[2026-03-29 19:36:14] [INFO] [pipeline] [BATCH] Starting batch of 3 sources (parallel=True)
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB START] job_id=e6ec6343-f03f-496c-9aa0-a887aa318178 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][e6ec6343] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB START] job_id=e737ae4d-db6a-4b8e-bebd-475f47d8e93d source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][e6ec6343] Source type -> pdf (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][e737ae4d] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB START] job_id=f381c5b0-cf56-4de8-b93d-fc87a345c84f source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][e6ec6343] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][f381c5b0] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][e737ae4d] Source type -> pdf (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][e737ae4d] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:36:14] [INFO] [pipeline] [DETECT][f381c5b0] Source type -> pdf (in 0.01s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][f381c5b0] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:36:14] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][e6ec6343] Extracted 0 raw records (in 0.04s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][e6ec6343] Cleaning and deduplicating records
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][e6ec6343] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][e6ec6343] Normalizing to unified schema
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][e6ec6343] 0 records normalized (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][e6ec6343] Applying Smart Field Mapper
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][e6ec6343] Field mapping complete (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][e6ec6343] Saving outputs
+[2026-03-29 19:36:14] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][e737ae4d] Extracted 0 raw records (in 0.05s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][e737ae4d] Cleaning and deduplicating records
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][e737ae4d] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][e737ae4d] Normalizing to unified schema
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][e737ae4d] 0 records normalized (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][e737ae4d] Applying Smart Field Mapper
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][e737ae4d] Field mapping complete (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][e6ec6343] Saved 3 files (in 0.01s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][e737ae4d] Saving outputs
+[2026-03-29 19:36:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.08s | job_id=e6ec6343-f03f-496c-9aa0-a887aa318178 | records=0
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB DONE] job_id=e6ec6343-f03f-496c-9aa0-a887aa318178
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][e737ae4d] Saved 3 files (in 0.01s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.09s | job_id=e737ae4d-db6a-4b8e-bebd-475f47d8e93d | records=0
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB DONE] job_id=e737ae4d-db6a-4b8e-bebd-475f47d8e93d
+[2026-03-29 19:36:14] [INFO] [pipeline] [EXTRACT][f381c5b0] Extracted 1 raw records (in 0.35s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][f381c5b0] Cleaning and deduplicating records
+[2026-03-29 19:36:14] [INFO] [pipeline] [CLEAN][f381c5b0] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][f381c5b0] Normalizing to unified schema
+[2026-03-29 19:36:14] [INFO] [pipeline] [NORMALIZE][f381c5b0] 1 records normalized (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][f381c5b0] Applying Smart Field Mapper
+[2026-03-29 19:36:14] [INFO] [pipeline] [MAP][f381c5b0] Field mapping complete (in 0.00s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][f381c5b0] Saving outputs
+[2026-03-29 19:36:14] [INFO] [pipeline] [SAVE][f381c5b0] Saved 3 files (in 0.01s)
+[2026-03-29 19:36:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.40s | job_id=f381c5b0-cf56-4de8-b93d-fc87a345c84f | records=1
+[2026-03-29 19:36:14] [INFO] [pipeline] [JOB DONE] job_id=f381c5b0-cf56-4de8-b93d-fc87a345c84f
+[2026-03-29 19:36:14] [INFO] [pipeline] [BATCH DONE] total=3 success=3 failed=0 records=1 time=0.42s
+[2026-03-29 19:37:09] [INFO] [pipeline] [BATCH] Starting batch of 3 sources (parallel=True)
+[2026-03-29 19:37:09] [INFO] [pipeline] [JOB START] job_id=1a516b09-3ff5-42e1-9ec3-6b2b56c827ad source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][1a516b09] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][1a516b09] Source type -> pdf (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [EXTRACT][1a516b09] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [JOB START] job_id=03338379-2579-427c-9f0a-9caf57002760 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][03338379] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [JOB START] job_id=25fef5de-f748-4f0a-b7f4-30928e09ee97 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][03338379] Source type -> pdf (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][25fef5de] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [EXTRACT][03338379] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:37:09] [INFO] [pipeline] [DETECT][25fef5de] Source type -> pdf (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [EXTRACT][25fef5de] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:37:09] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:37:09] [INFO] [pipeline] [EXTRACT][1a516b09] Extracted 0 raw records (in 0.06s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [CLEAN][1a516b09] Cleaning and deduplicating records
+[2026-03-29 19:37:09] [INFO] [pipeline] [CLEAN][1a516b09] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [NORMALIZE][1a516b09] Normalizing to unified schema
+[2026-03-29 19:37:09] [INFO] [pipeline] [NORMALIZE][1a516b09] 0 records normalized (in 0.01s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [MAP][1a516b09] Applying Smart Field Mapper
+[2026-03-29 19:37:09] [INFO] [pipeline] [MAP][1a516b09] Field mapping complete (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [SAVE][1a516b09] Saving outputs
+[2026-03-29 19:37:09] [INFO] [pipeline] [SAVE][1a516b09] Saved 3 files (in 0.07s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [PIPELINE] Total execution time: 0.19s | job_id=1a516b09-3ff5-42e1-9ec3-6b2b56c827ad | records=0
+[2026-03-29 19:37:09] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:37:09] [INFO] [pipeline] [EXTRACT][03338379] Extracted 0 raw records (in 0.23s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [CLEAN][03338379] Cleaning and deduplicating records
+[2026-03-29 19:37:09] [INFO] [pipeline] [CLEAN][03338379] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [NORMALIZE][03338379] Normalizing to unified schema
+[2026-03-29 19:37:09] [INFO] [pipeline] [NORMALIZE][03338379] 0 records normalized (in 0.02s)
+[2026-03-29 19:37:09] [INFO] [pipeline] [MAP][03338379] Applying Smart Field Mapper
+[2026-03-29 19:37:10] [INFO] [pipeline] [JOB DONE] job_id=1a516b09-3ff5-42e1-9ec3-6b2b56c827ad
+[2026-03-29 19:37:10] [INFO] [pipeline] [MAP][03338379] Field mapping complete (in 0.03s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [SAVE][03338379] Saving outputs
+[2026-03-29 19:37:10] [INFO] [pipeline] [EXTRACT][25fef5de] Extracted 1 raw records (in 0.41s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [CLEAN][25fef5de] Cleaning and deduplicating records
+[2026-03-29 19:37:10] [INFO] [pipeline] [CLEAN][25fef5de] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [NORMALIZE][25fef5de] Normalizing to unified schema
+[2026-03-29 19:37:10] [INFO] [pipeline] [NORMALIZE][25fef5de] 1 records normalized (in 0.00s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [MAP][25fef5de] Applying Smart Field Mapper
+[2026-03-29 19:37:10] [INFO] [pipeline] [MAP][25fef5de] Field mapping complete (in 0.00s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [SAVE][25fef5de] Saving outputs
+[2026-03-29 19:37:10] [INFO] [pipeline] [SAVE][03338379] Saved 3 files (in 0.01s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [PIPELINE] Total execution time: 0.45s | job_id=03338379-2579-427c-9f0a-9caf57002760 | records=0
+[2026-03-29 19:37:10] [INFO] [pipeline] [JOB DONE] job_id=03338379-2579-427c-9f0a-9caf57002760
+[2026-03-29 19:37:10] [INFO] [pipeline] [SAVE][25fef5de] Saved 3 files (in 0.02s)
+[2026-03-29 19:37:10] [INFO] [pipeline] [PIPELINE] Total execution time: 0.47s | job_id=25fef5de-f748-4f0a-b7f4-30928e09ee97 | records=1
+[2026-03-29 19:37:10] [INFO] [pipeline] [JOB DONE] job_id=25fef5de-f748-4f0a-b7f4-30928e09ee97
+[2026-03-29 19:37:10] [INFO] [pipeline] [BATCH DONE] total=3 success=3 failed=0 records=1 time=0.49s
+[2026-03-29 19:39:15] [INFO] [pipeline] [BATCH] Starting batch of 3 sources (parallel=True)
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB START] job_id=7722be8c-8658-4fe5-834d-92bf82df4601 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][7722be8c] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][7722be8c] Source type -> pdf (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][7722be8c] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB START] job_id=3bfc8fd7-983f-4f5d-8461-5b950c818c0e source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][3bfc8fd7] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB START] job_id=59a59586-78e7-4a22-876f-175a36152338 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][3bfc8fd7] Source type -> pdf (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][59a59586] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][3bfc8fd7] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:39:15] [INFO] [pipeline] [DETECT][59a59586] Source type -> pdf (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][59a59586] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:39:15] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10th &12 th marks card &Tc_2.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][7722be8c] Extracted 0 raw records (in 0.06s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][7722be8c] Cleaning and deduplicating records
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][7722be8c] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][7722be8c] Normalizing to unified schema
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][7722be8c] 0 records normalized (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][7722be8c] Applying Smart Field Mapper
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][7722be8c] Field mapping complete (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][7722be8c] Saving outputs
+[2026-03-29 19:39:15] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][3bfc8fd7] Extracted 0 raw records (in 0.19s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][3bfc8fd7] Cleaning and deduplicating records
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][3bfc8fd7] 0 records after cleaning (in 0.05s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][7722be8c] Saved 3 files (in 0.21s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][3bfc8fd7] Normalizing to unified schema
+[2026-03-29 19:39:15] [INFO] [pipeline] [EXTRACT][59a59586] Extracted 1 raw records (in 0.34s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][3bfc8fd7] 0 records normalized (in 0.04s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [PIPELINE] Total execution time: 0.36s | job_id=7722be8c-8658-4fe5-834d-92bf82df4601 | records=0
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][59a59586] Cleaning and deduplicating records
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][3bfc8fd7] Applying Smart Field Mapper
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][3bfc8fd7] Field mapping complete (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][3bfc8fd7] Saving outputs
+[2026-03-29 19:39:15] [INFO] [pipeline] [CLEAN][59a59586] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][59a59586] Normalizing to unified schema
+[2026-03-29 19:39:15] [INFO] [pipeline] [NORMALIZE][59a59586] 1 records normalized (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][59a59586] Applying Smart Field Mapper
+[2026-03-29 19:39:15] [INFO] [pipeline] [MAP][59a59586] Field mapping complete (in 0.00s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][59a59586] Saving outputs
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB DONE] job_id=7722be8c-8658-4fe5-834d-92bf82df4601
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][3bfc8fd7] Saved 3 files (in 0.01s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [PIPELINE] Total execution time: 0.38s | job_id=3bfc8fd7-983f-4f5d-8461-5b950c818c0e | records=0
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB DONE] job_id=3bfc8fd7-983f-4f5d-8461-5b950c818c0e
+[2026-03-29 19:39:15] [INFO] [pipeline] [SAVE][59a59586] Saved 3 files (in 0.02s)
+[2026-03-29 19:39:15] [INFO] [pipeline] [PIPELINE] Total execution time: 0.39s | job_id=59a59586-78e7-4a22-876f-175a36152338 | records=1
+[2026-03-29 19:39:15] [INFO] [pipeline] [JOB DONE] job_id=59a59586-78e7-4a22-876f-175a36152338
+[2026-03-29 19:39:15] [INFO] [pipeline] [BATCH DONE] total=3 success=3 failed=0 records=1 time=0.41s
+[2026-03-29 19:47:01] [INFO] [pipeline] [JOB START] job_id=95f23e3c-3d3a-401c-a96f-0f86345c70e7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:01] [INFO] [pipeline] [DETECT][95f23e3c] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:01] [INFO] [pipeline] [DETECT][95f23e3c] Source type -> pdf (in 0.00s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [EXTRACT][95f23e3c] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:01] [INFO] [pipeline] [EXTRACT][95f23e3c] Extracted 1 raw records (in 0.28s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [CLEAN][95f23e3c] Cleaning and deduplicating records
+[2026-03-29 19:47:01] [INFO] [pipeline] [CLEAN][95f23e3c] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [NORMALIZE][95f23e3c] Normalizing to unified schema
+[2026-03-29 19:47:01] [INFO] [pipeline] [NORMALIZE][95f23e3c] 1 records normalized (in 0.00s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [MAP][95f23e3c] Applying Smart Field Mapper
+[2026-03-29 19:47:01] [INFO] [pipeline] [MAP][95f23e3c] Field mapping complete (in 0.00s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [SAVE][95f23e3c] Saving outputs
+[2026-03-29 19:47:01] [INFO] [pipeline] [SAVE][95f23e3c] Saved 3 files (in 0.01s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [PIPELINE] Total execution time: 0.31s | job_id=95f23e3c-3d3a-401c-a96f-0f86345c70e7 | records=1
+[2026-03-29 19:47:01] [INFO] [pipeline] [JOB DONE] job_id=95f23e3c-3d3a-401c-a96f-0f86345c70e7
+[2026-03-29 19:47:01] [INFO] [pipeline] [JOB START] job_id=3379317b-1a3a-4884-a706-463fcb7ac7a3 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:01] [INFO] [pipeline] [DETECT][3379317b] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:01] [INFO] [pipeline] [DETECT][3379317b] Source type -> pdf (in 0.00s)
+[2026-03-29 19:47:01] [INFO] [pipeline] [EXTRACT][3379317b] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:02] [INFO] [pipeline] [EXTRACT][3379317b] Extracted 1 raw records (in 0.30s)
+[2026-03-29 19:47:02] [INFO] [pipeline] [CLEAN][3379317b] Cleaning and deduplicating records
+[2026-03-29 19:47:02] [INFO] [pipeline] [CLEAN][3379317b] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:47:02] [INFO] [pipeline] [NORMALIZE][3379317b] Normalizing to unified schema
+[2026-03-29 19:47:02] [INFO] [pipeline] [NORMALIZE][3379317b] 1 records normalized (in 0.00s)
+[2026-03-29 19:47:02] [INFO] [pipeline] [MAP][3379317b] Applying Smart Field Mapper
+[2026-03-29 19:47:02] [INFO] [pipeline] [MAP][3379317b] Field mapping complete (in 0.00s)
+[2026-03-29 19:47:02] [INFO] [pipeline] [SAVE][3379317b] Saving outputs
+[2026-03-29 19:47:02] [INFO] [pipeline] [SAVE][3379317b] Saved 3 files (in 0.01s)
+[2026-03-29 19:47:02] [INFO] [pipeline] [PIPELINE] Total execution time: 0.33s | job_id=3379317b-1a3a-4884-a706-463fcb7ac7a3 | records=1
+[2026-03-29 19:47:02] [INFO] [pipeline] [JOB DONE] job_id=3379317b-1a3a-4884-a706-463fcb7ac7a3
+[2026-03-29 19:47:32] [INFO] [pipeline] [JOB START] job_id=2385e965-6cca-4263-9b02-d70869b2c8e3 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [DETECT][2385e965] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [DETECT][2385e965] Source type -> pdf (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [EXTRACT][2385e965] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [EXTRACT][2385e965] Extracted 1 raw records (in 0.29s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [CLEAN][2385e965] Cleaning and deduplicating records
+[2026-03-29 19:47:32] [INFO] [pipeline] [CLEAN][2385e965] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [NORMALIZE][2385e965] Normalizing to unified schema
+[2026-03-29 19:47:32] [INFO] [pipeline] [NORMALIZE][2385e965] 1 records normalized (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [MAP][2385e965] Applying Smart Field Mapper
+[2026-03-29 19:47:32] [INFO] [pipeline] [MAP][2385e965] Field mapping complete (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [SAVE][2385e965] Saving outputs
+[2026-03-29 19:47:32] [INFO] [pipeline] [SAVE][2385e965] Saved 3 files (in 0.01s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [PIPELINE] Total execution time: 0.32s | job_id=2385e965-6cca-4263-9b02-d70869b2c8e3 | records=1
+[2026-03-29 19:47:32] [INFO] [pipeline] [JOB DONE] job_id=2385e965-6cca-4263-9b02-d70869b2c8e3
+[2026-03-29 19:47:32] [INFO] [pipeline] [JOB START] job_id=e10bfba2-ce0a-4648-9dd0-3f2a76a8d658 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [DETECT][e10bfba2] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [DETECT][e10bfba2] Source type -> pdf (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [EXTRACT][e10bfba2] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [EXTRACT][e10bfba2] Extracted 1 raw records (in 0.30s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [CLEAN][e10bfba2] Cleaning and deduplicating records
+[2026-03-29 19:47:32] [INFO] [pipeline] [CLEAN][e10bfba2] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [NORMALIZE][e10bfba2] Normalizing to unified schema
+[2026-03-29 19:47:32] [INFO] [pipeline] [NORMALIZE][e10bfba2] 1 records normalized (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [MAP][e10bfba2] Applying Smart Field Mapper
+[2026-03-29 19:47:32] [INFO] [pipeline] [MAP][e10bfba2] Field mapping complete (in 0.00s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [SAVE][e10bfba2] Saving outputs
+[2026-03-29 19:47:32] [INFO] [pipeline] [SAVE][e10bfba2] Saved 3 files (in 0.01s)
+[2026-03-29 19:47:32] [INFO] [pipeline] [PIPELINE] Total execution time: 0.33s | job_id=e10bfba2-ce0a-4648-9dd0-3f2a76a8d658 | records=1
+[2026-03-29 19:47:32] [INFO] [pipeline] [JOB DONE] job_id=e10bfba2-ce0a-4648-9dd0-3f2a76a8d658
+[2026-03-29 19:47:32] [INFO] [pipeline] [JOB START] job_id=31d87d2e-1258-4140-924a-5ea92cf8c838 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:47:32] [INFO] [pipeline] [DETECT][31d87d2e] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:47:33] [INFO] [pipeline] [DETECT][31d87d2e] Source type -> pdf (in 0.00s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [EXTRACT][31d87d2e] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:47:33] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:47:33] [INFO] [pipeline] [EXTRACT][31d87d2e] Extracted 0 raw records (in 0.02s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [CLEAN][31d87d2e] Cleaning and deduplicating records
+[2026-03-29 19:47:33] [INFO] [pipeline] [CLEAN][31d87d2e] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [NORMALIZE][31d87d2e] Normalizing to unified schema
+[2026-03-29 19:47:33] [INFO] [pipeline] [NORMALIZE][31d87d2e] 0 records normalized (in 0.00s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [MAP][31d87d2e] Applying Smart Field Mapper
+[2026-03-29 19:47:33] [INFO] [pipeline] [MAP][31d87d2e] Field mapping complete (in 0.00s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [SAVE][31d87d2e] Saving outputs
+[2026-03-29 19:47:33] [INFO] [pipeline] [SAVE][31d87d2e] Saved 3 files (in 0.01s)
+[2026-03-29 19:47:33] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=31d87d2e-1258-4140-924a-5ea92cf8c838 | records=0
+[2026-03-29 19:47:33] [INFO] [pipeline] [JOB DONE] job_id=31d87d2e-1258-4140-924a-5ea92cf8c838
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB START] job_id=6ae0a7d8-36ea-4096-a379-634fa506b6f4 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][6ae0a7d8] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][6ae0a7d8] Source type -> pdf (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][6ae0a7d8] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][6ae0a7d8] Extracted 1 raw records (in 0.31s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][6ae0a7d8] Cleaning and deduplicating records
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][6ae0a7d8] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][6ae0a7d8] Normalizing to unified schema
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][6ae0a7d8] 1 records normalized (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][6ae0a7d8] Applying Smart Field Mapper
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][6ae0a7d8] Field mapping complete (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][6ae0a7d8] Saving outputs
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][6ae0a7d8] Saved 3 files (in 0.01s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [PIPELINE] Total execution time: 0.34s | job_id=6ae0a7d8-36ea-4096-a379-634fa506b6f4 | records=1
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB DONE] job_id=6ae0a7d8-36ea-4096-a379-634fa506b6f4
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB START] job_id=b0d1026b-34ef-4814-adfe-ce2030b1c9e2 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][b0d1026b] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][b0d1026b] Source type -> pdf (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][b0d1026b] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][b0d1026b] Extracted 1 raw records (in 0.30s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][b0d1026b] Cleaning and deduplicating records
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][b0d1026b] 1 records after cleaning (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][b0d1026b] Normalizing to unified schema
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][b0d1026b] 1 records normalized (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][b0d1026b] Applying Smart Field Mapper
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][b0d1026b] Field mapping complete (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][b0d1026b] Saving outputs
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][b0d1026b] Saved 3 files (in 0.01s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [PIPELINE] Total execution time: 0.33s | job_id=b0d1026b-34ef-4814-adfe-ce2030b1c9e2 | records=1
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB DONE] job_id=b0d1026b-34ef-4814-adfe-ce2030b1c9e2
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB START] job_id=c26f20d0-07d5-424d-bea4-cf78bc0f7a41 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][c26f20d0] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:48:38] [INFO] [pipeline] [DETECT][c26f20d0] Source type -> pdf (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][c26f20d0] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:48:38] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:48:38] [INFO] [pipeline] [EXTRACT][c26f20d0] Extracted 0 raw records (in 0.02s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][c26f20d0] Cleaning and deduplicating records
+[2026-03-29 19:48:38] [INFO] [pipeline] [CLEAN][c26f20d0] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][c26f20d0] Normalizing to unified schema
+[2026-03-29 19:48:38] [INFO] [pipeline] [NORMALIZE][c26f20d0] 0 records normalized (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][c26f20d0] Applying Smart Field Mapper
+[2026-03-29 19:48:38] [INFO] [pipeline] [MAP][c26f20d0] Field mapping complete (in 0.00s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][c26f20d0] Saving outputs
+[2026-03-29 19:48:38] [INFO] [pipeline] [SAVE][c26f20d0] Saved 3 files (in 0.01s)
+[2026-03-29 19:48:38] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=c26f20d0-07d5-424d-bea4-cf78bc0f7a41 | records=0
+[2026-03-29 19:48:38] [INFO] [pipeline] [JOB DONE] job_id=c26f20d0-07d5-424d-bea4-cf78bc0f7a41
+[2026-03-29 19:49:40] [INFO] [pipeline] [JOB START] job_id=289cdcd2-f250-498c-8fa0-c0895bf3f7bb source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][289cdcd2] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][289cdcd2] Source type -> pdf (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [EXTRACT][289cdcd2] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [EXTRACT][289cdcd2] Extracted 1 raw records (in 0.31s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [CLEAN][289cdcd2] Cleaning and deduplicating records
+[2026-03-29 19:49:40] [INFO] [pipeline] [CLEAN][289cdcd2] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [NORMALIZE][289cdcd2] Normalizing to unified schema
+[2026-03-29 19:49:40] [INFO] [pipeline] [NORMALIZE][289cdcd2] 1 records normalized (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [MAP][289cdcd2] Applying Smart Field Mapper
+[2026-03-29 19:49:40] [INFO] [pipeline] [MAP][289cdcd2] Field mapping complete (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [SAVE][289cdcd2] Saving outputs
+[2026-03-29 19:49:40] [INFO] [pipeline] [SAVE][289cdcd2] Saved 3 files (in 0.01s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [PIPELINE] Total execution time: 0.34s | job_id=289cdcd2-f250-498c-8fa0-c0895bf3f7bb | records=1
+[2026-03-29 19:49:40] [INFO] [pipeline] [JOB DONE] job_id=289cdcd2-f250-498c-8fa0-c0895bf3f7bb
+[2026-03-29 19:49:40] [INFO] [pipeline] [JOB START] job_id=8ea40469-d842-4e29-aba8-48f3ca7245eb source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][8ea40469] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][8ea40469] Source type -> pdf (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [EXTRACT][8ea40469] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:49:40] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:49:40] [INFO] [pipeline] [EXTRACT][8ea40469] Extracted 0 raw records (in 0.03s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [CLEAN][8ea40469] Cleaning and deduplicating records
+[2026-03-29 19:49:40] [INFO] [pipeline] [CLEAN][8ea40469] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [NORMALIZE][8ea40469] Normalizing to unified schema
+[2026-03-29 19:49:40] [INFO] [pipeline] [NORMALIZE][8ea40469] 0 records normalized (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [MAP][8ea40469] Applying Smart Field Mapper
+[2026-03-29 19:49:40] [INFO] [pipeline] [MAP][8ea40469] Field mapping complete (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [SAVE][8ea40469] Saving outputs
+[2026-03-29 19:49:40] [INFO] [pipeline] [SAVE][8ea40469] Saved 3 files (in 0.01s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=8ea40469-d842-4e29-aba8-48f3ca7245eb | records=0
+[2026-03-29 19:49:40] [INFO] [pipeline] [JOB DONE] job_id=8ea40469-d842-4e29-aba8-48f3ca7245eb
+[2026-03-29 19:49:40] [INFO] [pipeline] [JOB START] job_id=0840f656-66e3-4282-9a3d-9d4d5ede3a6c source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][0840f656] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:49:40] [INFO] [pipeline] [DETECT][0840f656] Source type -> pdf (in 0.00s)
+[2026-03-29 19:49:40] [INFO] [pipeline] [EXTRACT][0840f656] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:49:41] [INFO] [pipeline] [EXTRACT][0840f656] Extracted 2 raw records (in 0.51s)
+[2026-03-29 19:49:41] [INFO] [pipeline] [CLEAN][0840f656] Cleaning and deduplicating records
+[2026-03-29 19:49:41] [INFO] [pipeline] [CLEAN][0840f656] 2 records after cleaning (in 0.01s)
+[2026-03-29 19:49:41] [INFO] [pipeline] [NORMALIZE][0840f656] Normalizing to unified schema
+[2026-03-29 19:49:41] [INFO] [pipeline] [NORMALIZE][0840f656] 2 records normalized (in 0.00s)
+[2026-03-29 19:49:41] [INFO] [pipeline] [MAP][0840f656] Applying Smart Field Mapper
+[2026-03-29 19:49:41] [INFO] [pipeline] [MAP][0840f656] Field mapping complete (in 0.00s)
+[2026-03-29 19:49:41] [INFO] [pipeline] [SAVE][0840f656] Saving outputs
+[2026-03-29 19:49:41] [INFO] [pipeline] [SAVE][0840f656] Saved 3 files (in 0.01s)
+[2026-03-29 19:49:41] [INFO] [pipeline] [PIPELINE] Total execution time: 0.54s | job_id=0840f656-66e3-4282-9a3d-9d4d5ede3a6c | records=2
+[2026-03-29 19:49:41] [INFO] [pipeline] [JOB DONE] job_id=0840f656-66e3-4282-9a3d-9d4d5ede3a6c
+[2026-03-29 19:50:34] [INFO] [pipeline] [JOB START] job_id=50282c8d-e4e3-46cb-b656-504e6ac2c254 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][50282c8d] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][50282c8d] Source type -> pdf (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [EXTRACT][50282c8d] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [EXTRACT][50282c8d] Extracted 1 raw records (in 0.31s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [CLEAN][50282c8d] Cleaning and deduplicating records
+[2026-03-29 19:50:34] [INFO] [pipeline] [CLEAN][50282c8d] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [NORMALIZE][50282c8d] Normalizing to unified schema
+[2026-03-29 19:50:34] [INFO] [pipeline] [NORMALIZE][50282c8d] 1 records normalized (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [MAP][50282c8d] Applying Smart Field Mapper
+[2026-03-29 19:50:34] [INFO] [pipeline] [MAP][50282c8d] Field mapping complete (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [SAVE][50282c8d] Saving outputs
+[2026-03-29 19:50:34] [INFO] [pipeline] [SAVE][50282c8d] Saved 3 files (in 0.01s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [PIPELINE] Total execution time: 0.33s | job_id=50282c8d-e4e3-46cb-b656-504e6ac2c254 | records=1
+[2026-03-29 19:50:34] [INFO] [pipeline] [JOB DONE] job_id=50282c8d-e4e3-46cb-b656-504e6ac2c254
+[2026-03-29 19:50:34] [INFO] [pipeline] [JOB START] job_id=a9556e4e-0ee8-4a34-b332-c984dfd0c352 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][a9556e4e] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][a9556e4e] Source type -> pdf (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [EXTRACT][a9556e4e] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 19:50:34] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:50:34] [INFO] [pipeline] [EXTRACT][a9556e4e] Extracted 0 raw records (in 0.03s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [CLEAN][a9556e4e] Cleaning and deduplicating records
+[2026-03-29 19:50:34] [INFO] [pipeline] [CLEAN][a9556e4e] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [NORMALIZE][a9556e4e] Normalizing to unified schema
+[2026-03-29 19:50:34] [INFO] [pipeline] [NORMALIZE][a9556e4e] 0 records normalized (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [MAP][a9556e4e] Applying Smart Field Mapper
+[2026-03-29 19:50:34] [INFO] [pipeline] [MAP][a9556e4e] Field mapping complete (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [SAVE][a9556e4e] Saving outputs
+[2026-03-29 19:50:34] [INFO] [pipeline] [SAVE][a9556e4e] Saved 3 files (in 0.01s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=a9556e4e-0ee8-4a34-b332-c984dfd0c352 | records=0
+[2026-03-29 19:50:34] [INFO] [pipeline] [JOB DONE] job_id=a9556e4e-0ee8-4a34-b332-c984dfd0c352
+[2026-03-29 19:50:34] [INFO] [pipeline] [JOB START] job_id=1906e0b2-b5bb-43e8-962e-1a166c2fa88d source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][1906e0b2] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:50:34] [INFO] [pipeline] [DETECT][1906e0b2] Source type -> pdf (in 0.00s)
+[2026-03-29 19:50:34] [INFO] [pipeline] [EXTRACT][1906e0b2] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CV99764774_Mohammad Indikar.pdf
+[2026-03-29 19:50:35] [INFO] [pipeline] [EXTRACT][1906e0b2] Extracted 2 raw records (in 0.54s)
+[2026-03-29 19:50:35] [INFO] [pipeline] [CLEAN][1906e0b2] Cleaning and deduplicating records
+[2026-03-29 19:50:35] [INFO] [pipeline] [CLEAN][1906e0b2] 2 records after cleaning (in 0.01s)
+[2026-03-29 19:50:35] [INFO] [pipeline] [NORMALIZE][1906e0b2] Normalizing to unified schema
+[2026-03-29 19:50:35] [INFO] [pipeline] [NORMALIZE][1906e0b2] 2 records normalized (in 0.00s)
+[2026-03-29 19:50:35] [INFO] [pipeline] [MAP][1906e0b2] Applying Smart Field Mapper
+[2026-03-29 19:50:35] [INFO] [pipeline] [MAP][1906e0b2] Field mapping complete (in 0.00s)
+[2026-03-29 19:50:35] [INFO] [pipeline] [SAVE][1906e0b2] Saving outputs
+[2026-03-29 19:50:35] [INFO] [pipeline] [SAVE][1906e0b2] Saved 3 files (in 0.01s)
+[2026-03-29 19:50:35] [INFO] [pipeline] [PIPELINE] Total execution time: 0.56s | job_id=1906e0b2-b5bb-43e8-962e-1a166c2fa88d | records=2
+[2026-03-29 19:50:35] [INFO] [pipeline] [JOB DONE] job_id=1906e0b2-b5bb-43e8-962e-1a166c2fa88d
+[2026-03-29 19:53:21] [INFO] [pipeline] [JOB START] job_id=5eef2f7c-3eb9-43e0-8fd7-0f8111fb7ab2 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CNS M-5 IMP Q&A.pdf
+[2026-03-29 19:53:21] [INFO] [pipeline] [DETECT][5eef2f7c] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CNS M-5 IMP Q&A.pdf
+[2026-03-29 19:53:21] [INFO] [pipeline] [DETECT][5eef2f7c] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:21] [INFO] [pipeline] [EXTRACT][5eef2f7c] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CNS M-5 IMP Q&A.pdf
+[2026-03-29 19:53:22] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\CNS M-5 IMP Q&A.pdf'. Source may be empty or unsupported.
+[2026-03-29 19:53:22] [INFO] [pipeline] [EXTRACT][5eef2f7c] Extracted 0 raw records (in 0.36s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [CLEAN][5eef2f7c] Cleaning and deduplicating records
+[2026-03-29 19:53:22] [INFO] [pipeline] [CLEAN][5eef2f7c] 0 records after cleaning (in 0.00s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [NORMALIZE][5eef2f7c] Normalizing to unified schema
+[2026-03-29 19:53:22] [INFO] [pipeline] [NORMALIZE][5eef2f7c] 0 records normalized (in 0.00s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [MAP][5eef2f7c] Applying Smart Field Mapper
+[2026-03-29 19:53:22] [INFO] [pipeline] [MAP][5eef2f7c] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [SAVE][5eef2f7c] Saving outputs
+[2026-03-29 19:53:22] [INFO] [pipeline] [SAVE][5eef2f7c] Saved 3 files (in 0.01s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [PIPELINE] Total execution time: 0.38s | job_id=5eef2f7c-3eb9-43e0-8fd7-0f8111fb7ab2 | records=0
+[2026-03-29 19:53:22] [INFO] [pipeline] [JOB DONE] job_id=5eef2f7c-3eb9-43e0-8fd7-0f8111fb7ab2
+[2026-03-29 19:53:22] [INFO] [pipeline] [JOB START] job_id=d79481bd-d09e-4f38-949f-c3052d232844 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET2.pdf
+[2026-03-29 19:53:22] [INFO] [pipeline] [DETECT][d79481bd] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET2.pdf
+[2026-03-29 19:53:22] [INFO] [pipeline] [DETECT][d79481bd] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:22] [INFO] [pipeline] [EXTRACT][d79481bd] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET2.pdf
+[2026-03-29 19:53:29] [INFO] [pipeline] [EXTRACT][d79481bd] Extracted 35 raw records (in 7.44s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [CLEAN][d79481bd] Cleaning and deduplicating records
+[2026-03-29 19:53:29] [INFO] [pipeline] [CLEAN][d79481bd] 35 records after cleaning (in 0.04s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [NORMALIZE][d79481bd] Normalizing to unified schema
+[2026-03-29 19:53:29] [INFO] [pipeline] [NORMALIZE][d79481bd] 35 records normalized (in 0.00s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [MAP][d79481bd] Applying Smart Field Mapper
+[2026-03-29 19:53:29] [INFO] [pipeline] [MAP][d79481bd] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [SAVE][d79481bd] Saving outputs
+[2026-03-29 19:53:29] [INFO] [pipeline] [SAVE][d79481bd] Saved 3 files (in 0.03s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [PIPELINE] Total execution time: 7.51s | job_id=d79481bd-d09e-4f38-949f-c3052d232844 | records=35
+[2026-03-29 19:53:29] [INFO] [pipeline] [JOB DONE] job_id=d79481bd-d09e-4f38-949f-c3052d232844
+[2026-03-29 19:53:29] [INFO] [pipeline] [JOB START] job_id=4b4253c3-f892-4507-85a2-cbb60d832e67 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET1.pdf
+[2026-03-29 19:53:29] [INFO] [pipeline] [DETECT][4b4253c3] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET1.pdf
+[2026-03-29 19:53:29] [INFO] [pipeline] [DETECT][4b4253c3] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:29] [INFO] [pipeline] [EXTRACT][4b4253c3] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\21CS733-SOLUTIONS-SET1.pdf
+[2026-03-29 19:53:37] [INFO] [pipeline] [EXTRACT][4b4253c3] Extracted 37 raw records (in 8.06s)
+[2026-03-29 19:53:37] [INFO] [pipeline] [CLEAN][4b4253c3] Cleaning and deduplicating records
+[2026-03-29 19:53:38] [INFO] [pipeline] [CLEAN][4b4253c3] 37 records after cleaning (in 0.44s)
+[2026-03-29 19:53:38] [INFO] [pipeline] [NORMALIZE][4b4253c3] Normalizing to unified schema
+[2026-03-29 19:53:38] [INFO] [pipeline] [NORMALIZE][4b4253c3] 37 records normalized (in 0.00s)
+[2026-03-29 19:53:38] [INFO] [pipeline] [MAP][4b4253c3] Applying Smart Field Mapper
+[2026-03-29 19:53:38] [INFO] [pipeline] [MAP][4b4253c3] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:38] [INFO] [pipeline] [SAVE][4b4253c3] Saving outputs
+[2026-03-29 19:53:38] [INFO] [pipeline] [SAVE][4b4253c3] Saved 3 files (in 0.03s)
+[2026-03-29 19:53:38] [INFO] [pipeline] [PIPELINE] Total execution time: 8.54s | job_id=4b4253c3-f892-4507-85a2-cbb60d832e67 | records=37
+[2026-03-29 19:53:38] [INFO] [pipeline] [JOB DONE] job_id=4b4253c3-f892-4507-85a2-cbb60d832e67
+[2026-03-29 19:53:56] [INFO] [pipeline] [JOB START] job_id=cc0b58be-eea4-4f4a-bb70-e1e3308abc7d source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:53:56] [INFO] [pipeline] [DETECT][cc0b58be] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:53:56] [INFO] [pipeline] [DETECT][cc0b58be] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [EXTRACT][cc0b58be] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:53:56] [INFO] [pipeline] [EXTRACT][cc0b58be] Extracted 1 raw records (in 0.27s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [CLEAN][cc0b58be] Cleaning and deduplicating records
+[2026-03-29 19:53:56] [INFO] [pipeline] [CLEAN][cc0b58be] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [NORMALIZE][cc0b58be] Normalizing to unified schema
+[2026-03-29 19:53:56] [INFO] [pipeline] [NORMALIZE][cc0b58be] 1 records normalized (in 0.00s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [MAP][cc0b58be] Applying Smart Field Mapper
+[2026-03-29 19:53:56] [INFO] [pipeline] [MAP][cc0b58be] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [SAVE][cc0b58be] Saving outputs
+[2026-03-29 19:53:56] [INFO] [pipeline] [SAVE][cc0b58be] Saved 3 files (in 0.01s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [PIPELINE] Total execution time: 0.30s | job_id=cc0b58be-eea4-4f4a-bb70-e1e3308abc7d | records=1
+[2026-03-29 19:53:56] [INFO] [pipeline] [JOB DONE] job_id=cc0b58be-eea4-4f4a-bb70-e1e3308abc7d
+[2026-03-29 19:53:56] [INFO] [pipeline] [JOB START] job_id=e6888c52-3f23-455b-b05c-d414dd89be8a source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:53:56] [INFO] [pipeline] [DETECT][e6888c52] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:53:56] [INFO] [pipeline] [DETECT][e6888c52] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:56] [INFO] [pipeline] [EXTRACT][e6888c52] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:53:57] [INFO] [pipeline] [EXTRACT][e6888c52] Extracted 1 raw records (in 0.28s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [CLEAN][e6888c52] Cleaning and deduplicating records
+[2026-03-29 19:53:57] [INFO] [pipeline] [CLEAN][e6888c52] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [NORMALIZE][e6888c52] Normalizing to unified schema
+[2026-03-29 19:53:57] [INFO] [pipeline] [NORMALIZE][e6888c52] 1 records normalized (in 0.00s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [MAP][e6888c52] Applying Smart Field Mapper
+[2026-03-29 19:53:57] [INFO] [pipeline] [MAP][e6888c52] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [SAVE][e6888c52] Saving outputs
+[2026-03-29 19:53:57] [INFO] [pipeline] [SAVE][e6888c52] Saved 3 files (in 0.01s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [PIPELINE] Total execution time: 0.31s | job_id=e6888c52-3f23-455b-b05c-d414dd89be8a | records=1
+[2026-03-29 19:53:57] [INFO] [pipeline] [JOB DONE] job_id=e6888c52-3f23-455b-b05c-d414dd89be8a
+[2026-03-29 19:53:57] [INFO] [pipeline] [JOB START] job_id=041ece51-ed10-462d-b23d-faa299c75e5c source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:53:57] [INFO] [pipeline] [DETECT][041ece51] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:53:57] [INFO] [pipeline] [DETECT][041ece51] Source type -> pdf (in 0.00s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [EXTRACT][041ece51] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:53:57] [INFO] [pipeline] [EXTRACT][041ece51] Extracted 3 raw records (in 0.48s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [CLEAN][041ece51] Cleaning and deduplicating records
+[2026-03-29 19:53:57] [INFO] [pipeline] [CLEAN][041ece51] 3 records after cleaning (in 0.01s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [NORMALIZE][041ece51] Normalizing to unified schema
+[2026-03-29 19:53:57] [INFO] [pipeline] [NORMALIZE][041ece51] 3 records normalized (in 0.00s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [MAP][041ece51] Applying Smart Field Mapper
+[2026-03-29 19:53:57] [INFO] [pipeline] [MAP][041ece51] Field mapping complete (in 0.00s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [SAVE][041ece51] Saving outputs
+[2026-03-29 19:53:57] [INFO] [pipeline] [SAVE][041ece51] Saved 3 files (in 0.01s)
+[2026-03-29 19:53:57] [INFO] [pipeline] [PIPELINE] Total execution time: 0.51s | job_id=041ece51-ed10-462d-b23d-faa299c75e5c | records=3
+[2026-03-29 19:53:57] [INFO] [pipeline] [JOB DONE] job_id=041ece51-ed10-462d-b23d-faa299c75e5c
+[2026-03-29 19:54:46] [INFO] [pipeline] [JOB START] job_id=b3a2d5fe-c28c-4a6d-a7af-b1094e45a059 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][b3a2d5fe] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][b3a2d5fe] Source type -> pdf (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [EXTRACT][b3a2d5fe] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card (1).pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [EXTRACT][b3a2d5fe] Extracted 1 raw records (in 0.45s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [CLEAN][b3a2d5fe] Cleaning and deduplicating records
+[2026-03-29 19:54:46] [INFO] [pipeline] [CLEAN][b3a2d5fe] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [NORMALIZE][b3a2d5fe] Normalizing to unified schema
+[2026-03-29 19:54:46] [INFO] [pipeline] [NORMALIZE][b3a2d5fe] 1 records normalized (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [MAP][b3a2d5fe] Applying Smart Field Mapper
+[2026-03-29 19:54:46] [INFO] [pipeline] [MAP][b3a2d5fe] Field mapping complete (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [SAVE][b3a2d5fe] Saving outputs
+[2026-03-29 19:54:46] [INFO] [pipeline] [SAVE][b3a2d5fe] Saved 3 files (in 0.01s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [PIPELINE] Total execution time: 0.48s | job_id=b3a2d5fe-c28c-4a6d-a7af-b1094e45a059 | records=1
+[2026-03-29 19:54:46] [INFO] [pipeline] [JOB DONE] job_id=b3a2d5fe-c28c-4a6d-a7af-b1094e45a059
+[2026-03-29 19:54:46] [INFO] [pipeline] [JOB START] job_id=8176ad0a-43a7-4bc2-aa11-f12ec5db70e9 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][8176ad0a] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][8176ad0a] Source type -> pdf (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [EXTRACT][8176ad0a] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [EXTRACT][8176ad0a] Extracted 1 raw records (in 0.25s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [CLEAN][8176ad0a] Cleaning and deduplicating records
+[2026-03-29 19:54:46] [INFO] [pipeline] [CLEAN][8176ad0a] 1 records after cleaning (in 0.01s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [NORMALIZE][8176ad0a] Normalizing to unified schema
+[2026-03-29 19:54:46] [INFO] [pipeline] [NORMALIZE][8176ad0a] 1 records normalized (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [MAP][8176ad0a] Applying Smart Field Mapper
+[2026-03-29 19:54:46] [INFO] [pipeline] [MAP][8176ad0a] Field mapping complete (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [SAVE][8176ad0a] Saving outputs
+[2026-03-29 19:54:46] [INFO] [pipeline] [SAVE][8176ad0a] Saved 3 files (in 0.01s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [PIPELINE] Total execution time: 0.28s | job_id=8176ad0a-43a7-4bc2-aa11-f12ec5db70e9 | records=1
+[2026-03-29 19:54:46] [INFO] [pipeline] [JOB DONE] job_id=8176ad0a-43a7-4bc2-aa11-f12ec5db70e9
+[2026-03-29 19:54:46] [INFO] [pipeline] [JOB START] job_id=6b517e95-0f40-410f-93da-74abf8e146f6 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][6b517e95] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:54:46] [INFO] [pipeline] [DETECT][6b517e95] Source type -> pdf (in 0.00s)
+[2026-03-29 19:54:46] [INFO] [pipeline] [EXTRACT][6b517e95] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Lost.pdf
+[2026-03-29 19:54:47] [INFO] [pipeline] [EXTRACT][6b517e95] Extracted 3 raw records (in 0.58s)
+[2026-03-29 19:54:47] [INFO] [pipeline] [CLEAN][6b517e95] Cleaning and deduplicating records
+[2026-03-29 19:54:47] [INFO] [pipeline] [CLEAN][6b517e95] 3 records after cleaning (in 0.00s)
+[2026-03-29 19:54:47] [INFO] [pipeline] [NORMALIZE][6b517e95] Normalizing to unified schema
+[2026-03-29 19:54:47] [INFO] [pipeline] [NORMALIZE][6b517e95] 3 records normalized (in 0.00s)
+[2026-03-29 19:54:47] [INFO] [pipeline] [MAP][6b517e95] Applying Smart Field Mapper
+[2026-03-29 19:54:47] [INFO] [pipeline] [MAP][6b517e95] Field mapping complete (in 0.00s)
+[2026-03-29 19:54:47] [INFO] [pipeline] [SAVE][6b517e95] Saving outputs
+[2026-03-29 19:54:47] [INFO] [pipeline] [SAVE][6b517e95] Saved 3 files (in 0.01s)
+[2026-03-29 19:54:47] [INFO] [pipeline] [PIPELINE] Total execution time: 0.61s | job_id=6b517e95-0f40-410f-93da-74abf8e146f6 | records=3
+[2026-03-29 19:54:47] [INFO] [pipeline] [JOB DONE] job_id=6b517e95-0f40-410f-93da-74abf8e146f6
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB START] job_id=7c7f4d55-96f5-42e0-a8ca-c82abb17d63f source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][7c7f4d55] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][7c7f4d55] Source type -> pdf (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][7c7f4d55] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][7c7f4d55] Extracted 1 raw records (in 0.30s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][7c7f4d55] Cleaning and deduplicating records
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][7c7f4d55] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][7c7f4d55] Normalizing to unified schema
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][7c7f4d55] 1 records normalized (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][7c7f4d55] Applying Smart Field Mapper
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][7c7f4d55] Field mapping complete (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][7c7f4d55] Saving outputs
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][7c7f4d55] Saved 3 files (in 0.01s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [PIPELINE] Total execution time: 0.34s | job_id=7c7f4d55-96f5-42e0-a8ca-c82abb17d63f | records=1
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB DONE] job_id=7c7f4d55-96f5-42e0-a8ca-c82abb17d63f
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB START] job_id=3a0335ad-6405-4f24-bbd6-e0d82c7a56e7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][3a0335ad] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][3a0335ad] Source type -> pdf (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][3a0335ad] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][3a0335ad] Extracted 1 raw records (in 0.11s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][3a0335ad] Cleaning and deduplicating records
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][3a0335ad] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][3a0335ad] Normalizing to unified schema
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][3a0335ad] 1 records normalized (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][3a0335ad] Applying Smart Field Mapper
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][3a0335ad] Field mapping complete (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][3a0335ad] Saving outputs
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][3a0335ad] Saved 3 files (in 0.01s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [PIPELINE] Total execution time: 0.14s | job_id=3a0335ad-6405-4f24-bbd6-e0d82c7a56e7 | records=1
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB DONE] job_id=3a0335ad-6405-4f24-bbd6-e0d82c7a56e7
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB START] job_id=6212c671-010f-4b1a-a70a-a5514f54db42 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][6212c671] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:07:56] [INFO] [pipeline] [DETECT][6212c671] Source type -> pdf (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][6212c671] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:07:56] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:07:56] [INFO] [pipeline] [EXTRACT][6212c671] Extracted 0 raw records (in 0.11s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][6212c671] Cleaning and deduplicating records
+[2026-03-29 20:07:56] [INFO] [pipeline] [CLEAN][6212c671] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][6212c671] Normalizing to unified schema
+[2026-03-29 20:07:56] [INFO] [pipeline] [NORMALIZE][6212c671] 0 records normalized (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][6212c671] Applying Smart Field Mapper
+[2026-03-29 20:07:56] [INFO] [pipeline] [MAP][6212c671] Field mapping complete (in 0.00s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][6212c671] Saving outputs
+[2026-03-29 20:07:56] [INFO] [pipeline] [SAVE][6212c671] Saved 3 files (in 0.01s)
+[2026-03-29 20:07:56] [INFO] [pipeline] [PIPELINE] Total execution time: 0.13s | job_id=6212c671-010f-4b1a-a70a-a5514f54db42 | records=0
+[2026-03-29 20:07:56] [INFO] [pipeline] [JOB DONE] job_id=6212c671-010f-4b1a-a70a-a5514f54db42
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB START] job_id=80f72d5f-5473-4c1d-aed0-525f47f82ca0 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][80f72d5f] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][80f72d5f] Source type -> pdf (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][80f72d5f] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][80f72d5f] Extracted 1 raw records (in 0.29s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][80f72d5f] Cleaning and deduplicating records
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][80f72d5f] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][80f72d5f] Normalizing to unified schema
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][80f72d5f] 1 records normalized (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][80f72d5f] Applying Smart Field Mapper
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][80f72d5f] Field mapping complete (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][80f72d5f] Saving outputs
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][80f72d5f] Saved 3 files (in 0.01s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [PIPELINE] Total execution time: 0.31s | job_id=80f72d5f-5473-4c1d-aed0-525f47f82ca0 | records=1
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB DONE] job_id=80f72d5f-5473-4c1d-aed0-525f47f82ca0
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB START] job_id=284b81e9-1580-4015-8a5d-1d5086d386a0 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][284b81e9] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][284b81e9] Source type -> pdf (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][284b81e9] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][284b81e9] Extracted 1 raw records (in 0.11s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][284b81e9] Cleaning and deduplicating records
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][284b81e9] 1 records after cleaning (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][284b81e9] Normalizing to unified schema
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][284b81e9] 1 records normalized (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][284b81e9] Applying Smart Field Mapper
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][284b81e9] Field mapping complete (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][284b81e9] Saving outputs
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][284b81e9] Saved 3 files (in 0.01s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [PIPELINE] Total execution time: 0.14s | job_id=284b81e9-1580-4015-8a5d-1d5086d386a0 | records=1
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB DONE] job_id=284b81e9-1580-4015-8a5d-1d5086d386a0
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB START] job_id=41da6f3e-02f1-4133-9522-d201cf8a54bd source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][41da6f3e] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:08:33] [INFO] [pipeline] [DETECT][41da6f3e] Source type -> pdf (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][41da6f3e] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf
+[2026-03-29 20:08:33] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\Handwritten.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:08:33] [INFO] [pipeline] [EXTRACT][41da6f3e] Extracted 0 raw records (in 0.13s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][41da6f3e] Cleaning and deduplicating records
+[2026-03-29 20:08:33] [INFO] [pipeline] [CLEAN][41da6f3e] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][41da6f3e] Normalizing to unified schema
+[2026-03-29 20:08:33] [INFO] [pipeline] [NORMALIZE][41da6f3e] 0 records normalized (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][41da6f3e] Applying Smart Field Mapper
+[2026-03-29 20:08:33] [INFO] [pipeline] [MAP][41da6f3e] Field mapping complete (in 0.00s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][41da6f3e] Saving outputs
+[2026-03-29 20:08:33] [INFO] [pipeline] [SAVE][41da6f3e] Saved 3 files (in 0.01s)
+[2026-03-29 20:08:33] [INFO] [pipeline] [PIPELINE] Total execution time: 0.15s | job_id=41da6f3e-02f1-4133-9522-d201cf8a54bd | records=0
+[2026-03-29 20:08:33] [INFO] [pipeline] [JOB DONE] job_id=41da6f3e-02f1-4133-9522-d201cf8a54bd
+[2026-03-29 20:28:01] [INFO] [pipeline] [JOB START] job_id=c50c7c1c-82b4-4881-846b-0d37d47ad286 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d68e947f_Admit Card.pdf
+[2026-03-29 20:28:01] [INFO] [pipeline] [DETECT][c50c7c1c] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d68e947f_Admit Card.pdf
+[2026-03-29 20:28:01] [INFO] [pipeline] [DETECT][c50c7c1c] Source type -> pdf (in 0.00s)
+[2026-03-29 20:28:01] [INFO] [pipeline] [EXTRACT][c50c7c1c] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d68e947f_Admit Card.pdf
+[2026-03-29 20:28:02] [INFO] [pipeline] [EXTRACT][c50c7c1c] Extracted 1 raw records (in 0.32s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [CLEAN][c50c7c1c] Cleaning and deduplicating records
+[2026-03-29 20:28:02] [INFO] [pipeline] [CLEAN][c50c7c1c] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [NORMALIZE][c50c7c1c] Normalizing to unified schema
+[2026-03-29 20:28:02] [INFO] [pipeline] [NORMALIZE][c50c7c1c] 1 records normalized (in 0.00s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [MAP][c50c7c1c] Applying Smart Field Mapper
+[2026-03-29 20:28:02] [INFO] [pipeline] [MAP][c50c7c1c] Field mapping complete (in 0.00s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [SAVE][c50c7c1c] Saving outputs
+[2026-03-29 20:28:02] [INFO] [pipeline] [SAVE][c50c7c1c] Saved 3 files (in 0.01s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [PIPELINE] Total execution time: 0.36s | job_id=c50c7c1c-82b4-4881-846b-0d37d47ad286 | records=1
+[2026-03-29 20:28:02] [INFO] [pipeline] [JOB DONE] job_id=c50c7c1c-82b4-4881-846b-0d37d47ad286
+[2026-03-29 20:28:02] [INFO] [pipeline] [JOB START] job_id=45c922dd-42cd-4f5f-8c28-b83d3920e6a1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\3a0c9d8d_PC Model Papers Solved.pdf
+[2026-03-29 20:28:02] [INFO] [pipeline] [DETECT][45c922dd] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\3a0c9d8d_PC Model Papers Solved.pdf
+[2026-03-29 20:28:02] [INFO] [pipeline] [DETECT][45c922dd] Source type -> pdf (in 0.00s)
+[2026-03-29 20:28:02] [INFO] [pipeline] [EXTRACT][45c922dd] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\3a0c9d8d_PC Model Papers Solved.pdf
+[2026-03-29 20:28:11] [INFO] [pipeline] [EXTRACT][45c922dd] Extracted 41 raw records (in 9.18s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [CLEAN][45c922dd] Cleaning and deduplicating records
+[2026-03-29 20:28:11] [INFO] [pipeline] [CLEAN][45c922dd] 41 records after cleaning (in 0.05s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [NORMALIZE][45c922dd] Normalizing to unified schema
+[2026-03-29 20:28:11] [INFO] [pipeline] [NORMALIZE][45c922dd] 41 records normalized (in 0.00s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [MAP][45c922dd] Applying Smart Field Mapper
+[2026-03-29 20:28:11] [INFO] [pipeline] [MAP][45c922dd] Field mapping complete (in 0.00s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [SAVE][45c922dd] Saving outputs
+[2026-03-29 20:28:11] [INFO] [pipeline] [SAVE][45c922dd] Saved 3 files (in 0.03s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [PIPELINE] Total execution time: 9.28s | job_id=45c922dd-42cd-4f5f-8c28-b83d3920e6a1 | records=41
+[2026-03-29 20:28:11] [INFO] [pipeline] [JOB DONE] job_id=45c922dd-42cd-4f5f-8c28-b83d3920e6a1
+[2026-03-29 20:28:11] [INFO] [pipeline] [JOB START] job_id=0f2af9ab-e21e-4cf6-b217-6dbbe73b42a9 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0d27fc81_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:28:11] [INFO] [pipeline] [DETECT][0f2af9ab] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0d27fc81_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:28:11] [INFO] [pipeline] [DETECT][0f2af9ab] Source type -> pdf (in 0.00s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [EXTRACT][0f2af9ab] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0d27fc81_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:28:11] [INFO] [pipeline] [EXTRACT][0f2af9ab] Extracted 1 raw records (in 0.12s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [CLEAN][0f2af9ab] Cleaning and deduplicating records
+[2026-03-29 20:28:11] [INFO] [pipeline] [CLEAN][0f2af9ab] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [NORMALIZE][0f2af9ab] Normalizing to unified schema
+[2026-03-29 20:28:11] [INFO] [pipeline] [NORMALIZE][0f2af9ab] 1 records normalized (in 0.00s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [MAP][0f2af9ab] Applying Smart Field Mapper
+[2026-03-29 20:28:11] [INFO] [pipeline] [MAP][0f2af9ab] Field mapping complete (in 0.00s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [SAVE][0f2af9ab] Saving outputs
+[2026-03-29 20:28:11] [INFO] [pipeline] [SAVE][0f2af9ab] Saved 3 files (in 0.01s)
+[2026-03-29 20:28:11] [INFO] [pipeline] [PIPELINE] Total execution time: 0.15s | job_id=0f2af9ab-e21e-4cf6-b217-6dbbe73b42a9 | records=1
+[2026-03-29 20:28:11] [INFO] [pipeline] [JOB DONE] job_id=0f2af9ab-e21e-4cf6-b217-6dbbe73b42a9
+[2026-03-29 20:33:51] [INFO] [pipeline] [JOB START] job_id=4b9ea3c9-64d6-4f9b-8260-52fa96f68cc2 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\293b98e0_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:33:51] [INFO] [pipeline] [DETECT][4b9ea3c9] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\293b98e0_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:33:51] [INFO] [pipeline] [DETECT][4b9ea3c9] Source type -> pdf (in 0.00s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [EXTRACT][4b9ea3c9] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\293b98e0_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:33:51] [INFO] [pipeline] [EXTRACT][4b9ea3c9] Extracted 1 raw records (in 0.14s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [CLEAN][4b9ea3c9] Cleaning and deduplicating records
+[2026-03-29 20:33:51] [INFO] [pipeline] [CLEAN][4b9ea3c9] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [NORMALIZE][4b9ea3c9] Normalizing to unified schema
+[2026-03-29 20:33:51] [INFO] [pipeline] [NORMALIZE][4b9ea3c9] 1 records normalized (in 0.00s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [MAP][4b9ea3c9] Applying Smart Field Mapper
+[2026-03-29 20:33:51] [INFO] [pipeline] [MAP][4b9ea3c9] Field mapping complete (in 0.00s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [SAVE][4b9ea3c9] Saving outputs
+[2026-03-29 20:33:51] [INFO] [pipeline] [SAVE][4b9ea3c9] Saved 3 files (in 0.01s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [PIPELINE] Total execution time: 0.17s | job_id=4b9ea3c9-64d6-4f9b-8260-52fa96f68cc2 | records=1
+[2026-03-29 20:33:51] [INFO] [pipeline] [JOB DONE] job_id=4b9ea3c9-64d6-4f9b-8260-52fa96f68cc2
+[2026-03-29 20:33:51] [INFO] [pipeline] [JOB START] job_id=072b06e1-0003-42c9-a944-8a98df7a3217 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\568c5673_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:33:51] [INFO] [pipeline] [DETECT][072b06e1] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\568c5673_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:33:51] [INFO] [pipeline] [DETECT][072b06e1] Source type -> pdf (in 0.00s)
+[2026-03-29 20:33:51] [INFO] [pipeline] [EXTRACT][072b06e1] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\568c5673_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:33:52] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\568c5673_CNS M-5 IMP Q&A.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:33:52] [INFO] [pipeline] [EXTRACT][072b06e1] Extracted 0 raw records (in 0.36s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [CLEAN][072b06e1] Cleaning and deduplicating records
+[2026-03-29 20:33:52] [INFO] [pipeline] [CLEAN][072b06e1] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [NORMALIZE][072b06e1] Normalizing to unified schema
+[2026-03-29 20:33:52] [INFO] [pipeline] [NORMALIZE][072b06e1] 0 records normalized (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [MAP][072b06e1] Applying Smart Field Mapper
+[2026-03-29 20:33:52] [INFO] [pipeline] [MAP][072b06e1] Field mapping complete (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [SAVE][072b06e1] Saving outputs
+[2026-03-29 20:33:52] [INFO] [pipeline] [SAVE][072b06e1] Saved 3 files (in 0.01s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [PIPELINE] Total execution time: 0.39s | job_id=072b06e1-0003-42c9-a944-8a98df7a3217 | records=0
+[2026-03-29 20:33:52] [INFO] [pipeline] [JOB DONE] job_id=072b06e1-0003-42c9-a944-8a98df7a3217
+[2026-03-29 20:33:52] [INFO] [pipeline] [JOB START] job_id=810bff29-a8ef-4e0f-91ad-81dcbf43896c source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\da8a793d_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:33:52] [INFO] [pipeline] [DETECT][810bff29] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\da8a793d_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:33:52] [INFO] [pipeline] [DETECT][810bff29] Source type -> pdf (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [EXTRACT][810bff29] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\da8a793d_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:33:52] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\da8a793d_10th &12 th marks card &Tc_2.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:33:52] [INFO] [pipeline] [EXTRACT][810bff29] Extracted 0 raw records (in 0.01s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [CLEAN][810bff29] Cleaning and deduplicating records
+[2026-03-29 20:33:52] [INFO] [pipeline] [CLEAN][810bff29] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [NORMALIZE][810bff29] Normalizing to unified schema
+[2026-03-29 20:33:52] [INFO] [pipeline] [NORMALIZE][810bff29] 0 records normalized (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [MAP][810bff29] Applying Smart Field Mapper
+[2026-03-29 20:33:52] [INFO] [pipeline] [MAP][810bff29] Field mapping complete (in 0.00s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [SAVE][810bff29] Saving outputs
+[2026-03-29 20:33:52] [INFO] [pipeline] [SAVE][810bff29] Saved 3 files (in 0.01s)
+[2026-03-29 20:33:52] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=810bff29-a8ef-4e0f-91ad-81dcbf43896c | records=0
+[2026-03-29 20:33:52] [INFO] [pipeline] [JOB DONE] job_id=810bff29-a8ef-4e0f-91ad-81dcbf43896c
+[2026-03-29 20:34:08] [INFO] [pipeline] [JOB START] job_id=b514bfd3-0a6f-4fb4-a531-bfb6bd442866 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\2d9806c7_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:34:08] [INFO] [pipeline] [DETECT][b514bfd3] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\2d9806c7_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:34:08] [INFO] [pipeline] [DETECT][b514bfd3] Source type -> pdf (in 0.00s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [EXTRACT][b514bfd3] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\2d9806c7_Mohammad_Afzal_Indikar_Styled_CV.pdf
+[2026-03-29 20:34:08] [INFO] [pipeline] [EXTRACT][b514bfd3] Extracted 1 raw records (in 0.16s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [CLEAN][b514bfd3] Cleaning and deduplicating records
+[2026-03-29 20:34:08] [INFO] [pipeline] [CLEAN][b514bfd3] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [NORMALIZE][b514bfd3] Normalizing to unified schema
+[2026-03-29 20:34:08] [INFO] [pipeline] [NORMALIZE][b514bfd3] 1 records normalized (in 0.00s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [MAP][b514bfd3] Applying Smart Field Mapper
+[2026-03-29 20:34:08] [INFO] [pipeline] [MAP][b514bfd3] Field mapping complete (in 0.00s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [SAVE][b514bfd3] Saving outputs
+[2026-03-29 20:34:08] [INFO] [pipeline] [SAVE][b514bfd3] Saved 3 files (in 0.01s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [PIPELINE] Total execution time: 0.19s | job_id=b514bfd3-0a6f-4fb4-a531-bfb6bd442866 | records=1
+[2026-03-29 20:34:08] [INFO] [pipeline] [JOB DONE] job_id=b514bfd3-0a6f-4fb4-a531-bfb6bd442866
+[2026-03-29 20:34:08] [INFO] [pipeline] [JOB START] job_id=2353b872-b4da-4aef-8fe2-866edcc3ab90 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\de72216f_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:34:08] [INFO] [pipeline] [DETECT][2353b872] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\de72216f_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:34:08] [INFO] [pipeline] [DETECT][2353b872] Source type -> pdf (in 0.00s)
+[2026-03-29 20:34:08] [INFO] [pipeline] [EXTRACT][2353b872] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\de72216f_CNS M-5 IMP Q&A.pdf
+[2026-03-29 20:34:09] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\de72216f_CNS M-5 IMP Q&A.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:34:09] [INFO] [pipeline] [EXTRACT][2353b872] Extracted 0 raw records (in 0.36s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [CLEAN][2353b872] Cleaning and deduplicating records
+[2026-03-29 20:34:09] [INFO] [pipeline] [CLEAN][2353b872] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [NORMALIZE][2353b872] Normalizing to unified schema
+[2026-03-29 20:34:09] [INFO] [pipeline] [NORMALIZE][2353b872] 0 records normalized (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [MAP][2353b872] Applying Smart Field Mapper
+[2026-03-29 20:34:09] [INFO] [pipeline] [MAP][2353b872] Field mapping complete (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [SAVE][2353b872] Saving outputs
+[2026-03-29 20:34:09] [INFO] [pipeline] [SAVE][2353b872] Saved 3 files (in 0.01s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [PIPELINE] Total execution time: 0.39s | job_id=2353b872-b4da-4aef-8fe2-866edcc3ab90 | records=0
+[2026-03-29 20:34:09] [INFO] [pipeline] [JOB DONE] job_id=2353b872-b4da-4aef-8fe2-866edcc3ab90
+[2026-03-29 20:34:09] [INFO] [pipeline] [JOB START] job_id=6f24ef9d-3be3-4c13-a802-979df5f31be1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\8f216fda_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:34:09] [INFO] [pipeline] [DETECT][6f24ef9d] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\8f216fda_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:34:09] [INFO] [pipeline] [DETECT][6f24ef9d] Source type -> pdf (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [EXTRACT][6f24ef9d] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\8f216fda_10th &12 th marks card &Tc_2.pdf
+[2026-03-29 20:34:09] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\8f216fda_10th &12 th marks card &Tc_2.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:34:09] [INFO] [pipeline] [EXTRACT][6f24ef9d] Extracted 0 raw records (in 0.01s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [CLEAN][6f24ef9d] Cleaning and deduplicating records
+[2026-03-29 20:34:09] [INFO] [pipeline] [CLEAN][6f24ef9d] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [NORMALIZE][6f24ef9d] Normalizing to unified schema
+[2026-03-29 20:34:09] [INFO] [pipeline] [NORMALIZE][6f24ef9d] 0 records normalized (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [MAP][6f24ef9d] Applying Smart Field Mapper
+[2026-03-29 20:34:09] [INFO] [pipeline] [MAP][6f24ef9d] Field mapping complete (in 0.00s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [SAVE][6f24ef9d] Saving outputs
+[2026-03-29 20:34:09] [INFO] [pipeline] [SAVE][6f24ef9d] Saved 3 files (in 0.01s)
+[2026-03-29 20:34:09] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=6f24ef9d-3be3-4c13-a802-979df5f31be1 | records=0
+[2026-03-29 20:34:09] [INFO] [pipeline] [JOB DONE] job_id=6f24ef9d-3be3-4c13-a802-979df5f31be1
+[2026-03-29 20:43:34] [INFO] [pipeline] [JOB START] job_id=bb61ee98-9808-466e-bc36-805b50ba3f06 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\93c49faf_Cryptography & Network Security.pdf
+[2026-03-29 20:43:34] [INFO] [pipeline] [DETECT][bb61ee98] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\93c49faf_Cryptography & Network Security.pdf
+[2026-03-29 20:43:34] [INFO] [pipeline] [DETECT][bb61ee98] Source type -> pdf (in 0.00s)
+[2026-03-29 20:43:34] [INFO] [pipeline] [EXTRACT][bb61ee98] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\93c49faf_Cryptography & Network Security.pdf
+[2026-03-29 20:43:37] [INFO] [pipeline] [EXTRACT][bb61ee98] Extracted 13 raw records (in 2.87s)
+[2026-03-29 20:43:37] [INFO] [pipeline] [CLEAN][bb61ee98] Cleaning and deduplicating records
+[2026-03-29 20:43:37] [INFO] [pipeline] [CLEAN][bb61ee98] 13 records after cleaning (in 0.07s)
+[2026-03-29 20:43:37] [INFO] [pipeline] [NORMALIZE][bb61ee98] Normalizing to unified schema
+[2026-03-29 20:43:37] [INFO] [pipeline] [NORMALIZE][bb61ee98] 13 records normalized (in 0.01s)
+[2026-03-29 20:43:37] [INFO] [pipeline] [MAP][bb61ee98] Applying Smart Field Mapper
+[2026-03-29 20:43:37] [INFO] [pipeline] [MAP][bb61ee98] Field mapping complete (in 0.00s)
+[2026-03-29 20:43:37] [INFO] [pipeline] [SAVE][bb61ee98] Saving outputs
+[2026-03-29 20:43:37] [INFO] [pipeline] [SAVE][bb61ee98] Saved 3 files (in 0.03s)
+[2026-03-29 20:43:37] [INFO] [pipeline] [PIPELINE] Total execution time: 2.99s | job_id=bb61ee98-9808-466e-bc36-805b50ba3f06 | records=13
+[2026-03-29 20:43:37] [INFO] [pipeline] [JOB DONE] job_id=bb61ee98-9808-466e-bc36-805b50ba3f06
+[2026-03-29 20:43:37] [INFO] [pipeline] [JOB START] job_id=d0e08a3d-3fe0-4a9b-9e9b-707f793027c5 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\57f2fd9c_Admit Card.pdf
+[2026-03-29 20:43:37] [INFO] [pipeline] [DETECT][d0e08a3d] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\57f2fd9c_Admit Card.pdf
+[2026-03-29 20:43:37] [ERROR] [pipeline] [JOB FAILED] job_id=d0e08a3d-3fe0-4a9b-9e9b-707f793027c5 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\57f2fd9c_Admit Card.pdf error=File not found: 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\57f2fd9c_Admit Card.pdf' (after 0.03s)
+Traceback (most recent call last):
+  File "C:\Users\afzal\Downloads\afzal\afzal\pipeline\orchestrator.py", line 129, in run
+    validated_source = validate_source(source, source_type)
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 75, in validate_source
+    _validate_file_path(source)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 134, in _validate_file_path
+    raise FileNotFoundError(f"File not found: '{source}'")
+FileNotFoundError: File not found: 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\57f2fd9c_Admit Card.pdf'
+
+[2026-03-29 20:43:37] [INFO] [pipeline] [JOB START] job_id=3c8eb7af-17d4-487e-8c83-c2112770fc95 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\09b71cc6_afzal resume (1) (3)(1).pdf
+[2026-03-29 20:43:37] [INFO] [pipeline] [DETECT][3c8eb7af] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\09b71cc6_afzal resume (1) (3)(1).pdf
+[2026-03-29 20:43:37] [ERROR] [pipeline] [JOB FAILED] job_id=3c8eb7af-17d4-487e-8c83-c2112770fc95 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\09b71cc6_afzal resume (1) (3)(1).pdf error=File not found: 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\09b71cc6_afzal resume (1) (3)(1).pdf' (after 0.02s)
+Traceback (most recent call last):
+  File "C:\Users\afzal\Downloads\afzal\afzal\pipeline\orchestrator.py", line 129, in run
+    validated_source = validate_source(source, source_type)
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 75, in validate_source
+    _validate_file_path(source)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 134, in _validate_file_path
+    raise FileNotFoundError(f"File not found: '{source}'")
+FileNotFoundError: File not found: 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\09b71cc6_afzal resume (1) (3)(1).pdf'
+
+[2026-03-29 20:43:39] [INFO] [pipeline] [JOB START] job_id=c0db94bc-a80f-4b86-a7b9-0713484f845e source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\02ae88fe_Cryptography & Network Security.pdf
+[2026-03-29 20:43:39] [INFO] [pipeline] [DETECT][c0db94bc] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\02ae88fe_Cryptography & Network Security.pdf
+[2026-03-29 20:43:39] [INFO] [pipeline] [DETECT][c0db94bc] Source type -> pdf (in 0.00s)
+[2026-03-29 20:43:39] [INFO] [pipeline] [EXTRACT][c0db94bc] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\02ae88fe_Cryptography & Network Security.pdf
+[2026-03-29 20:43:41] [INFO] [pipeline] [EXTRACT][c0db94bc] Extracted 13 raw records (in 2.60s)
+[2026-03-29 20:43:41] [INFO] [pipeline] [CLEAN][c0db94bc] Cleaning and deduplicating records
+[2026-03-29 20:43:42] [INFO] [pipeline] [CLEAN][c0db94bc] 13 records after cleaning (in 0.02s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [NORMALIZE][c0db94bc] Normalizing to unified schema
+[2026-03-29 20:43:42] [INFO] [pipeline] [NORMALIZE][c0db94bc] 13 records normalized (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [MAP][c0db94bc] Applying Smart Field Mapper
+[2026-03-29 20:43:42] [INFO] [pipeline] [MAP][c0db94bc] Field mapping complete (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [SAVE][c0db94bc] Saving outputs
+[2026-03-29 20:43:42] [INFO] [pipeline] [SAVE][c0db94bc] Saved 3 files (in 0.02s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [PIPELINE] Total execution time: 2.66s | job_id=c0db94bc-a80f-4b86-a7b9-0713484f845e | records=13
+[2026-03-29 20:43:42] [INFO] [pipeline] [JOB DONE] job_id=c0db94bc-a80f-4b86-a7b9-0713484f845e
+[2026-03-29 20:43:42] [INFO] [pipeline] [JOB START] job_id=f9daa173-ef9b-44c5-a028-9bf7b7c1772e source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\96ad4fc8_Admit Card.pdf
+[2026-03-29 20:43:42] [INFO] [pipeline] [DETECT][f9daa173] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\96ad4fc8_Admit Card.pdf
+[2026-03-29 20:43:42] [INFO] [pipeline] [DETECT][f9daa173] Source type -> pdf (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [EXTRACT][f9daa173] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\96ad4fc8_Admit Card.pdf
+[2026-03-29 20:43:42] [INFO] [pipeline] [EXTRACT][f9daa173] Extracted 1 raw records (in 0.34s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [CLEAN][f9daa173] Cleaning and deduplicating records
+[2026-03-29 20:43:42] [INFO] [pipeline] [CLEAN][f9daa173] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [NORMALIZE][f9daa173] Normalizing to unified schema
+[2026-03-29 20:43:42] [INFO] [pipeline] [NORMALIZE][f9daa173] 1 records normalized (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [MAP][f9daa173] Applying Smart Field Mapper
+[2026-03-29 20:43:42] [INFO] [pipeline] [MAP][f9daa173] Field mapping complete (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [SAVE][f9daa173] Saving outputs
+[2026-03-29 20:43:42] [INFO] [pipeline] [SAVE][f9daa173] Saved 3 files (in 0.01s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [PIPELINE] Total execution time: 0.38s | job_id=f9daa173-ef9b-44c5-a028-9bf7b7c1772e | records=1
+[2026-03-29 20:43:42] [INFO] [pipeline] [JOB DONE] job_id=f9daa173-ef9b-44c5-a028-9bf7b7c1772e
+[2026-03-29 20:43:42] [INFO] [pipeline] [JOB START] job_id=1322d21f-b8e9-4a17-b18a-5654defb54d5 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d0d5cf58_afzal resume (1) (3)(1).pdf
+[2026-03-29 20:43:42] [INFO] [pipeline] [DETECT][1322d21f] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d0d5cf58_afzal resume (1) (3)(1).pdf
+[2026-03-29 20:43:42] [INFO] [pipeline] [DETECT][1322d21f] Source type -> pdf (in 0.00s)
+[2026-03-29 20:43:42] [INFO] [pipeline] [EXTRACT][1322d21f] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d0d5cf58_afzal resume (1) (3)(1).pdf
+[2026-03-29 20:43:43] [INFO] [pipeline] [EXTRACT][1322d21f] Extracted 1 raw records (in 0.67s)
+[2026-03-29 20:43:43] [INFO] [pipeline] [CLEAN][1322d21f] Cleaning and deduplicating records
+[2026-03-29 20:43:43] [INFO] [pipeline] [CLEAN][1322d21f] 1 records after cleaning (in 0.01s)
+[2026-03-29 20:43:43] [INFO] [pipeline] [NORMALIZE][1322d21f] Normalizing to unified schema
+[2026-03-29 20:43:43] [INFO] [pipeline] [NORMALIZE][1322d21f] 1 records normalized (in 0.00s)
+[2026-03-29 20:43:43] [INFO] [pipeline] [MAP][1322d21f] Applying Smart Field Mapper
+[2026-03-29 20:43:43] [INFO] [pipeline] [MAP][1322d21f] Field mapping complete (in 0.00s)
+[2026-03-29 20:43:43] [INFO] [pipeline] [SAVE][1322d21f] Saving outputs
+[2026-03-29 20:43:43] [INFO] [pipeline] [SAVE][1322d21f] Saved 3 files (in 0.01s)
+[2026-03-29 20:43:43] [INFO] [pipeline] [PIPELINE] Total execution time: 0.71s | job_id=1322d21f-b8e9-4a17-b18a-5654defb54d5 | records=1
+[2026-03-29 20:43:43] [INFO] [pipeline] [JOB DONE] job_id=1322d21f-b8e9-4a17-b18a-5654defb54d5
+[2026-03-29 20:47:23] [INFO] [pipeline] [JOB START] job_id=fa8db5d0-53d5-4a46-8eec-a61a639493ba source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fb7bbcee_CN 1.1.pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][fa8db5d0] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fb7bbcee_CN 1.1.pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][fa8db5d0] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [EXTRACT][fa8db5d0] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fb7bbcee_CN 1.1.pdf
+[2026-03-29 20:47:23] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fb7bbcee_CN 1.1.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:23] [INFO] [pipeline] [EXTRACT][fa8db5d0] Extracted 0 raw records (in 0.06s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [CLEAN][fa8db5d0] Cleaning and deduplicating records
+[2026-03-29 20:47:23] [INFO] [pipeline] [CLEAN][fa8db5d0] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [NORMALIZE][fa8db5d0] Normalizing to unified schema
+[2026-03-29 20:47:23] [INFO] [pipeline] [NORMALIZE][fa8db5d0] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [MAP][fa8db5d0] Applying Smart Field Mapper
+[2026-03-29 20:47:23] [INFO] [pipeline] [MAP][fa8db5d0] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [SAVE][fa8db5d0] Saving outputs
+[2026-03-29 20:47:23] [INFO] [pipeline] [SAVE][fa8db5d0] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [PIPELINE] Total execution time: 0.09s | job_id=fa8db5d0-53d5-4a46-8eec-a61a639493ba | records=0
+[2026-03-29 20:47:23] [INFO] [pipeline] [JOB DONE] job_id=fa8db5d0-53d5-4a46-8eec-a61a639493ba
+[2026-03-29 20:47:23] [INFO] [pipeline] [JOB START] job_id=45e8e020-a5ed-4f5c-8be9-12859bc060fb source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\03495ba5_CN 2 .pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][45e8e020] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\03495ba5_CN 2 .pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][45e8e020] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [EXTRACT][45e8e020] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\03495ba5_CN 2 .pdf
+[2026-03-29 20:47:23] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\03495ba5_CN 2 .pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:23] [INFO] [pipeline] [EXTRACT][45e8e020] Extracted 0 raw records (in 0.06s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [CLEAN][45e8e020] Cleaning and deduplicating records
+[2026-03-29 20:47:23] [INFO] [pipeline] [CLEAN][45e8e020] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [NORMALIZE][45e8e020] Normalizing to unified schema
+[2026-03-29 20:47:23] [INFO] [pipeline] [NORMALIZE][45e8e020] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [MAP][45e8e020] Applying Smart Field Mapper
+[2026-03-29 20:47:23] [INFO] [pipeline] [MAP][45e8e020] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [SAVE][45e8e020] Saving outputs
+[2026-03-29 20:47:23] [INFO] [pipeline] [SAVE][45e8e020] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [PIPELINE] Total execution time: 0.09s | job_id=45e8e020-a5ed-4f5c-8be9-12859bc060fb | records=0
+[2026-03-29 20:47:23] [INFO] [pipeline] [JOB DONE] job_id=45e8e020-a5ed-4f5c-8be9-12859bc060fb
+[2026-03-29 20:47:23] [INFO] [pipeline] [JOB START] job_id=56e087c9-c6f1-4fab-a1df-d663a70fd5f6 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f1bc31b1_CNS 4 .pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][56e087c9] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f1bc31b1_CNS 4 .pdf
+[2026-03-29 20:47:23] [INFO] [pipeline] [DETECT][56e087c9] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:23] [INFO] [pipeline] [EXTRACT][56e087c9] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f1bc31b1_CNS 4 .pdf
+[2026-03-29 20:47:24] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f1bc31b1_CNS 4 .pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:24] [INFO] [pipeline] [EXTRACT][56e087c9] Extracted 0 raw records (in 0.15s)
+[2026-03-29 20:47:24] [INFO] [pipeline] [CLEAN][56e087c9] Cleaning and deduplicating records
+[2026-03-29 20:47:24] [INFO] [pipeline] [CLEAN][56e087c9] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:24] [INFO] [pipeline] [NORMALIZE][56e087c9] Normalizing to unified schema
+[2026-03-29 20:47:24] [INFO] [pipeline] [NORMALIZE][56e087c9] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:24] [INFO] [pipeline] [MAP][56e087c9] Applying Smart Field Mapper
+[2026-03-29 20:47:24] [INFO] [pipeline] [MAP][56e087c9] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:24] [INFO] [pipeline] [SAVE][56e087c9] Saving outputs
+[2026-03-29 20:47:24] [INFO] [pipeline] [SAVE][56e087c9] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:24] [INFO] [pipeline] [PIPELINE] Total execution time: 0.18s | job_id=56e087c9-c6f1-4fab-a1df-d663a70fd5f6 | records=0
+[2026-03-29 20:47:24] [INFO] [pipeline] [JOB DONE] job_id=56e087c9-c6f1-4fab-a1df-d663a70fd5f6
+[2026-03-29 20:47:50] [INFO] [pipeline] [JOB START] job_id=5bd506cf-4d80-4e23-b028-b5646f5a7e0a source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c89ffd26_CN 1.1.pdf
+[2026-03-29 20:47:50] [INFO] [pipeline] [DETECT][5bd506cf] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c89ffd26_CN 1.1.pdf
+[2026-03-29 20:47:50] [INFO] [pipeline] [DETECT][5bd506cf] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [EXTRACT][5bd506cf] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c89ffd26_CN 1.1.pdf
+[2026-03-29 20:47:50] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c89ffd26_CN 1.1.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:50] [INFO] [pipeline] [EXTRACT][5bd506cf] Extracted 0 raw records (in 0.06s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [CLEAN][5bd506cf] Cleaning and deduplicating records
+[2026-03-29 20:47:50] [INFO] [pipeline] [CLEAN][5bd506cf] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [NORMALIZE][5bd506cf] Normalizing to unified schema
+[2026-03-29 20:47:50] [INFO] [pipeline] [NORMALIZE][5bd506cf] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [MAP][5bd506cf] Applying Smart Field Mapper
+[2026-03-29 20:47:50] [INFO] [pipeline] [MAP][5bd506cf] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [SAVE][5bd506cf] Saving outputs
+[2026-03-29 20:47:50] [INFO] [pipeline] [SAVE][5bd506cf] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [PIPELINE] Total execution time: 0.08s | job_id=5bd506cf-4d80-4e23-b028-b5646f5a7e0a | records=0
+[2026-03-29 20:47:50] [INFO] [pipeline] [JOB DONE] job_id=5bd506cf-4d80-4e23-b028-b5646f5a7e0a
+[2026-03-29 20:47:50] [INFO] [pipeline] [JOB START] job_id=b6add917-c24a-475c-8882-ec9e6c674a7f source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\4828cf19_CN 2 .pdf
+[2026-03-29 20:47:50] [INFO] [pipeline] [DETECT][b6add917] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\4828cf19_CN 2 .pdf
+[2026-03-29 20:47:50] [INFO] [pipeline] [DETECT][b6add917] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [EXTRACT][b6add917] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\4828cf19_CN 2 .pdf
+[2026-03-29 20:47:50] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\4828cf19_CN 2 .pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:50] [INFO] [pipeline] [EXTRACT][b6add917] Extracted 0 raw records (in 0.10s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [CLEAN][b6add917] Cleaning and deduplicating records
+[2026-03-29 20:47:50] [INFO] [pipeline] [CLEAN][b6add917] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:50] [INFO] [pipeline] [NORMALIZE][b6add917] Normalizing to unified schema
+[2026-03-29 20:47:50] [INFO] [pipeline] [NORMALIZE][b6add917] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [MAP][b6add917] Applying Smart Field Mapper
+[2026-03-29 20:47:51] [INFO] [pipeline] [MAP][b6add917] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [SAVE][b6add917] Saving outputs
+[2026-03-29 20:47:51] [INFO] [pipeline] [SAVE][b6add917] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [PIPELINE] Total execution time: 0.14s | job_id=b6add917-c24a-475c-8882-ec9e6c674a7f | records=0
+[2026-03-29 20:47:51] [INFO] [pipeline] [JOB DONE] job_id=b6add917-c24a-475c-8882-ec9e6c674a7f
+[2026-03-29 20:47:51] [INFO] [pipeline] [JOB START] job_id=7b1e8bab-889f-4c68-b067-db28e3936efe source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\142069f6_CNS 4 .pdf
+[2026-03-29 20:47:51] [INFO] [pipeline] [DETECT][7b1e8bab] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\142069f6_CNS 4 .pdf
+[2026-03-29 20:47:51] [INFO] [pipeline] [DETECT][7b1e8bab] Source type -> pdf (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [EXTRACT][7b1e8bab] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\142069f6_CNS 4 .pdf
+[2026-03-29 20:47:51] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\142069f6_CNS 4 .pdf'. Source may be empty or unsupported.
+[2026-03-29 20:47:51] [INFO] [pipeline] [EXTRACT][7b1e8bab] Extracted 0 raw records (in 0.16s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [CLEAN][7b1e8bab] Cleaning and deduplicating records
+[2026-03-29 20:47:51] [INFO] [pipeline] [CLEAN][7b1e8bab] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [NORMALIZE][7b1e8bab] Normalizing to unified schema
+[2026-03-29 20:47:51] [INFO] [pipeline] [NORMALIZE][7b1e8bab] 0 records normalized (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [MAP][7b1e8bab] Applying Smart Field Mapper
+[2026-03-29 20:47:51] [INFO] [pipeline] [MAP][7b1e8bab] Field mapping complete (in 0.00s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [SAVE][7b1e8bab] Saving outputs
+[2026-03-29 20:47:51] [INFO] [pipeline] [SAVE][7b1e8bab] Saved 3 files (in 0.01s)
+[2026-03-29 20:47:51] [INFO] [pipeline] [PIPELINE] Total execution time: 0.19s | job_id=7b1e8bab-889f-4c68-b067-db28e3936efe | records=0
+[2026-03-29 20:47:51] [INFO] [pipeline] [JOB DONE] job_id=7b1e8bab-889f-4c68-b067-db28e3936efe
+[2026-03-29 20:48:21] [INFO] [pipeline] [JOB START] job_id=98eee89a-3cc0-4bae-a6e4-e55ad8991cd1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2181a3b_CNS 3.pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][98eee89a] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2181a3b_CNS 3.pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][98eee89a] Source type -> pdf (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][98eee89a] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2181a3b_CNS 3.pdf
+[2026-03-29 20:48:21] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2181a3b_CNS 3.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][98eee89a] Extracted 0 raw records (in 0.11s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][98eee89a] Cleaning and deduplicating records
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][98eee89a] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][98eee89a] Normalizing to unified schema
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][98eee89a] 0 records normalized (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][98eee89a] Applying Smart Field Mapper
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][98eee89a] Field mapping complete (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [SAVE][98eee89a] Saving outputs
+[2026-03-29 20:48:21] [INFO] [pipeline] [SAVE][98eee89a] Saved 3 files (in 0.01s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [PIPELINE] Total execution time: 0.14s | job_id=98eee89a-3cc0-4bae-a6e4-e55ad8991cd1 | records=0
+[2026-03-29 20:48:21] [INFO] [pipeline] [JOB DONE] job_id=98eee89a-3cc0-4bae-a6e4-e55ad8991cd1
+[2026-03-29 20:48:21] [INFO] [pipeline] [JOB START] job_id=af17cca7-ffb4-4303-87b2-4287577b53b1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10134d61_CN 1.1.pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][af17cca7] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10134d61_CN 1.1.pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][af17cca7] Source type -> pdf (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][af17cca7] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10134d61_CN 1.1.pdf
+[2026-03-29 20:48:21] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\10134d61_CN 1.1.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][af17cca7] Extracted 0 raw records (in 0.05s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][af17cca7] Cleaning and deduplicating records
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][af17cca7] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][af17cca7] Normalizing to unified schema
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][af17cca7] 0 records normalized (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][af17cca7] Applying Smart Field Mapper
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][af17cca7] Field mapping complete (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [SAVE][af17cca7] Saving outputs
+[2026-03-29 20:48:21] [INFO] [pipeline] [SAVE][af17cca7] Saved 3 files (in 0.01s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [PIPELINE] Total execution time: 0.08s | job_id=af17cca7-ffb4-4303-87b2-4287577b53b1 | records=0
+[2026-03-29 20:48:21] [INFO] [pipeline] [JOB DONE] job_id=af17cca7-ffb4-4303-87b2-4287577b53b1
+[2026-03-29 20:48:21] [INFO] [pipeline] [JOB START] job_id=af4a35b8-f267-494f-9064-7468a0e75d89 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\33c95628_CN 2 .pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][af4a35b8] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\33c95628_CN 2 .pdf
+[2026-03-29 20:48:21] [INFO] [pipeline] [DETECT][af4a35b8] Source type -> pdf (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][af4a35b8] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\33c95628_CN 2 .pdf
+[2026-03-29 20:48:21] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\33c95628_CN 2 .pdf'. Source may be empty or unsupported.
+[2026-03-29 20:48:21] [INFO] [pipeline] [EXTRACT][af4a35b8] Extracted 0 raw records (in 0.10s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][af4a35b8] Cleaning and deduplicating records
+[2026-03-29 20:48:21] [INFO] [pipeline] [CLEAN][af4a35b8] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][af4a35b8] Normalizing to unified schema
+[2026-03-29 20:48:21] [INFO] [pipeline] [NORMALIZE][af4a35b8] 0 records normalized (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][af4a35b8] Applying Smart Field Mapper
+[2026-03-29 20:48:21] [INFO] [pipeline] [MAP][af4a35b8] Field mapping complete (in 0.00s)
+[2026-03-29 20:48:21] [INFO] [pipeline] [SAVE][af4a35b8] Saving outputs
+[2026-03-29 20:48:22] [INFO] [pipeline] [SAVE][af4a35b8] Saved 3 files (in 0.02s)
+[2026-03-29 20:48:22] [INFO] [pipeline] [PIPELINE] Total execution time: 0.13s | job_id=af4a35b8-f267-494f-9064-7468a0e75d89 | records=0
+[2026-03-29 20:48:22] [INFO] [pipeline] [JOB DONE] job_id=af4a35b8-f267-494f-9064-7468a0e75d89
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB START] job_id=b68d2c42-5846-4dac-ba95-4ebc5db65527 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c91a91e8_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][b68d2c42] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c91a91e8_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][b68d2c42] Source type -> pdf (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][b68d2c42] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c91a91e8_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:10:04] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\c91a91e8_New Doc 10-28-2025 15.31.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][b68d2c42] Extracted 0 raw records (in 0.02s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][b68d2c42] Cleaning and deduplicating records
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][b68d2c42] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][b68d2c42] Normalizing to unified schema
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][b68d2c42] 0 records normalized (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][b68d2c42] Applying Smart Field Mapper
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][b68d2c42] Field mapping complete (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][b68d2c42] Saving outputs
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][b68d2c42] Saved 3 files (in 0.01s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [PIPELINE] Total execution time: 0.05s | job_id=b68d2c42-5846-4dac-ba95-4ebc5db65527 | records=0
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB DONE] job_id=b68d2c42-5846-4dac-ba95-4ebc5db65527
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB START] job_id=6c0aee78-79cd-471a-98d8-5d0c996aade7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\b545c712_Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][6c0aee78] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\b545c712_Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][6c0aee78] Source type -> pdf (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][6c0aee78] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\b545c712_Annual_Exam_Form_dm_2019.pdf
+[2026-03-29 21:10:04] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\b545c712_Annual_Exam_Form_dm_2019.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][6c0aee78] Extracted 0 raw records (in 0.04s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][6c0aee78] Cleaning and deduplicating records
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][6c0aee78] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][6c0aee78] Normalizing to unified schema
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][6c0aee78] 0 records normalized (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][6c0aee78] Applying Smart Field Mapper
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][6c0aee78] Field mapping complete (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][6c0aee78] Saving outputs
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][6c0aee78] Saved 3 files (in 0.01s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [PIPELINE] Total execution time: 0.06s | job_id=6c0aee78-79cd-471a-98d8-5d0c996aade7 | records=0
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB DONE] job_id=6c0aee78-79cd-471a-98d8-5d0c996aade7
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB START] job_id=f05a2295-bdbf-4e72-8536-89943c648518 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d4c18d2_CamScanner 02-28-2023 12.03.29.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][f05a2295] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d4c18d2_CamScanner 02-28-2023 12.03.29.pdf
+[2026-03-29 21:10:04] [INFO] [pipeline] [DETECT][f05a2295] Source type -> pdf (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][f05a2295] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d4c18d2_CamScanner 02-28-2023 12.03.29.pdf
+[2026-03-29 21:10:04] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d4c18d2_CamScanner 02-28-2023 12.03.29.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:10:04] [INFO] [pipeline] [EXTRACT][f05a2295] Extracted 0 raw records (in 0.01s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][f05a2295] Cleaning and deduplicating records
+[2026-03-29 21:10:04] [INFO] [pipeline] [CLEAN][f05a2295] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][f05a2295] Normalizing to unified schema
+[2026-03-29 21:10:04] [INFO] [pipeline] [NORMALIZE][f05a2295] 0 records normalized (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][f05a2295] Applying Smart Field Mapper
+[2026-03-29 21:10:04] [INFO] [pipeline] [MAP][f05a2295] Field mapping complete (in 0.00s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][f05a2295] Saving outputs
+[2026-03-29 21:10:04] [INFO] [pipeline] [SAVE][f05a2295] Saved 3 files (in 0.02s)
+[2026-03-29 21:10:04] [INFO] [pipeline] [PIPELINE] Total execution time: 0.06s | job_id=f05a2295-bdbf-4e72-8536-89943c648518 | records=0
+[2026-03-29 21:10:04] [INFO] [pipeline] [JOB DONE] job_id=f05a2295-bdbf-4e72-8536-89943c648518
+[2026-03-29 21:24:06] [INFO] [pipeline] [JOB START] job_id=fd1dad18-96da-428c-9daf-2187eb0a44d7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d39a9c36_Handwritten.pdf
+[2026-03-29 21:24:06] [INFO] [pipeline] [DETECT][fd1dad18] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d39a9c36_Handwritten.pdf
+[2026-03-29 21:24:06] [INFO] [pipeline] [DETECT][fd1dad18] Source type -> pdf (in 0.00s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [EXTRACT][fd1dad18] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d39a9c36_Handwritten.pdf
+[2026-03-29 21:24:06] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\d39a9c36_Handwritten.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:24:06] [INFO] [pipeline] [EXTRACT][fd1dad18] Extracted 0 raw records (in 0.13s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [CLEAN][fd1dad18] Cleaning and deduplicating records
+[2026-03-29 21:24:06] [INFO] [pipeline] [CLEAN][fd1dad18] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [NORMALIZE][fd1dad18] Normalizing to unified schema
+[2026-03-29 21:24:06] [INFO] [pipeline] [NORMALIZE][fd1dad18] 0 records normalized (in 0.00s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [MAP][fd1dad18] Applying Smart Field Mapper
+[2026-03-29 21:24:06] [INFO] [pipeline] [MAP][fd1dad18] Field mapping complete (in 0.00s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [SAVE][fd1dad18] Saving outputs
+[2026-03-29 21:24:06] [INFO] [pipeline] [SAVE][fd1dad18] Saved 3 files (in 0.01s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [PIPELINE] Total execution time: 0.16s | job_id=fd1dad18-96da-428c-9daf-2187eb0a44d7 | records=0
+[2026-03-29 21:24:06] [INFO] [pipeline] [JOB DONE] job_id=fd1dad18-96da-428c-9daf-2187eb0a44d7
+[2026-03-29 21:24:06] [INFO] [pipeline] [JOB START] job_id=3a1e7436-58e7-42a1-add1-996a3baaf434 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\60661706_BCS703-module-2-textbook.pdf
+[2026-03-29 21:24:06] [INFO] [pipeline] [DETECT][3a1e7436] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\60661706_BCS703-module-2-textbook.pdf
+[2026-03-29 21:24:06] [INFO] [pipeline] [DETECT][3a1e7436] Source type -> pdf (in 0.00s)
+[2026-03-29 21:24:06] [INFO] [pipeline] [EXTRACT][3a1e7436] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\60661706_BCS703-module-2-textbook.pdf
+[2026-03-29 21:24:16] [INFO] [pipeline] [EXTRACT][3a1e7436] Extracted 38 raw records (in 9.38s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [CLEAN][3a1e7436] Cleaning and deduplicating records
+[2026-03-29 21:24:16] [INFO] [pipeline] [CLEAN][3a1e7436] 38 records after cleaning (in 0.05s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [NORMALIZE][3a1e7436] Normalizing to unified schema
+[2026-03-29 21:24:16] [INFO] [pipeline] [NORMALIZE][3a1e7436] 38 records normalized (in 0.00s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [MAP][3a1e7436] Applying Smart Field Mapper
+[2026-03-29 21:24:16] [INFO] [pipeline] [MAP][3a1e7436] Field mapping complete (in 0.00s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [SAVE][3a1e7436] Saving outputs
+[2026-03-29 21:24:16] [INFO] [pipeline] [SAVE][3a1e7436] Saved 3 files (in 0.03s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [PIPELINE] Total execution time: 9.49s | job_id=3a1e7436-58e7-42a1-add1-996a3baaf434 | records=38
+[2026-03-29 21:24:16] [INFO] [pipeline] [JOB DONE] job_id=3a1e7436-58e7-42a1-add1-996a3baaf434
+[2026-03-29 21:24:16] [INFO] [pipeline] [JOB START] job_id=020f5124-30b5-45d5-a7ea-81b7b38f4ff2 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\e9530208_resume.pdf
+[2026-03-29 21:24:16] [INFO] [pipeline] [DETECT][020f5124] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\e9530208_resume.pdf
+[2026-03-29 21:24:16] [INFO] [pipeline] [DETECT][020f5124] Source type -> pdf (in 0.00s)
+[2026-03-29 21:24:16] [INFO] [pipeline] [EXTRACT][020f5124] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\e9530208_resume.pdf
+[2026-03-29 21:24:17] [INFO] [pipeline] [EXTRACT][020f5124] Extracted 1 raw records (in 0.82s)
+[2026-03-29 21:24:17] [INFO] [pipeline] [CLEAN][020f5124] Cleaning and deduplicating records
+[2026-03-29 21:24:17] [INFO] [pipeline] [CLEAN][020f5124] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:24:17] [INFO] [pipeline] [NORMALIZE][020f5124] Normalizing to unified schema
+[2026-03-29 21:24:17] [INFO] [pipeline] [NORMALIZE][020f5124] 1 records normalized (in 0.00s)
+[2026-03-29 21:24:17] [INFO] [pipeline] [MAP][020f5124] Applying Smart Field Mapper
+[2026-03-29 21:24:17] [INFO] [pipeline] [MAP][020f5124] Field mapping complete (in 0.00s)
+[2026-03-29 21:24:17] [INFO] [pipeline] [SAVE][020f5124] Saving outputs
+[2026-03-29 21:24:17] [INFO] [pipeline] [SAVE][020f5124] Saved 3 files (in 0.01s)
+[2026-03-29 21:24:17] [INFO] [pipeline] [PIPELINE] Total execution time: 0.86s | job_id=020f5124-30b5-45d5-a7ea-81b7b38f4ff2 | records=1
+[2026-03-29 21:24:17] [INFO] [pipeline] [JOB DONE] job_id=020f5124-30b5-45d5-a7ea-81b7b38f4ff2
+[2026-03-29 21:26:12] [INFO] [pipeline] [JOB START] job_id=71603a00-8fd2-47f8-a85c-18d139d3074e source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6be16034_Handwritten.pdf
+[2026-03-29 21:26:12] [INFO] [pipeline] [DETECT][71603a00] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6be16034_Handwritten.pdf
+[2026-03-29 21:26:12] [INFO] [pipeline] [DETECT][71603a00] Source type -> pdf (in 0.00s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [EXTRACT][71603a00] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6be16034_Handwritten.pdf
+[2026-03-29 21:26:12] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6be16034_Handwritten.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:26:12] [INFO] [pipeline] [EXTRACT][71603a00] Extracted 0 raw records (in 0.16s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [CLEAN][71603a00] Cleaning and deduplicating records
+[2026-03-29 21:26:12] [INFO] [pipeline] [CLEAN][71603a00] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [NORMALIZE][71603a00] Normalizing to unified schema
+[2026-03-29 21:26:12] [INFO] [pipeline] [NORMALIZE][71603a00] 0 records normalized (in 0.00s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [MAP][71603a00] Applying Smart Field Mapper
+[2026-03-29 21:26:12] [INFO] [pipeline] [MAP][71603a00] Field mapping complete (in 0.00s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [SAVE][71603a00] Saving outputs
+[2026-03-29 21:26:12] [INFO] [pipeline] [SAVE][71603a00] Saved 3 files (in 0.01s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [PIPELINE] Total execution time: 0.19s | job_id=71603a00-8fd2-47f8-a85c-18d139d3074e | records=0
+[2026-03-29 21:26:12] [INFO] [pipeline] [JOB DONE] job_id=71603a00-8fd2-47f8-a85c-18d139d3074e
+[2026-03-29 21:26:12] [INFO] [pipeline] [JOB START] job_id=7e665d53-177c-4ece-a357-9d372b6c57fe source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ebb7323a_BCS703-module-2-textbook.pdf
+[2026-03-29 21:26:12] [INFO] [pipeline] [DETECT][7e665d53] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ebb7323a_BCS703-module-2-textbook.pdf
+[2026-03-29 21:26:12] [INFO] [pipeline] [DETECT][7e665d53] Source type -> pdf (in 0.00s)
+[2026-03-29 21:26:12] [INFO] [pipeline] [EXTRACT][7e665d53] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ebb7323a_BCS703-module-2-textbook.pdf
+[2026-03-29 21:26:23] [INFO] [pipeline] [EXTRACT][7e665d53] Extracted 38 raw records (in 10.44s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [CLEAN][7e665d53] Cleaning and deduplicating records
+[2026-03-29 21:26:23] [INFO] [pipeline] [CLEAN][7e665d53] 38 records after cleaning (in 0.04s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [NORMALIZE][7e665d53] Normalizing to unified schema
+[2026-03-29 21:26:23] [INFO] [pipeline] [NORMALIZE][7e665d53] 38 records normalized (in 0.00s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [MAP][7e665d53] Applying Smart Field Mapper
+[2026-03-29 21:26:23] [INFO] [pipeline] [MAP][7e665d53] Field mapping complete (in 0.00s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [SAVE][7e665d53] Saving outputs
+[2026-03-29 21:26:23] [INFO] [pipeline] [SAVE][7e665d53] Saved 3 files (in 0.03s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [PIPELINE] Total execution time: 10.54s | job_id=7e665d53-177c-4ece-a357-9d372b6c57fe | records=38
+[2026-03-29 21:26:23] [INFO] [pipeline] [JOB DONE] job_id=7e665d53-177c-4ece-a357-9d372b6c57fe
+[2026-03-29 21:26:23] [INFO] [pipeline] [JOB START] job_id=bbd3436b-4cc5-429f-ab14-1a27686b763a source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f6f7e7bb_resume.pdf
+[2026-03-29 21:26:23] [INFO] [pipeline] [DETECT][bbd3436b] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f6f7e7bb_resume.pdf
+[2026-03-29 21:26:23] [INFO] [pipeline] [DETECT][bbd3436b] Source type -> pdf (in 0.00s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [EXTRACT][bbd3436b] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f6f7e7bb_resume.pdf
+[2026-03-29 21:26:23] [INFO] [pipeline] [EXTRACT][bbd3436b] Extracted 1 raw records (in 0.72s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [CLEAN][bbd3436b] Cleaning and deduplicating records
+[2026-03-29 21:26:23] [INFO] [pipeline] [CLEAN][bbd3436b] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [NORMALIZE][bbd3436b] Normalizing to unified schema
+[2026-03-29 21:26:23] [INFO] [pipeline] [NORMALIZE][bbd3436b] 1 records normalized (in 0.00s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [MAP][bbd3436b] Applying Smart Field Mapper
+[2026-03-29 21:26:23] [INFO] [pipeline] [MAP][bbd3436b] Field mapping complete (in 0.00s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [SAVE][bbd3436b] Saving outputs
+[2026-03-29 21:26:23] [INFO] [pipeline] [SAVE][bbd3436b] Saved 3 files (in 0.01s)
+[2026-03-29 21:26:23] [INFO] [pipeline] [PIPELINE] Total execution time: 0.76s | job_id=bbd3436b-4cc5-429f-ab14-1a27686b763a | records=1
+[2026-03-29 21:26:23] [INFO] [pipeline] [JOB DONE] job_id=bbd3436b-4cc5-429f-ab14-1a27686b763a
+[2026-03-29 21:29:29] [INFO] [pipeline] [JOB START] job_id=5ae86f59-cd75-48c6-a42f-90dd31f798fa source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ad8a1a2c_CNS 5 .pdf
+[2026-03-29 21:29:29] [INFO] [pipeline] [DETECT][5ae86f59] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ad8a1a2c_CNS 5 .pdf
+[2026-03-29 21:29:29] [INFO] [pipeline] [DETECT][5ae86f59] Source type -> pdf (in 0.00s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [EXTRACT][5ae86f59] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ad8a1a2c_CNS 5 .pdf
+[2026-03-29 21:29:29] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ad8a1a2c_CNS 5 .pdf'. Source may be empty or unsupported.
+[2026-03-29 21:29:29] [INFO] [pipeline] [EXTRACT][5ae86f59] Extracted 0 raw records (in 0.08s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [CLEAN][5ae86f59] Cleaning and deduplicating records
+[2026-03-29 21:29:29] [INFO] [pipeline] [CLEAN][5ae86f59] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [NORMALIZE][5ae86f59] Normalizing to unified schema
+[2026-03-29 21:29:29] [INFO] [pipeline] [NORMALIZE][5ae86f59] 0 records normalized (in 0.00s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [MAP][5ae86f59] Applying Smart Field Mapper
+[2026-03-29 21:29:29] [INFO] [pipeline] [MAP][5ae86f59] Field mapping complete (in 0.00s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [SAVE][5ae86f59] Saving outputs
+[2026-03-29 21:29:29] [INFO] [pipeline] [SAVE][5ae86f59] Saved 3 files (in 0.01s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [PIPELINE] Total execution time: 0.11s | job_id=5ae86f59-cd75-48c6-a42f-90dd31f798fa | records=0
+[2026-03-29 21:29:29] [INFO] [pipeline] [JOB DONE] job_id=5ae86f59-cd75-48c6-a42f-90dd31f798fa
+[2026-03-29 21:29:29] [INFO] [pipeline] [JOB START] job_id=87b242e8-f17f-4df4-aea9-47c0d39a7b02 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d51e82c_CNS 3.pdf
+[2026-03-29 21:29:29] [INFO] [pipeline] [DETECT][87b242e8] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d51e82c_CNS 3.pdf
+[2026-03-29 21:29:29] [INFO] [pipeline] [DETECT][87b242e8] Source type -> pdf (in 0.00s)
+[2026-03-29 21:29:29] [INFO] [pipeline] [EXTRACT][87b242e8] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d51e82c_CNS 3.pdf
+[2026-03-29 21:29:30] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1d51e82c_CNS 3.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:29:30] [INFO] [pipeline] [EXTRACT][87b242e8] Extracted 0 raw records (in 0.08s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [CLEAN][87b242e8] Cleaning and deduplicating records
+[2026-03-29 21:29:30] [INFO] [pipeline] [CLEAN][87b242e8] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [NORMALIZE][87b242e8] Normalizing to unified schema
+[2026-03-29 21:29:30] [INFO] [pipeline] [NORMALIZE][87b242e8] 0 records normalized (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [MAP][87b242e8] Applying Smart Field Mapper
+[2026-03-29 21:29:30] [INFO] [pipeline] [MAP][87b242e8] Field mapping complete (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [SAVE][87b242e8] Saving outputs
+[2026-03-29 21:29:30] [INFO] [pipeline] [SAVE][87b242e8] Saved 3 files (in 0.02s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [PIPELINE] Total execution time: 0.12s | job_id=87b242e8-f17f-4df4-aea9-47c0d39a7b02 | records=0
+[2026-03-29 21:29:30] [INFO] [pipeline] [JOB DONE] job_id=87b242e8-f17f-4df4-aea9-47c0d39a7b02
+[2026-03-29 21:29:30] [INFO] [pipeline] [JOB START] job_id=acf804a2-2535-4908-b7d9-af25efbe4524 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ff33fa32_CN 1.1.pdf
+[2026-03-29 21:29:30] [INFO] [pipeline] [DETECT][acf804a2] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ff33fa32_CN 1.1.pdf
+[2026-03-29 21:29:30] [INFO] [pipeline] [DETECT][acf804a2] Source type -> pdf (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [EXTRACT][acf804a2] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ff33fa32_CN 1.1.pdf
+[2026-03-29 21:29:30] [WARNING] [pipeline] [EXTRACT] No records extracted from 'C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\ff33fa32_CN 1.1.pdf'. Source may be empty or unsupported.
+[2026-03-29 21:29:30] [INFO] [pipeline] [EXTRACT][acf804a2] Extracted 0 raw records (in 0.05s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [CLEAN][acf804a2] Cleaning and deduplicating records
+[2026-03-29 21:29:30] [INFO] [pipeline] [CLEAN][acf804a2] 0 records after cleaning (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [NORMALIZE][acf804a2] Normalizing to unified schema
+[2026-03-29 21:29:30] [INFO] [pipeline] [NORMALIZE][acf804a2] 0 records normalized (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [MAP][acf804a2] Applying Smart Field Mapper
+[2026-03-29 21:29:30] [INFO] [pipeline] [MAP][acf804a2] Field mapping complete (in 0.00s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [SAVE][acf804a2] Saving outputs
+[2026-03-29 21:29:30] [INFO] [pipeline] [SAVE][acf804a2] Saved 3 files (in 0.01s)
+[2026-03-29 21:29:30] [INFO] [pipeline] [PIPELINE] Total execution time: 0.08s | job_id=acf804a2-2535-4908-b7d9-af25efbe4524 | records=0
+[2026-03-29 21:29:30] [INFO] [pipeline] [JOB DONE] job_id=acf804a2-2535-4908-b7d9-af25efbe4524
+[2026-03-29 21:33:53] [INFO] [pipeline] [JOB START] job_id=567d6ebf-071d-4d6a-83cf-10d3970b16c1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\899e846b_Admit Card (1).pdf
+[2026-03-29 21:33:53] [INFO] [pipeline] [DETECT][567d6ebf] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\899e846b_Admit Card (1).pdf
+[2026-03-29 21:33:53] [INFO] [pipeline] [DETECT][567d6ebf] Source type -> pdf (in 0.00s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [EXTRACT][567d6ebf] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\899e846b_Admit Card (1).pdf
+[2026-03-29 21:33:53] [INFO] [pipeline] [EXTRACT][567d6ebf] Extracted 1 raw records (in 0.29s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [CLEAN][567d6ebf] Cleaning and deduplicating records
+[2026-03-29 21:33:53] [INFO] [pipeline] [CLEAN][567d6ebf] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [NORMALIZE][567d6ebf] Normalizing to unified schema
+[2026-03-29 21:33:53] [INFO] [pipeline] [NORMALIZE][567d6ebf] 1 records normalized (in 0.00s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [MAP][567d6ebf] Applying Smart Field Mapper
+[2026-03-29 21:33:53] [INFO] [pipeline] [MAP][567d6ebf] Field mapping complete (in 0.00s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [SAVE][567d6ebf] Saving outputs
+[2026-03-29 21:33:53] [INFO] [pipeline] [SAVE][567d6ebf] Saved 3 files (in 0.01s)
+[2026-03-29 21:33:53] [INFO] [pipeline] [PIPELINE] Total execution time: 0.33s | job_id=567d6ebf-071d-4d6a-83cf-10d3970b16c1 | records=1
+[2026-03-29 21:33:53] [INFO] [pipeline] [JOB DONE] job_id=567d6ebf-071d-4d6a-83cf-10d3970b16c1
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB START] job_id=e7413077-00d3-4241-a5a9-f7409644d026 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0ea15555_Admit Card (1).pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][e7413077] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0ea15555_Admit Card (1).pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][e7413077] Source type -> pdf (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][e7413077] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\0ea15555_Admit Card (1).pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][e7413077] Extracted 1 raw records (in 0.28s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][e7413077] Cleaning and deduplicating records
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][e7413077] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][e7413077] Normalizing to unified schema
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][e7413077] 1 records normalized (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][e7413077] Applying Smart Field Mapper
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][e7413077] Field mapping complete (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][e7413077] Saving outputs
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][e7413077] Saved 3 files (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [PIPELINE] Total execution time: 0.31s | job_id=e7413077-00d3-4241-a5a9-f7409644d026 | records=1
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB DONE] job_id=e7413077-00d3-4241-a5a9-f7409644d026
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB START] job_id=d1999efa-f657-41cd-8106-f46bb7e357a7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6a7ea550_Admit Card.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][d1999efa] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6a7ea550_Admit Card.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][d1999efa] Source type -> pdf (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][d1999efa] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\6a7ea550_Admit Card.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][d1999efa] Extracted 1 raw records (in 0.25s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][d1999efa] Cleaning and deduplicating records
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][d1999efa] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][d1999efa] Normalizing to unified schema
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][d1999efa] 1 records normalized (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][d1999efa] Applying Smart Field Mapper
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][d1999efa] Field mapping complete (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][d1999efa] Saving outputs
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][d1999efa] Saved 3 files (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [PIPELINE] Total execution time: 0.29s | job_id=d1999efa-f657-41cd-8106-f46bb7e357a7 | records=1
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB DONE] job_id=d1999efa-f657-41cd-8106-f46bb7e357a7
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB START] job_id=0f3de83c-c34f-4f14-9942-65956c544aeb source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a89d29b2_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][0f3de83c] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a89d29b2_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [DETECT][0f3de83c] Source type -> pdf (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][0f3de83c] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a89d29b2_New Doc 10-28-2025 15.31.pdf
+[2026-03-29 21:34:19] [INFO] [pipeline] [EXTRACT][0f3de83c] Extracted 1 raw records (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][0f3de83c] Cleaning and deduplicating records
+[2026-03-29 21:34:19] [INFO] [pipeline] [CLEAN][0f3de83c] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][0f3de83c] Normalizing to unified schema
+[2026-03-29 21:34:19] [INFO] [pipeline] [NORMALIZE][0f3de83c] 1 records normalized (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][0f3de83c] Applying Smart Field Mapper
+[2026-03-29 21:34:19] [INFO] [pipeline] [MAP][0f3de83c] Field mapping complete (in 0.00s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][0f3de83c] Saving outputs
+[2026-03-29 21:34:19] [INFO] [pipeline] [SAVE][0f3de83c] Saved 3 files (in 0.01s)
+[2026-03-29 21:34:19] [INFO] [pipeline] [PIPELINE] Total execution time: 0.05s | job_id=0f3de83c-c34f-4f14-9942-65956c544aeb | records=1
+[2026-03-29 21:34:19] [INFO] [pipeline] [JOB DONE] job_id=0f3de83c-c34f-4f14-9942-65956c544aeb
+[2026-03-29 21:35:08] [INFO] [pipeline] [JOB START] job_id=3d2a8c10-d9ab-4cfb-9ce8-19f716883e8a source=https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 21:35:08] [INFO] [pipeline] [DETECT][3d2a8c10] Detecting source type for: https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 21:35:08] [INFO] [pipeline] [DETECT][3d2a8c10] Source type -> url (in 0.00s)
+[2026-03-29 21:35:08] [INFO] [pipeline] [EXTRACT][3d2a8c10] Extracting from url: https://en.wikipedia.org/wiki/Main_Page
+[2026-03-29 21:35:11] [INFO] [pipeline] [EXTRACT][3d2a8c10] Extracted 1 raw records (in 2.48s)
+[2026-03-29 21:35:11] [INFO] [pipeline] [CLEAN][3d2a8c10] Cleaning and deduplicating records
+[2026-03-29 21:35:11] [INFO] [pipeline] [CLEAN][3d2a8c10] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:35:11] [INFO] [pipeline] [NORMALIZE][3d2a8c10] Normalizing to unified schema
+[2026-03-29 21:35:11] [INFO] [pipeline] [NORMALIZE][3d2a8c10] 1 records normalized (in 0.00s)
+[2026-03-29 21:35:11] [INFO] [pipeline] [MAP][3d2a8c10] Applying Smart Field Mapper
+[2026-03-29 21:35:11] [INFO] [pipeline] [MAP][3d2a8c10] Field mapping complete (in 0.00s)
+[2026-03-29 21:35:11] [INFO] [pipeline] [SAVE][3d2a8c10] Saving outputs
+[2026-03-29 21:35:11] [INFO] [pipeline] [SAVE][3d2a8c10] Saved 3 files (in 0.01s)
+[2026-03-29 21:35:11] [INFO] [pipeline] [PIPELINE] Total execution time: 2.51s | job_id=3d2a8c10-d9ab-4cfb-9ce8-19f716883e8a | records=1
+[2026-03-29 21:35:11] [INFO] [pipeline] [JOB DONE] job_id=3d2a8c10-d9ab-4cfb-9ce8-19f716883e8a
+[2026-03-29 21:36:07] [INFO] [pipeline] [JOB START] job_id=0535d514-7eb7-474d-8d4a-f7715fa4c6b8 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\270a8667_Admit Card (1).pdf
+[2026-03-29 21:36:07] [INFO] [pipeline] [DETECT][0535d514] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\270a8667_Admit Card (1).pdf
+[2026-03-29 21:36:07] [INFO] [pipeline] [DETECT][0535d514] Source type -> pdf (in 0.00s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [EXTRACT][0535d514] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\270a8667_Admit Card (1).pdf
+[2026-03-29 21:36:07] [INFO] [pipeline] [EXTRACT][0535d514] Extracted 1 raw records (in 0.27s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [CLEAN][0535d514] Cleaning and deduplicating records
+[2026-03-29 21:36:07] [INFO] [pipeline] [CLEAN][0535d514] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [NORMALIZE][0535d514] Normalizing to unified schema
+[2026-03-29 21:36:07] [INFO] [pipeline] [NORMALIZE][0535d514] 1 records normalized (in 0.00s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [MAP][0535d514] Applying Smart Field Mapper
+[2026-03-29 21:36:07] [INFO] [pipeline] [MAP][0535d514] Field mapping complete (in 0.00s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [SAVE][0535d514] Saving outputs
+[2026-03-29 21:36:07] [INFO] [pipeline] [SAVE][0535d514] Saved 3 files (in 0.01s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [PIPELINE] Total execution time: 0.31s | job_id=0535d514-7eb7-474d-8d4a-f7715fa4c6b8 | records=1
+[2026-03-29 21:36:07] [INFO] [pipeline] [JOB DONE] job_id=0535d514-7eb7-474d-8d4a-f7715fa4c6b8
+[2026-03-29 21:36:07] [INFO] [pipeline] [JOB START] job_id=d4c71afe-206d-4b08-a20d-00c32dea46f6 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f158068d_Admit Card.pdf
+[2026-03-29 21:36:07] [INFO] [pipeline] [DETECT][d4c71afe] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f158068d_Admit Card.pdf
+[2026-03-29 21:36:07] [INFO] [pipeline] [DETECT][d4c71afe] Source type -> pdf (in 0.00s)
+[2026-03-29 21:36:07] [INFO] [pipeline] [EXTRACT][d4c71afe] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\f158068d_Admit Card.pdf
+[2026-03-29 21:36:08] [INFO] [pipeline] [EXTRACT][d4c71afe] Extracted 1 raw records (in 0.24s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [CLEAN][d4c71afe] Cleaning and deduplicating records
+[2026-03-29 21:36:08] [INFO] [pipeline] [CLEAN][d4c71afe] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [NORMALIZE][d4c71afe] Normalizing to unified schema
+[2026-03-29 21:36:08] [INFO] [pipeline] [NORMALIZE][d4c71afe] 1 records normalized (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [MAP][d4c71afe] Applying Smart Field Mapper
+[2026-03-29 21:36:08] [INFO] [pipeline] [MAP][d4c71afe] Field mapping complete (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [SAVE][d4c71afe] Saving outputs
+[2026-03-29 21:36:08] [INFO] [pipeline] [SAVE][d4c71afe] Saved 3 files (in 0.01s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [PIPELINE] Total execution time: 0.28s | job_id=d4c71afe-206d-4b08-a20d-00c32dea46f6 | records=1
+[2026-03-29 21:36:08] [INFO] [pipeline] [JOB DONE] job_id=d4c71afe-206d-4b08-a20d-00c32dea46f6
+[2026-03-29 21:36:08] [INFO] [pipeline] [JOB START] job_id=60e1c87f-a60a-4a46-9f06-d3a97df46962 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2735eac_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:36:08] [INFO] [pipeline] [DETECT][60e1c87f] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2735eac_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:36:08] [INFO] [pipeline] [DETECT][60e1c87f] Source type -> pdf (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [EXTRACT][60e1c87f] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a2735eac_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:36:08] [INFO] [pipeline] [EXTRACT][60e1c87f] Extracted 1 raw records (in 0.34s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [CLEAN][60e1c87f] Cleaning and deduplicating records
+[2026-03-29 21:36:08] [INFO] [pipeline] [CLEAN][60e1c87f] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [NORMALIZE][60e1c87f] Normalizing to unified schema
+[2026-03-29 21:36:08] [INFO] [pipeline] [NORMALIZE][60e1c87f] 1 records normalized (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [MAP][60e1c87f] Applying Smart Field Mapper
+[2026-03-29 21:36:08] [INFO] [pipeline] [MAP][60e1c87f] Field mapping complete (in 0.00s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [SAVE][60e1c87f] Saving outputs
+[2026-03-29 21:36:08] [INFO] [pipeline] [SAVE][60e1c87f] Saved 3 files (in 0.01s)
+[2026-03-29 21:36:08] [INFO] [pipeline] [PIPELINE] Total execution time: 0.37s | job_id=60e1c87f-a60a-4a46-9f06-d3a97df46962 | records=1
+[2026-03-29 21:36:08] [INFO] [pipeline] [JOB DONE] job_id=60e1c87f-a60a-4a46-9f06-d3a97df46962
+[2026-03-29 21:39:34] [INFO] [pipeline] [JOB START] job_id=0a7cf1ff-31a6-4791-8274-2f6fce59fe71 source={'source': 'pdf', 'content': {'text': 'tcs nqt all india batch 2026 admit card: tcs nqt all india batch 2026 registration number dt20267778395 candidate name mohammad afzal altafhusen indikar date of birth 24-10-2002 paste your photograph here **clear photo is mandatory exam venue ion digital zone idz airport road to appear for the exam masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 date of test reporting time gate closure time test timing 26/mar/2026 12:30 pm 01:30 pm 2:00 pm - 5:10 pm candidate’s signature (to be signed in the presence of the invigilator at the time of examination) barcode roll no: tag263220209 instructions – to be strictly followed: 1) please ensure you carry the following documents with you to the test center, on the day of exam: a) printed copy of admit card (pls note- a copy of the physical/hard copy of your admit card is mandatory for admission into the examination venue). you must carry one photo and paste the same on the hall ticket at the exam venue) b) original government issued photo identity proof for verification, such as aadhaar card / driving license / passport / voter id / pan card only. id card with incomplete dob details will not be considered valid. (note: the id card must have the complete dob details, including date, month, and year.) 2) report to the test centre well before the gate closure time, otherwise entry will not be permitted. 3) prohibited items: do not wear any jewellery or other items containing metal. bags, mobile phones or any other electronic gadgets such as smart watches, digital key, calculators and other electronic devices are strictly prohibited in the examination hall. there is no facility for safekeeping of your personal belongings outside the test hall and we are not responsible for its loss. only admit card, original photo id card & photo will be allowed inside the test hall. 4) unfair means: adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be published. you will also not be able to participate in any subsequent selection process or tests. 5) request for change of test centre will not be entertained. 6) friends and relatives accompanying the candidate will not be allowed inside the test centre. you will not be permitted to appear for the exam if you fail to carry the admit card, photo and/ or any one of the mandatory government issued photo identity card. declaration: i hereby certify that i meet the eligibility criteria to take the test and the information furnished by me in the registration/application form is factually correct and subject to verification by tcs. later at any point in time during the selection process if any information is found to be incorrect, my scores obtained in the test can be withheld / or invalidated. signature of candidate', 'tables': 'tcs nqt all india batch 2026 | | | | | | | | admit card: tcs nqt all india batch 2026 | | | | registration number | dt20267778395 | | | candidate name | mohammad afzal altafhusen indikar | | | date of birth | 24-10-2002 | | | paste your photograph here exam venue | ion digital zone idz airport road masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 | | | **clear photo is mandatory to appear for the exam date of test | reporting time | gate closure time | test timing | candidate’s signature (to be signed in the presence of the invigilator at the time of examination) 26/mar/2026 | 12:30 pm | 01:30 pm | 2:00 pm - 5:10 pm | barcode | | | roll no: tag263220209 |', 'page': 1, 'total_pages': 1}, 'metadata': {'title': 'TCS.cdr', 'author': 'PA', 'date': "D:20260227130616+05'30'", 'url': None, 'file_name': 'Admit Card.pdf', 'extracted_at': '2026-03-29T14:19:40.584556+00:00', 'source_type': 'pdf', 'page': 1, 'total_pages': 1}, 'raw': 'TCS NQT All India Batch 2026\nAdmit Card: TCS NQT All India Batch 2026\nRegistration Number DT20267778395\nCandidate Name Mohammad Afzal Altafhusen Indikar\nDate of Birth 24-10-2002\nPaste your photograph here\n**Clear photo is mandatory\nExam Venue iON Digital Zone iDZ Airport Road to appear for the exam\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016\nDate of Test Reporting Time Gate Closure Time Test Timing\n26/Mar/2026 12:30 PM 01:30 PM 2:00 PM - 5:10 PM\nCandidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\nBarCode Roll No: TAG263220209\nInstructions – To Be Strictly Followed:\n1) Please ensure you carry the following documents with you to the Test Center, on the day of exam:\na) Printed copy of Admit Card (Pls note- A copy of the physical/hard copy of your Admit card is mandatory for admission into the examination\nvenue). You must carry one photo and paste the same on the Hall ticket at the exam venue)\nb) Original Government issued Photo Identity proof for verification, such as Aadhaar Card / Driving License / Passport / Voter ID / PAN Card\nonly. ID card with incomplete DOB details will not be considered valid. (Note: The ID card must have the complete DOB details,\nincluding date, month, and year.)\n2) Report to the test centre well before the gate closure time, otherwise entry will NOT be permitted.\n3) Prohibited Items: DO NOT wear any jewellery or other items containing metal. Bags, Mobile phones or any other electronic gadgets such as\nSmart watches, Digital Key, calculators and other electronic devices are strictly prohibited in the examination hall. There is no facility for\nsafekeeping of your personal belongings outside the test hall and we are not responsible for its loss. Only Admit Card, original Photo ID Card &\nPhoto will be allowed inside the test hall.\n4) Unfair Means: Adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be\npublished. You will also not be able to participate in any subsequent selection process or tests.\n5) Request for change of test centre will NOT be entertained.\n6) Friends and relatives accompanying the candidate will NOT be allowed inside the test centre.\nYou will NOT be permitted to appear for the Exam if you fail to carry the Admit Card, photo and/ or any one of the mandatory\nGovernment issued Photo Identity Card.\nDeclaration:\nI hereby certify that I meet the eligibility criteria to take the test and the information furnished by me in the Registration/Application Form is\nfactually correct and subject to verification by TCS. Later at any point in time during the selection process if any information is found to be incorrect,\nmy scores obtained in the test can be withheld / or invalidated.\nSignature of Candidate\n\nTables:\nTCS NQT All India Batch 2026 |  |  |  | \n |  |  |  | \nAdmit Card: TCS NQT All India Batch 2026 |  |  |  | \nRegistration Number | DT20267778395 |  |  | \nCandidate Name | Mohammad Afzal Altafhusen Indikar |  |  | \nDate of Birth | 24-10-2002 |  |  | Paste your photograph here\nExam Venue | iON Digital Zone iDZ Airport Road\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016 |  |  | **Clear photo is mandatory\nto appear for the exam\nDate of Test | Reporting Time | Gate Closure Time | Test Timing | Candidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\n26/Mar/2026 | 12:30 PM | 01:30 PM | 2:00 PM - 5:10 PM | \nBarCode |  |  | Roll No: TAG263220209 | ', 'id': '20971783-bbf2-422c-83e5-913bac59969d', 'failed': False, 'error': None}
+[2026-03-29 21:39:34] [INFO] [pipeline] [DETECT][0a7cf1ff] Detecting source type for: {'source': 'pdf', 'content': {'text': 'tcs nqt all india batch 2026 admit card: tcs nqt all india batch 2026 registration number dt20267778395 candidate name mohammad afzal altafhusen indikar date of birth 24-10-2002 paste your photograph here **clear photo is mandatory exam venue ion digital zone idz airport road to appear for the exam masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 date of test reporting time gate closure time test timing 26/mar/2026 12:30 pm 01:30 pm 2:00 pm - 5:10 pm candidate’s signature (to be signed in the presence of the invigilator at the time of examination) barcode roll no: tag263220209 instructions – to be strictly followed: 1) please ensure you carry the following documents with you to the test center, on the day of exam: a) printed copy of admit card (pls note- a copy of the physical/hard copy of your admit card is mandatory for admission into the examination venue). you must carry one photo and paste the same on the hall ticket at the exam venue) b) original government issued photo identity proof for verification, such as aadhaar card / driving license / passport / voter id / pan card only. id card with incomplete dob details will not be considered valid. (note: the id card must have the complete dob details, including date, month, and year.) 2) report to the test centre well before the gate closure time, otherwise entry will not be permitted. 3) prohibited items: do not wear any jewellery or other items containing metal. bags, mobile phones or any other electronic gadgets such as smart watches, digital key, calculators and other electronic devices are strictly prohibited in the examination hall. there is no facility for safekeeping of your personal belongings outside the test hall and we are not responsible for its loss. only admit card, original photo id card & photo will be allowed inside the test hall. 4) unfair means: adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be published. you will also not be able to participate in any subsequent selection process or tests. 5) request for change of test centre will not be entertained. 6) friends and relatives accompanying the candidate will not be allowed inside the test centre. you will not be permitted to appear for the exam if you fail to carry the admit card, photo and/ or any one of the mandatory government issued photo identity card. declaration: i hereby certify that i meet the eligibility criteria to take the test and the information furnished by me in the registration/application form is factually correct and subject to verification by tcs. later at any point in time during the selection process if any information is found to be incorrect, my scores obtained in the test can be withheld / or invalidated. signature of candidate', 'tables': 'tcs nqt all india batch 2026 | | | | | | | | admit card: tcs nqt all india batch 2026 | | | | registration number | dt20267778395 | | | candidate name | mohammad afzal altafhusen indikar | | | date of birth | 24-10-2002 | | | paste your photograph here exam venue | ion digital zone idz airport road masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 | | | **clear photo is mandatory to appear for the exam date of test | reporting time | gate closure time | test timing | candidate’s signature (to be signed in the presence of the invigilator at the time of examination) 26/mar/2026 | 12:30 pm | 01:30 pm | 2:00 pm - 5:10 pm | barcode | | | roll no: tag263220209 |', 'page': 1, 'total_pages': 1}, 'metadata': {'title': 'TCS.cdr', 'author': 'PA', 'date': "D:20260227130616+05'30'", 'url': None, 'file_name': 'Admit Card.pdf', 'extracted_at': '2026-03-29T14:19:40.584556+00:00', 'source_type': 'pdf', 'page': 1, 'total_pages': 1}, 'raw': 'TCS NQT All India Batch 2026\nAdmit Card: TCS NQT All India Batch 2026\nRegistration Number DT20267778395\nCandidate Name Mohammad Afzal Altafhusen Indikar\nDate of Birth 24-10-2002\nPaste your photograph here\n**Clear photo is mandatory\nExam Venue iON Digital Zone iDZ Airport Road to appear for the exam\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016\nDate of Test Reporting Time Gate Closure Time Test Timing\n26/Mar/2026 12:30 PM 01:30 PM 2:00 PM - 5:10 PM\nCandidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\nBarCode Roll No: TAG263220209\nInstructions – To Be Strictly Followed:\n1) Please ensure you carry the following documents with you to the Test Center, on the day of exam:\na) Printed copy of Admit Card (Pls note- A copy of the physical/hard copy of your Admit card is mandatory for admission into the examination\nvenue). You must carry one photo and paste the same on the Hall ticket at the exam venue)\nb) Original Government issued Photo Identity proof for verification, such as Aadhaar Card / Driving License / Passport / Voter ID / PAN Card\nonly. ID card with incomplete DOB details will not be considered valid. (Note: The ID card must have the complete DOB details,\nincluding date, month, and year.)\n2) Report to the test centre well before the gate closure time, otherwise entry will NOT be permitted.\n3) Prohibited Items: DO NOT wear any jewellery or other items containing metal. Bags, Mobile phones or any other electronic gadgets such as\nSmart watches, Digital Key, calculators and other electronic devices are strictly prohibited in the examination hall. There is no facility for\nsafekeeping of your personal belongings outside the test hall and we are not responsible for its loss. Only Admit Card, original Photo ID Card &\nPhoto will be allowed inside the test hall.\n4) Unfair Means: Adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be\npublished. You will also not be able to participate in any subsequent selection process or tests.\n5) Request for change of test centre will NOT be entertained.\n6) Friends and relatives accompanying the candidate will NOT be allowed inside the test centre.\nYou will NOT be permitted to appear for the Exam if you fail to carry the Admit Card, photo and/ or any one of the mandatory\nGovernment issued Photo Identity Card.\nDeclaration:\nI hereby certify that I meet the eligibility criteria to take the test and the information furnished by me in the Registration/Application Form is\nfactually correct and subject to verification by TCS. Later at any point in time during the selection process if any information is found to be incorrect,\nmy scores obtained in the test can be withheld / or invalidated.\nSignature of Candidate\n\nTables:\nTCS NQT All India Batch 2026 |  |  |  | \n |  |  |  | \nAdmit Card: TCS NQT All India Batch 2026 |  |  |  | \nRegistration Number | DT20267778395 |  |  | \nCandidate Name | Mohammad Afzal Altafhusen Indikar |  |  | \nDate of Birth | 24-10-2002 |  |  | Paste your photograph here\nExam Venue | iON Digital Zone iDZ Airport Road\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016 |  |  | **Clear photo is mandatory\nto appear for the exam\nDate of Test | Reporting Time | Gate Closure Time | Test Timing | Candidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\n26/Mar/2026 | 12:30 PM | 01:30 PM | 2:00 PM - 5:10 PM | \nBarCode |  |  | Roll No: TAG263220209 | ', 'id': '20971783-bbf2-422c-83e5-913bac59969d', 'failed': False, 'error': None}
+[2026-03-29 21:39:34] [ERROR] [pipeline] [JOB FAILED] job_id=0a7cf1ff-31a6-4791-8274-2f6fce59fe71 source={'source': 'pdf', 'content': {'text': 'tcs nqt all india batch 2026 admit card: tcs nqt all india batch 2026 registration number dt20267778395 candidate name mohammad afzal altafhusen indikar date of birth 24-10-2002 paste your photograph here **clear photo is mandatory exam venue ion digital zone idz airport road to appear for the exam masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 date of test reporting time gate closure time test timing 26/mar/2026 12:30 pm 01:30 pm 2:00 pm - 5:10 pm candidate’s signature (to be signed in the presence of the invigilator at the time of examination) barcode roll no: tag263220209 instructions – to be strictly followed: 1) please ensure you carry the following documents with you to the test center, on the day of exam: a) printed copy of admit card (pls note- a copy of the physical/hard copy of your admit card is mandatory for admission into the examination venue). you must carry one photo and paste the same on the hall ticket at the exam venue) b) original government issued photo identity proof for verification, such as aadhaar card / driving license / passport / voter id / pan card only. id card with incomplete dob details will not be considered valid. (note: the id card must have the complete dob details, including date, month, and year.) 2) report to the test centre well before the gate closure time, otherwise entry will not be permitted. 3) prohibited items: do not wear any jewellery or other items containing metal. bags, mobile phones or any other electronic gadgets such as smart watches, digital key, calculators and other electronic devices are strictly prohibited in the examination hall. there is no facility for safekeeping of your personal belongings outside the test hall and we are not responsible for its loss. only admit card, original photo id card & photo will be allowed inside the test hall. 4) unfair means: adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be published. you will also not be able to participate in any subsequent selection process or tests. 5) request for change of test centre will not be entertained. 6) friends and relatives accompanying the candidate will not be allowed inside the test centre. you will not be permitted to appear for the exam if you fail to carry the admit card, photo and/ or any one of the mandatory government issued photo identity card. declaration: i hereby certify that i meet the eligibility criteria to take the test and the information furnished by me in the registration/application form is factually correct and subject to verification by tcs. later at any point in time during the selection process if any information is found to be incorrect, my scores obtained in the test can be withheld / or invalidated. signature of candidate', 'tables': 'tcs nqt all india batch 2026 | | | | | | | | admit card: tcs nqt all india batch 2026 | | | | registration number | dt20267778395 | | | candidate name | mohammad afzal altafhusen indikar | | | date of birth | 24-10-2002 | | | paste your photograph here exam venue | ion digital zone idz airport road masterbliss solutions pujaarisquare bldgno.4&5 opp podar international school airport rd kudachi, , , belagavi(belgaum), karnataka, india - 590016 | | | **clear photo is mandatory to appear for the exam date of test | reporting time | gate closure time | test timing | candidate’s signature (to be signed in the presence of the invigilator at the time of examination) 26/mar/2026 | 12:30 pm | 01:30 pm | 2:00 pm - 5:10 pm | barcode | | | roll no: tag263220209 |', 'page': 1, 'total_pages': 1}, 'metadata': {'title': 'TCS.cdr', 'author': 'PA', 'date': "D:20260227130616+05'30'", 'url': None, 'file_name': 'Admit Card.pdf', 'extracted_at': '2026-03-29T14:19:40.584556+00:00', 'source_type': 'pdf', 'page': 1, 'total_pages': 1}, 'raw': 'TCS NQT All India Batch 2026\nAdmit Card: TCS NQT All India Batch 2026\nRegistration Number DT20267778395\nCandidate Name Mohammad Afzal Altafhusen Indikar\nDate of Birth 24-10-2002\nPaste your photograph here\n**Clear photo is mandatory\nExam Venue iON Digital Zone iDZ Airport Road to appear for the exam\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016\nDate of Test Reporting Time Gate Closure Time Test Timing\n26/Mar/2026 12:30 PM 01:30 PM 2:00 PM - 5:10 PM\nCandidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\nBarCode Roll No: TAG263220209\nInstructions – To Be Strictly Followed:\n1) Please ensure you carry the following documents with you to the Test Center, on the day of exam:\na) Printed copy of Admit Card (Pls note- A copy of the physical/hard copy of your Admit card is mandatory for admission into the examination\nvenue). You must carry one photo and paste the same on the Hall ticket at the exam venue)\nb) Original Government issued Photo Identity proof for verification, such as Aadhaar Card / Driving License / Passport / Voter ID / PAN Card\nonly. ID card with incomplete DOB details will not be considered valid. (Note: The ID card must have the complete DOB details,\nincluding date, month, and year.)\n2) Report to the test centre well before the gate closure time, otherwise entry will NOT be permitted.\n3) Prohibited Items: DO NOT wear any jewellery or other items containing metal. Bags, Mobile phones or any other electronic gadgets such as\nSmart watches, Digital Key, calculators and other electronic devices are strictly prohibited in the examination hall. There is no facility for\nsafekeeping of your personal belongings outside the test hall and we are not responsible for its loss. Only Admit Card, original Photo ID Card &\nPhoto will be allowed inside the test hall.\n4) Unfair Means: Adoption of any unfair means in the examination hall will result in disqualification from the test and your scores will not be\npublished. You will also not be able to participate in any subsequent selection process or tests.\n5) Request for change of test centre will NOT be entertained.\n6) Friends and relatives accompanying the candidate will NOT be allowed inside the test centre.\nYou will NOT be permitted to appear for the Exam if you fail to carry the Admit Card, photo and/ or any one of the mandatory\nGovernment issued Photo Identity Card.\nDeclaration:\nI hereby certify that I meet the eligibility criteria to take the test and the information furnished by me in the Registration/Application Form is\nfactually correct and subject to verification by TCS. Later at any point in time during the selection process if any information is found to be incorrect,\nmy scores obtained in the test can be withheld / or invalidated.\nSignature of Candidate\n\nTables:\nTCS NQT All India Batch 2026 |  |  |  | \n |  |  |  | \nAdmit Card: TCS NQT All India Batch 2026 |  |  |  | \nRegistration Number | DT20267778395 |  |  | \nCandidate Name | Mohammad Afzal Altafhusen Indikar |  |  | \nDate of Birth | 24-10-2002 |  |  | Paste your photograph here\nExam Venue | iON Digital Zone iDZ Airport Road\nMasterBliss Solutions PujaariSquare BldgNo.4&5 Opp Podar International School\nAirport Rd Kudachi, , , Belagavi(Belgaum), Karnataka, India - 590016 |  |  | **Clear photo is mandatory\nto appear for the exam\nDate of Test | Reporting Time | Gate Closure Time | Test Timing | Candidate’s Signature\n(To be signed in the presence of the\ninvigilator at the time of examination)\n26/Mar/2026 | 12:30 PM | 01:30 PM | 2:00 PM - 5:10 PM | \nBarCode |  |  | Roll No: TAG263220209 | ', 'id': '20971783-bbf2-422c-83e5-913bac59969d', 'failed': False, 'error': None} error=Source must be a string. (after 0.02s)
+Traceback (most recent call last):
+  File "C:\Users\afzal\Downloads\afzal\afzal\pipeline\orchestrator.py", line 128, in run
+    source_type = detect_source_type(source)
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 36, in detect_source_type
+    source = _sanitize_input(source)
+  File "C:\Users\afzal\Downloads\afzal\afzal\utils\detector.py", line 90, in _sanitize_input
+    raise ValueError("Source must be a string.")
+ValueError: Source must be a string.
+
+[2026-03-29 21:51:57] [INFO] [pipeline] [JOB START] job_id=bfe5f868-f23f-4bde-a664-58c3d613ce1c source=C:\Users\afzal\AppData\Local\Temp\batch_Admit Card (1).pdf_v4huwfng.pdf
+[2026-03-29 21:51:57] [INFO] [pipeline] [DETECT][bfe5f868] Detecting source type for: C:\Users\afzal\AppData\Local\Temp\batch_Admit Card (1).pdf_v4huwfng.pdf
+[2026-03-29 21:51:57] [INFO] [pipeline] [DETECT][bfe5f868] Source type -> pdf (in 0.00s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [EXTRACT][bfe5f868] Extracting from pdf: C:\Users\afzal\AppData\Local\Temp\batch_Admit Card (1).pdf_v4huwfng.pdf
+[2026-03-29 21:51:57] [INFO] [pipeline] [EXTRACT][bfe5f868] Extracted 1 raw records (in 0.34s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [CLEAN][bfe5f868] Cleaning and deduplicating records
+[2026-03-29 21:51:57] [INFO] [pipeline] [CLEAN][bfe5f868] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [NORMALIZE][bfe5f868] Normalizing to unified schema
+[2026-03-29 21:51:57] [INFO] [pipeline] [NORMALIZE][bfe5f868] 1 records normalized (in 0.00s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [MAP][bfe5f868] Applying Smart Field Mapper
+[2026-03-29 21:51:57] [INFO] [pipeline] [MAP][bfe5f868] Field mapping complete (in 0.00s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [SAVE][bfe5f868] Saving outputs
+[2026-03-29 21:51:57] [INFO] [pipeline] [SAVE][bfe5f868] Saved 3 files (in 0.01s)
+[2026-03-29 21:51:57] [INFO] [pipeline] [PIPELINE] Total execution time: 0.38s | job_id=bfe5f868-f23f-4bde-a664-58c3d613ce1c | records=1
+[2026-03-29 21:51:57] [INFO] [pipeline] [JOB DONE] job_id=bfe5f868-f23f-4bde-a664-58c3d613ce1c
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB START] job_id=ba5ba98f-9434-4297-92a9-3375f315d5e5 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fa2f7a3c_CN1.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][ba5ba98f] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fa2f7a3c_CN1.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][ba5ba98f] Source type -> pdf (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][ba5ba98f] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\fa2f7a3c_CN1.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][ba5ba98f] Extracted 1 raw records (in 0.04s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][ba5ba98f] Cleaning and deduplicating records
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][ba5ba98f] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][ba5ba98f] Normalizing to unified schema
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][ba5ba98f] 1 records normalized (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][ba5ba98f] Applying Smart Field Mapper
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][ba5ba98f] Field mapping complete (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][ba5ba98f] Saving outputs
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][ba5ba98f] Saved 3 files (in 0.01s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.07s | job_id=ba5ba98f-9434-4297-92a9-3375f315d5e5 | records=1
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB DONE] job_id=ba5ba98f-9434-4297-92a9-3375f315d5e5
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB START] job_id=f6122260-63bd-4745-812f-e1e4857074a0 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\71cb144f_CN 2 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][f6122260] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\71cb144f_CN 2 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][f6122260] Source type -> pdf (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][f6122260] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\71cb144f_CN 2 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][f6122260] Extracted 1 raw records (in 0.07s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][f6122260] Cleaning and deduplicating records
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][f6122260] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][f6122260] Normalizing to unified schema
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][f6122260] 1 records normalized (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][f6122260] Applying Smart Field Mapper
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][f6122260] Field mapping complete (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][f6122260] Saving outputs
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][f6122260] Saved 3 files (in 0.01s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.11s | job_id=f6122260-63bd-4745-812f-e1e4857074a0 | records=1
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB DONE] job_id=f6122260-63bd-4745-812f-e1e4857074a0
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB START] job_id=92a2c3e3-1af4-4b5e-83e8-4b6249b652d7 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1c1522a2_CNS 5 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][92a2c3e3] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1c1522a2_CNS 5 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][92a2c3e3] Source type -> pdf (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][92a2c3e3] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\1c1522a2_CNS 5 .pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][92a2c3e3] Extracted 1 raw records (in 0.06s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][92a2c3e3] Cleaning and deduplicating records
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][92a2c3e3] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][92a2c3e3] Normalizing to unified schema
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][92a2c3e3] 1 records normalized (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][92a2c3e3] Applying Smart Field Mapper
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][92a2c3e3] Field mapping complete (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][92a2c3e3] Saving outputs
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][92a2c3e3] Saved 3 files (in 0.01s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [PIPELINE] Total execution time: 0.10s | job_id=92a2c3e3-1af4-4b5e-83e8-4b6249b652d7 | records=1
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB DONE] job_id=92a2c3e3-1af4-4b5e-83e8-4b6249b652d7
+[2026-03-29 21:53:14] [INFO] [pipeline] [JOB START] job_id=7b6d1f3f-c72f-49dd-affe-81a249c86c6d source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a9289b38_CNS 3.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][7b6d1f3f] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a9289b38_CNS 3.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [DETECT][7b6d1f3f] Source type -> pdf (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][7b6d1f3f] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\a9289b38_CNS 3.pdf
+[2026-03-29 21:53:14] [INFO] [pipeline] [EXTRACT][7b6d1f3f] Extracted 1 raw records (in 0.07s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][7b6d1f3f] Cleaning and deduplicating records
+[2026-03-29 21:53:14] [INFO] [pipeline] [CLEAN][7b6d1f3f] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][7b6d1f3f] Normalizing to unified schema
+[2026-03-29 21:53:14] [INFO] [pipeline] [NORMALIZE][7b6d1f3f] 1 records normalized (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][7b6d1f3f] Applying Smart Field Mapper
+[2026-03-29 21:53:14] [INFO] [pipeline] [MAP][7b6d1f3f] Field mapping complete (in 0.00s)
+[2026-03-29 21:53:14] [INFO] [pipeline] [SAVE][7b6d1f3f] Saving outputs
+[2026-03-29 21:53:15] [INFO] [pipeline] [SAVE][7b6d1f3f] Saved 3 files (in 0.01s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [PIPELINE] Total execution time: 0.10s | job_id=7b6d1f3f-c72f-49dd-affe-81a249c86c6d | records=1
+[2026-03-29 21:53:15] [INFO] [pipeline] [JOB DONE] job_id=7b6d1f3f-c72f-49dd-affe-81a249c86c6d
+[2026-03-29 21:53:15] [INFO] [pipeline] [JOB START] job_id=ba8e1e40-88b8-4f43-bca3-8bb7a591dca1 source=C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\afbb00e2_CN 1.1.pdf
+[2026-03-29 21:53:15] [INFO] [pipeline] [DETECT][ba8e1e40] Detecting source type for: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\afbb00e2_CN 1.1.pdf
+[2026-03-29 21:53:15] [INFO] [pipeline] [DETECT][ba8e1e40] Source type -> pdf (in 0.00s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [EXTRACT][ba8e1e40] Extracting from pdf: C:\Users\afzal\Downloads\afzal\afzal\data\input\_uploads\afbb00e2_CN 1.1.pdf
+[2026-03-29 21:53:15] [INFO] [pipeline] [EXTRACT][ba8e1e40] Extracted 1 raw records (in 0.05s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [CLEAN][ba8e1e40] Cleaning and deduplicating records
+[2026-03-29 21:53:15] [INFO] [pipeline] [CLEAN][ba8e1e40] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [NORMALIZE][ba8e1e40] Normalizing to unified schema
+[2026-03-29 21:53:15] [INFO] [pipeline] [NORMALIZE][ba8e1e40] 1 records normalized (in 0.00s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [MAP][ba8e1e40] Applying Smart Field Mapper
+[2026-03-29 21:53:15] [INFO] [pipeline] [MAP][ba8e1e40] Field mapping complete (in 0.00s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [SAVE][ba8e1e40] Saving outputs
+[2026-03-29 21:53:15] [INFO] [pipeline] [SAVE][ba8e1e40] Saved 3 files (in 0.01s)
+[2026-03-29 21:53:15] [INFO] [pipeline] [PIPELINE] Total execution time: 0.09s | job_id=ba8e1e40-88b8-4f43-bca3-8bb7a591dca1 | records=1
+[2026-03-29 21:53:15] [INFO] [pipeline] [JOB DONE] job_id=ba8e1e40-88b8-4f43-bca3-8bb7a591dca1
+[2026-03-29 21:59:31] [INFO] [pipeline] [JOB START] job_id=61af399f-a99a-418d-b566-3476bb12c441 source=C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\e9d1a6b4_afzal resume (1) (3)(1) (1).pdf
+[2026-03-29 21:59:31] [INFO] [pipeline] [DETECT][61af399f] Detecting source type for: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\e9d1a6b4_afzal resume (1) (3)(1) (1).pdf
+[2026-03-29 21:59:31] [INFO] [pipeline] [DETECT][61af399f] Source type -> pdf (in 0.00s)
+[2026-03-29 21:59:31] [INFO] [pipeline] [EXTRACT][61af399f] Extracting from pdf: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\e9d1a6b4_afzal resume (1) (3)(1) (1).pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [EXTRACT][61af399f] Extracted 1 raw records (in 0.59s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][61af399f] Cleaning and deduplicating records
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][61af399f] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][61af399f] Normalizing to unified schema
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][61af399f] 1 records normalized (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][61af399f] Applying Smart Field Mapper
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][61af399f] Field mapping complete (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][61af399f] Saving outputs
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][61af399f] Saved 3 files (in 0.02s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [PIPELINE] Total execution time: 0.65s | job_id=61af399f-a99a-418d-b566-3476bb12c441 | records=1
+[2026-03-29 21:59:32] [INFO] [pipeline] [JOB DONE] job_id=61af399f-a99a-418d-b566-3476bb12c441
+[2026-03-29 21:59:32] [INFO] [pipeline] [JOB START] job_id=e309436b-43f5-4cd0-921f-1dfccad2f80b source=C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\fb735b2f_Mohammad_Afzal_Indikar_CV.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [DETECT][e309436b] Detecting source type for: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\fb735b2f_Mohammad_Afzal_Indikar_CV.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [DETECT][e309436b] Source type -> pdf (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [EXTRACT][e309436b] Extracting from pdf: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\fb735b2f_Mohammad_Afzal_Indikar_CV.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [EXTRACT][e309436b] Extracted 1 raw records (in 0.15s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][e309436b] Cleaning and deduplicating records
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][e309436b] 1 records after cleaning (in 0.01s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][e309436b] Normalizing to unified schema
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][e309436b] 1 records normalized (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][e309436b] Applying Smart Field Mapper
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][e309436b] Field mapping complete (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][e309436b] Saving outputs
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][e309436b] Saved 3 files (in 0.01s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [PIPELINE] Total execution time: 0.20s | job_id=e309436b-43f5-4cd0-921f-1dfccad2f80b | records=1
+[2026-03-29 21:59:32] [INFO] [pipeline] [JOB DONE] job_id=e309436b-43f5-4cd0-921f-1dfccad2f80b
+[2026-03-29 21:59:32] [INFO] [pipeline] [JOB START] job_id=3d3ed39d-6f47-460e-ad37-d7266431fde0 source=C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\5c6a30af_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [DETECT][3d3ed39d] Detecting source type for: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\5c6a30af_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [DETECT][3d3ed39d] Source type -> pdf (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [EXTRACT][3d3ed39d] Extracting from pdf: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\5c6a30af_CNS M-5 IMP Q&A.pdf
+[2026-03-29 21:59:32] [INFO] [pipeline] [EXTRACT][3d3ed39d] Extracted 1 raw records (in 0.38s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][3d3ed39d] Cleaning and deduplicating records
+[2026-03-29 21:59:32] [INFO] [pipeline] [CLEAN][3d3ed39d] 1 records after cleaning (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][3d3ed39d] Normalizing to unified schema
+[2026-03-29 21:59:32] [INFO] [pipeline] [NORMALIZE][3d3ed39d] 1 records normalized (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][3d3ed39d] Applying Smart Field Mapper
+[2026-03-29 21:59:32] [INFO] [pipeline] [MAP][3d3ed39d] Field mapping complete (in 0.00s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][3d3ed39d] Saving outputs
+[2026-03-29 21:59:32] [INFO] [pipeline] [SAVE][3d3ed39d] Saved 3 files (in 0.02s)
+[2026-03-29 21:59:32] [INFO] [pipeline] [PIPELINE] Total execution time: 0.43s | job_id=3d3ed39d-6f47-460e-ad37-d7266431fde0 | records=1
+[2026-03-29 21:59:32] [INFO] [pipeline] [JOB DONE] job_id=3d3ed39d-6f47-460e-ad37-d7266431fde0
+[2026-03-30 00:34:41] [INFO] [pipeline] [JOB START] job_id=c50e40c5-332a-4742-b15b-f0bebbb61fa5 source=C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\7e69c40d_10th &12 th marks card &Tc_2.pdf
+[2026-03-30 00:34:41] [INFO] [pipeline] [DETECT][c50e40c5] Detecting source type for: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\7e69c40d_10th &12 th marks card &Tc_2.pdf
+[2026-03-30 00:34:41] [INFO] [pipeline] [DETECT][c50e40c5] Source type -> pdf (in 0.00s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [EXTRACT][c50e40c5] Extracting from pdf: C:\Users\afzal\Downloads\afzal (2)\afzal\afzal\data\input\_uploads\7e69c40d_10th &12 th marks card &Tc_2.pdf
+[2026-03-30 00:34:41] [INFO] [pipeline] [EXTRACT][c50e40c5] Extracted 1 raw records (in 0.02s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [CLEAN][c50e40c5] Cleaning and deduplicating records
+[2026-03-30 00:34:41] [INFO] [pipeline] [CLEAN][c50e40c5] 1 records after cleaning (in 0.03s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [NORMALIZE][c50e40c5] Normalizing to unified schema
+[2026-03-30 00:34:41] [INFO] [pipeline] [NORMALIZE][c50e40c5] 1 records normalized (in 0.00s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [MAP][c50e40c5] Applying Smart Field Mapper
+[2026-03-30 00:34:41] [INFO] [pipeline] [MAP][c50e40c5] Field mapping complete (in 0.00s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [SAVE][c50e40c5] Saving outputs
+[2026-03-30 00:34:41] [INFO] [pipeline] [SAVE][c50e40c5] Saved 3 files (in 0.01s)
+[2026-03-30 00:34:41] [INFO] [pipeline] [PIPELINE] Total execution time: 0.09s | job_id=c50e40c5-332a-4742-b15b-f0bebbb61fa5 | records=1
+[2026-03-30 00:34:42] [INFO] [pipeline] [JOB DONE] job_id=c50e40c5-332a-4742-b15b-f0bebbb61fa5

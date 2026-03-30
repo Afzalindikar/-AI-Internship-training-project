@@ -1,0 +1,17 @@
+{
+  "job_id": "50282c8d-e4e3-46cb-b656-504e6ac2c254",
+  "total_sources": 1,
+  "successful_sources": 1,
+  "failed_sources": 0,
+  "total_records": 1,
+  "execution_time_seconds": 0.333,
+  "step_timings_seconds": {
+    "detect": 0.001,
+    "extract": 0.306,
+    "clean": 0.005,
+    "normalize": 0.0,
+    "map": 0.0,
+    "save": 0.01
+  },
+  "generated_at": "2026-03-29T14:20:34.885539+00:00"
+}

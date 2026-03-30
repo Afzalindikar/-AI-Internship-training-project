@@ -1,0 +1,25 @@
+[
+  {
+    "source": "web",
+    "content": {
+      "job_title": "streamlit",
+      "headings": [],
+      "paragraphs": [],
+      "tables": [],
+      "url": []
+    },
+    "metadata": {
+      "title": "Streamlit",
+      "author": null,
+      "date": null,
+      "url": "http://localhost:8501/",
+      "file_name": null,
+      "extracted_at": "2026-03-28T07:58:03.091344+00:00",
+      "source_type": "web"
+    },
+    "raw": "Title: Streamlit",
+    "id": "6d755021-8cca-48b5-ac9d-e99b89160c43",
+    "failed": false,
+    "error": null
+  }
+]

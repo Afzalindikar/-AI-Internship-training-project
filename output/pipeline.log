@@ -1,0 +1,424 @@
+[2026-03-28 08:00:00] [INFO] [pipeline] [JOB START] job_id=458ae016-971e-47d3-abe6-56dd9b670fd1 source=data/input/sample.csv
+[2026-03-28 08:00:00] [INFO] [pipeline] [DETECT][458ae016] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:00:00] [INFO] [pipeline] [DETECT][458ae016] Source type → csv
+[2026-03-28 08:00:00] [INFO] [pipeline] [EXTRACT][458ae016] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:00:00] [INFO] [pipeline] [EXTRACT][458ae016] Extracted 11 raw records
+[2026-03-28 08:00:00] [INFO] [pipeline] [CLEAN][458ae016] Cleaning and deduplicating records
+[2026-03-28 08:00:00] [INFO] [pipeline] [CLEAN][458ae016] 10 records after cleaning
+[2026-03-28 08:00:00] [INFO] [pipeline] [NORMALIZE][458ae016] Normalizing to unified schema
+[2026-03-28 08:00:00] [INFO] [pipeline] [NORMALIZE][458ae016] 10 records normalized
+[2026-03-28 08:00:00] [INFO] [pipeline] [MAP][458ae016] Applying Smart Field Mapper
+[2026-03-28 08:00:00] [INFO] [pipeline] [MAP][458ae016] Field mapping complete
+[2026-03-28 08:00:00] [INFO] [pipeline] [SAVE][458ae016] Saving outputs
+[2026-03-28 08:00:00] [INFO] [pipeline] [SAVE][458ae016] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\458ae016_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\458ae016_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\458ae016_llm.json']
+[2026-03-28 08:00:00] [INFO] [pipeline] [JOB DONE] job_id=458ae016-971e-47d3-abe6-56dd9b670fd1 records=10
+[2026-03-28 08:03:10] [INFO] [pipeline] [JOB START] job_id=bf2a14a7-954b-4d75-9c2c-edbe6c2aedb5 source=data/input/sample.csv
+[2026-03-28 08:03:10] [INFO] [pipeline] [DETECT][bf2a14a7] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:03:10] [INFO] [pipeline] [DETECT][bf2a14a7] Source type → csv
+[2026-03-28 08:03:10] [INFO] [pipeline] [EXTRACT][bf2a14a7] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:03:10] [INFO] [pipeline] [EXTRACT][bf2a14a7] Extracted 11 raw records
+[2026-03-28 08:03:10] [INFO] [pipeline] [CLEAN][bf2a14a7] Cleaning and deduplicating records
+[2026-03-28 08:03:10] [INFO] [pipeline] [CLEAN][bf2a14a7] 10 records after cleaning
+[2026-03-28 08:03:10] [INFO] [pipeline] [NORMALIZE][bf2a14a7] Normalizing to unified schema
+[2026-03-28 08:03:10] [INFO] [pipeline] [NORMALIZE][bf2a14a7] 10 records normalized
+[2026-03-28 08:03:10] [INFO] [pipeline] [MAP][bf2a14a7] Applying Smart Field Mapper
+[2026-03-28 08:03:10] [INFO] [pipeline] [MAP][bf2a14a7] Field mapping complete
+[2026-03-28 08:03:10] [INFO] [pipeline] [SAVE][bf2a14a7] Saving outputs
+[2026-03-28 08:03:10] [INFO] [pipeline] [SAVE][bf2a14a7] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bf2a14a7_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bf2a14a7_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bf2a14a7_llm.json']
+[2026-03-28 08:03:10] [INFO] [pipeline] [JOB DONE] job_id=bf2a14a7-954b-4d75-9c2c-edbe6c2aedb5 records=10
+[2026-03-28 08:03:23] [INFO] [pipeline] [JOB START] job_id=1e2df454-f639-42b9-ac2f-65ed55c7149d source=data/input/sample.csv
+[2026-03-28 08:03:23] [INFO] [pipeline] [DETECT][1e2df454] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:03:23] [INFO] [pipeline] [DETECT][1e2df454] Source type → csv
+[2026-03-28 08:03:23] [INFO] [pipeline] [EXTRACT][1e2df454] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:03:23] [INFO] [pipeline] [EXTRACT][1e2df454] Extracted 11 raw records
+[2026-03-28 08:03:23] [INFO] [pipeline] [CLEAN][1e2df454] Cleaning and deduplicating records
+[2026-03-28 08:03:23] [INFO] [pipeline] [CLEAN][1e2df454] 10 records after cleaning
+[2026-03-28 08:03:23] [INFO] [pipeline] [NORMALIZE][1e2df454] Normalizing to unified schema
+[2026-03-28 08:03:23] [INFO] [pipeline] [NORMALIZE][1e2df454] 10 records normalized
+[2026-03-28 08:03:23] [INFO] [pipeline] [MAP][1e2df454] Applying Smart Field Mapper
+[2026-03-28 08:03:23] [INFO] [pipeline] [MAP][1e2df454] Field mapping complete
+[2026-03-28 08:03:23] [INFO] [pipeline] [SAVE][1e2df454] Saving outputs
+[2026-03-28 08:03:23] [INFO] [pipeline] [SAVE][1e2df454] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1e2df454_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1e2df454_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1e2df454_llm.json']
+[2026-03-28 08:03:23] [INFO] [pipeline] [JOB DONE] job_id=1e2df454-f639-42b9-ac2f-65ed55c7149d records=10
+[2026-03-28 08:05:18] [INFO] [pipeline] [JOB START] job_id=b40b2f6d-c452-491b-a5e9-da8641188643 source=data/input/sample.csv
+[2026-03-28 08:05:18] [INFO] [pipeline] [DETECT][b40b2f6d] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:05:18] [INFO] [pipeline] [DETECT][b40b2f6d] Source type → csv
+[2026-03-28 08:05:18] [INFO] [pipeline] [EXTRACT][b40b2f6d] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:05:18] [INFO] [pipeline] [EXTRACT][b40b2f6d] Extracted 11 raw records
+[2026-03-28 08:05:18] [INFO] [pipeline] [CLEAN][b40b2f6d] Cleaning and deduplicating records
+[2026-03-28 08:05:18] [INFO] [pipeline] [CLEAN][b40b2f6d] 10 records after cleaning
+[2026-03-28 08:05:18] [INFO] [pipeline] [NORMALIZE][b40b2f6d] Normalizing to unified schema
+[2026-03-28 08:05:18] [INFO] [pipeline] [NORMALIZE][b40b2f6d] 10 records normalized
+[2026-03-28 08:05:18] [INFO] [pipeline] [MAP][b40b2f6d] Applying Smart Field Mapper
+[2026-03-28 08:05:18] [INFO] [pipeline] [MAP][b40b2f6d] Field mapping complete
+[2026-03-28 08:05:18] [INFO] [pipeline] [SAVE][b40b2f6d] Saving outputs
+[2026-03-28 08:05:18] [INFO] [pipeline] [SAVE][b40b2f6d] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\b40b2f6d_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\b40b2f6d_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\b40b2f6d_llm.json']
+[2026-03-28 08:05:18] [INFO] [pipeline] [JOB DONE] job_id=b40b2f6d-c452-491b-a5e9-da8641188643 records=10
+[2026-03-28 08:06:04] [INFO] [pipeline] [JOB START] job_id=bb1c3567-a7c6-4694-9461-858a71e03dda source=sqlite:///data/input/sample.db
+[2026-03-28 08:06:04] [INFO] [pipeline] [DETECT][bb1c3567] Detecting source type for: sqlite:///data/input/sample.db
+[2026-03-28 08:06:04] [INFO] [pipeline] [DETECT][bb1c3567] Source type → database
+[2026-03-28 08:06:04] [INFO] [pipeline] [EXTRACT][bb1c3567] Extracting from database: sqlite:///data/input/sample.db
+[2026-03-28 08:06:04] [INFO] [pipeline] [EXTRACT][bb1c3567] Extracted 10 raw records
+[2026-03-28 08:06:04] [INFO] [pipeline] [CLEAN][bb1c3567] Cleaning and deduplicating records
+[2026-03-28 08:06:04] [INFO] [pipeline] [CLEAN][bb1c3567] 10 records after cleaning
+[2026-03-28 08:06:04] [INFO] [pipeline] [NORMALIZE][bb1c3567] Normalizing to unified schema
+[2026-03-28 08:06:04] [INFO] [pipeline] [NORMALIZE][bb1c3567] 10 records normalized
+[2026-03-28 08:06:04] [INFO] [pipeline] [MAP][bb1c3567] Applying Smart Field Mapper
+[2026-03-28 08:06:04] [INFO] [pipeline] [MAP][bb1c3567] Field mapping complete
+[2026-03-28 08:06:04] [INFO] [pipeline] [SAVE][bb1c3567] Saving outputs
+[2026-03-28 08:06:04] [INFO] [pipeline] [SAVE][bb1c3567] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bb1c3567_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bb1c3567_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\bb1c3567_llm.json']
+[2026-03-28 08:06:04] [INFO] [pipeline] [JOB DONE] job_id=bb1c3567-a7c6-4694-9461-858a71e03dda records=10
+[2026-03-28 08:06:17] [INFO] [pipeline] [BATCH] Starting batch of 2 sources (parallel=False)
+[2026-03-28 08:06:17] [INFO] [pipeline] [JOB START] job_id=1d412776-1004-46f2-8ff3-0df913513b0f source=data/input/sample.csv
+[2026-03-28 08:06:17] [INFO] [pipeline] [DETECT][1d412776] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:06:17] [INFO] [pipeline] [DETECT][1d412776] Source type → csv
+[2026-03-28 08:06:17] [INFO] [pipeline] [EXTRACT][1d412776] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:06:17] [INFO] [pipeline] [EXTRACT][1d412776] Extracted 11 raw records
+[2026-03-28 08:06:17] [INFO] [pipeline] [CLEAN][1d412776] Cleaning and deduplicating records
+[2026-03-28 08:06:17] [INFO] [pipeline] [CLEAN][1d412776] 10 records after cleaning
+[2026-03-28 08:06:17] [INFO] [pipeline] [NORMALIZE][1d412776] Normalizing to unified schema
+[2026-03-28 08:06:17] [INFO] [pipeline] [NORMALIZE][1d412776] 10 records normalized
+[2026-03-28 08:06:17] [INFO] [pipeline] [MAP][1d412776] Applying Smart Field Mapper
+[2026-03-28 08:06:17] [INFO] [pipeline] [MAP][1d412776] Field mapping complete
+[2026-03-28 08:06:17] [INFO] [pipeline] [SAVE][1d412776] Saving outputs
+[2026-03-28 08:06:17] [INFO] [pipeline] [SAVE][1d412776] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1d412776_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1d412776_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\1d412776_llm.json']
+[2026-03-28 08:06:17] [INFO] [pipeline] [JOB DONE] job_id=1d412776-1004-46f2-8ff3-0df913513b0f records=10
+[2026-03-28 08:06:17] [INFO] [pipeline] [JOB START] job_id=996a9655-7b8d-437a-9e8f-f5b78e099dbc source=data/input/sample.xlsx
+[2026-03-28 08:06:17] [INFO] [pipeline] [DETECT][996a9655] Detecting source type for: data/input/sample.xlsx
+[2026-03-28 08:06:17] [INFO] [pipeline] [DETECT][996a9655] Source type → excel
+[2026-03-28 08:06:17] [INFO] [pipeline] [EXTRACT][996a9655] Extracting from excel: data/input/sample.xlsx
+[2026-03-28 08:06:17] [INFO] [pipeline] [EXTRACT][996a9655] Extracted 10 raw records
+[2026-03-28 08:06:17] [INFO] [pipeline] [CLEAN][996a9655] Cleaning and deduplicating records
+[2026-03-28 08:06:17] [INFO] [pipeline] [CLEAN][996a9655] 10 records after cleaning
+[2026-03-28 08:06:17] [INFO] [pipeline] [NORMALIZE][996a9655] Normalizing to unified schema
+[2026-03-28 08:06:17] [INFO] [pipeline] [NORMALIZE][996a9655] 10 records normalized
+[2026-03-28 08:06:17] [INFO] [pipeline] [MAP][996a9655] Applying Smart Field Mapper
+[2026-03-28 08:06:17] [INFO] [pipeline] [MAP][996a9655] Field mapping complete
+[2026-03-28 08:06:17] [INFO] [pipeline] [SAVE][996a9655] Saving outputs
+[2026-03-28 08:06:17] [INFO] [pipeline] [SAVE][996a9655] Saved to: ['C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\996a9655_output.json', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\996a9655_output.csv', 'C:\\Users\\priya\\OneDrive\\Desktop\\afzal\\output\\996a9655_llm.json']
+[2026-03-28 08:06:17] [INFO] [pipeline] [JOB DONE] job_id=996a9655-7b8d-437a-9e8f-f5b78e099dbc records=10
+[2026-03-28 08:06:17] [INFO] [pipeline] [BATCH DONE] total=2 success=2 failed=0
+[2026-03-28 08:15:52] [INFO] [pipeline] [JOB START] job_id=35a1f220-73b7-4ce1-b480-97e9b36d7835 source=data/input/sample.csv
+[2026-03-28 08:15:52] [INFO] [pipeline] [DETECT][35a1f220] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:15:52] [INFO] [pipeline] [DETECT][35a1f220] Source type -> csv (in 0.00s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [EXTRACT][35a1f220] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:15:52] [INFO] [pipeline] [EXTRACT][35a1f220] Extracted 11 raw records (in 0.01s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [CLEAN][35a1f220] Cleaning and deduplicating records
+[2026-03-28 08:15:52] [INFO] [pipeline] [CLEAN][35a1f220] 10 records after cleaning (in 0.02s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [NORMALIZE][35a1f220] Normalizing to unified schema
+[2026-03-28 08:15:52] [INFO] [pipeline] [NORMALIZE][35a1f220] 10 records normalized (in 0.00s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [MAP][35a1f220] Applying Smart Field Mapper
+[2026-03-28 08:15:52] [INFO] [pipeline] [MAP][35a1f220] Field mapping complete (in 0.00s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [SAVE][35a1f220] Saving outputs
+[2026-03-28 08:15:52] [INFO] [pipeline] [SAVE][35a1f220] Saved 3 files (in 0.00s)
+[2026-03-28 08:15:52] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=35a1f220-73b7-4ce1-b480-97e9b36d7835 | records=10
+[2026-03-28 08:15:52] [INFO] [pipeline] [JOB DONE] job_id=35a1f220-73b7-4ce1-b480-97e9b36d7835
+[2026-03-28 08:28:13] [INFO] [pipeline] [JOB START] job_id=c61c475f-a130-4453-8278-47fd0129bf30 source=data/input/sample.csv
+[2026-03-28 08:28:13] [INFO] [pipeline] [DETECT][c61c475f] Detecting source type for: data/input/sample.csv
+[2026-03-28 08:28:13] [INFO] [pipeline] [DETECT][c61c475f] Source type -> csv (in 0.00s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [EXTRACT][c61c475f] Extracting from csv: data/input/sample.csv
+[2026-03-28 08:28:13] [INFO] [pipeline] [EXTRACT][c61c475f] Extracted 11 raw records (in 0.01s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [CLEAN][c61c475f] Cleaning and deduplicating records
+[2026-03-28 08:28:13] [INFO] [pipeline] [CLEAN][c61c475f] 10 records after cleaning (in 0.02s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [NORMALIZE][c61c475f] Normalizing to unified schema
+[2026-03-28 08:28:13] [INFO] [pipeline] [NORMALIZE][c61c475f] 10 records normalized (in 0.00s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [MAP][c61c475f] Applying Smart Field Mapper
+[2026-03-28 08:28:13] [INFO] [pipeline] [MAP][c61c475f] Field mapping complete (in 0.00s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [SAVE][c61c475f] Saving outputs
+[2026-03-28 08:28:13] [INFO] [pipeline] [SAVE][c61c475f] Saved 3 files (in 0.01s)
+[2026-03-28 08:28:13] [INFO] [pipeline] [PIPELINE] Total execution time: 0.04s | job_id=c61c475f-a130-4453-8278-47fd0129bf30 | records=10
+[2026-03-28 08:28:13] [INFO] [pipeline] [JOB DONE] job_id=c61c475f-a130-4453-8278-47fd0129bf30
+[2026-03-28 10:52:10] [INFO] [pipeline] [BATCH] Starting batch of 3 sources (parallel=False)
+[2026-03-28 10:52:10] [INFO] [pipeline] [JOB START] job_id=3a973fb5-b5fc-4fce-b26e-1c50d3e90e1a source=data/input/Admit Card.pdf
+[2026-03-28 10:52:10] [INFO] [pipeline] [DETECT][3a973fb5] Detecting source type for: data/input/Admit Card.pdf
+[2026-03-28 10:52:10] [INFO] [pipeline] [DETECT][3a973fb5] Source type -> pdf (in 0.00s)
+[2026-03-28 10:52:10] [INFO] [pipeline] [EXTRACT][3a973fb5] Extracting from pdf: data/input/Admit Card.pdf
+[2026-03-28 10:52:11] [INFO] [pipeline] [EXTRACT][3a973fb5] Extracted 1 raw records (in 0.46s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [CLEAN][3a973fb5] Cleaning and deduplicating records
+[2026-03-28 10:52:11] [INFO] [pipeline] [CLEAN][3a973fb5] 1 records after cleaning (in 0.02s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [NORMALIZE][3a973fb5] Normalizing to unified schema
+[2026-03-28 10:52:11] [INFO] [pipeline] [NORMALIZE][3a973fb5] 1 records normalized (in 0.00s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [MAP][3a973fb5] Applying Smart Field Mapper
+[2026-03-28 10:52:11] [INFO] [pipeline] [MAP][3a973fb5] Field mapping complete (in 0.00s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [SAVE][3a973fb5] Saving outputs
+[2026-03-28 10:52:11] [INFO] [pipeline] [SAVE][3a973fb5] Saved 3 files (in 0.01s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [PIPELINE] Total execution time: 0.49s | job_id=3a973fb5-b5fc-4fce-b26e-1c50d3e90e1a | records=1
+[2026-03-28 10:52:11] [INFO] [pipeline] [JOB DONE] job_id=3a973fb5-b5fc-4fce-b26e-1c50d3e90e1a
+[2026-03-28 10:52:11] [INFO] [pipeline] [JOB START] job_id=7198882a-4870-41c8-b204-f68a01bf1b68 source=data/input/download-resume.pdf
+[2026-03-28 10:52:11] [INFO] [pipeline] [DETECT][7198882a] Detecting source type for: data/input/download-resume.pdf
+[2026-03-28 10:52:11] [INFO] [pipeline] [DETECT][7198882a] Source type -> pdf (in 0.00s)
+[2026-03-28 10:52:11] [INFO] [pipeline] [EXTRACT][7198882a] Extracting from pdf: data/input/download-resume.pdf
+[2026-03-28 10:52:14] [INFO] [pipeline] [EXTRACT][7198882a] Extracted 1 raw records (in 3.36s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [CLEAN][7198882a] Cleaning and deduplicating records
+[2026-03-28 10:52:14] [INFO] [pipeline] [CLEAN][7198882a] 1 records after cleaning (in 0.00s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [NORMALIZE][7198882a] Normalizing to unified schema
+[2026-03-28 10:52:14] [INFO] [pipeline] [NORMALIZE][7198882a] 1 records normalized (in 0.00s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [MAP][7198882a] Applying Smart Field Mapper
+[2026-03-28 10:52:14] [INFO] [pipeline] [MAP][7198882a] Field mapping complete (in 0.00s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [SAVE][7198882a] Saving outputs
+[2026-03-28 10:52:14] [INFO] [pipeline] [SAVE][7198882a] Saved 3 files (in 0.01s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [PIPELINE] Total execution time: 3.37s | job_id=7198882a-4870-41c8-b204-f68a01bf1b68 | records=1
+[2026-03-28 10:52:14] [INFO] [pipeline] [JOB DONE] job_id=7198882a-4870-41c8-b204-f68a01bf1b68
+[2026-03-28 10:52:14] [INFO] [pipeline] [JOB START] job_id=6b108550-1f20-4e58-b54d-359b9a772d87 source=data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 10:52:14] [INFO] [pipeline] [DETECT][6b108550] Detecting source type for: data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 10:52:14] [INFO] [pipeline] [DETECT][6b108550] Source type -> pdf (in 0.00s)
+[2026-03-28 10:52:14] [INFO] [pipeline] [EXTRACT][6b108550] Extracting from pdf: data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 10:52:20] [INFO] [pipeline] [EXTRACT][6b108550] Extracted 27 raw records (in 5.81s)
+[2026-03-28 10:52:20] [INFO] [pipeline] [CLEAN][6b108550] Cleaning and deduplicating records
+[2026-03-28 10:52:20] [INFO] [pipeline] [CLEAN][6b108550] 27 records after cleaning (in 0.01s)
+[2026-03-28 10:52:20] [INFO] [pipeline] [NORMALIZE][6b108550] Normalizing to unified schema
+[2026-03-28 10:52:20] [INFO] [pipeline] [NORMALIZE][6b108550] 27 records normalized (in 0.00s)
+[2026-03-28 10:52:20] [INFO] [pipeline] [MAP][6b108550] Applying Smart Field Mapper
+[2026-03-28 10:52:20] [INFO] [pipeline] [MAP][6b108550] Field mapping complete (in 0.00s)
+[2026-03-28 10:52:20] [INFO] [pipeline] [SAVE][6b108550] Saving outputs
+[2026-03-28 10:52:20] [INFO] [pipeline] [SAVE][6b108550] Saved 3 files (in 0.01s)
+[2026-03-28 10:52:20] [INFO] [pipeline] [PIPELINE] Total execution time: 5.83s | job_id=6b108550-1f20-4e58-b54d-359b9a772d87 | records=27
+[2026-03-28 10:52:20] [INFO] [pipeline] [JOB DONE] job_id=6b108550-1f20-4e58-b54d-359b9a772d87
+[2026-03-28 10:52:20] [INFO] [pipeline] [BATCH DONE] total=3 success=3 failed=0 records=29 time=9.71s
+[2026-03-28 11:06:48] [INFO] [pipeline] [BATCH] Starting batch of 3 sources (parallel=False)
+[2026-03-28 11:06:48] [INFO] [pipeline] [JOB START] job_id=2e145a11-0f61-4837-b60a-bcf8518929a7 source=data/input/Admit Card.pdf
+[2026-03-28 11:06:48] [INFO] [pipeline] [DETECT][2e145a11] Detecting source type for: data/input/Admit Card.pdf
+[2026-03-28 11:06:48] [INFO] [pipeline] [DETECT][2e145a11] Source type -> pdf (in 0.00s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [EXTRACT][2e145a11] Extracting from pdf: data/input/Admit Card.pdf
+[2026-03-28 11:06:48] [INFO] [pipeline] [EXTRACT][2e145a11] Extracted 1 raw records (in 0.32s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [CLEAN][2e145a11] Cleaning and deduplicating records
+[2026-03-28 11:06:48] [INFO] [pipeline] [CLEAN][2e145a11] 1 records after cleaning (in 0.02s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [NORMALIZE][2e145a11] Normalizing to unified schema
+[2026-03-28 11:06:48] [INFO] [pipeline] [NORMALIZE][2e145a11] 1 records normalized (in 0.00s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [MAP][2e145a11] Applying Smart Field Mapper
+[2026-03-28 11:06:48] [INFO] [pipeline] [MAP][2e145a11] Field mapping complete (in 0.00s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [SAVE][2e145a11] Saving outputs
+[2026-03-28 11:06:48] [INFO] [pipeline] [SAVE][2e145a11] Saved 3 files (in 0.01s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [PIPELINE] Total execution time: 0.36s | job_id=2e145a11-0f61-4837-b60a-bcf8518929a7 | records=1
+[2026-03-28 11:06:48] [INFO] [pipeline] [JOB DONE] job_id=2e145a11-0f61-4837-b60a-bcf8518929a7
+[2026-03-28 11:06:48] [INFO] [pipeline] [JOB START] job_id=938c6cdb-5394-43a0-96d6-3b7c1a468980 source=data/input/download-resume.pdf
+[2026-03-28 11:06:48] [INFO] [pipeline] [DETECT][938c6cdb] Detecting source type for: data/input/download-resume.pdf
+[2026-03-28 11:06:48] [INFO] [pipeline] [DETECT][938c6cdb] Source type -> pdf (in 0.00s)
+[2026-03-28 11:06:48] [INFO] [pipeline] [EXTRACT][938c6cdb] Extracting from pdf: data/input/download-resume.pdf
+[2026-03-28 11:06:51] [INFO] [pipeline] [EXTRACT][938c6cdb] Extracted 1 raw records (in 2.33s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [CLEAN][938c6cdb] Cleaning and deduplicating records
+[2026-03-28 11:06:51] [INFO] [pipeline] [CLEAN][938c6cdb] 1 records after cleaning (in 0.01s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [NORMALIZE][938c6cdb] Normalizing to unified schema
+[2026-03-28 11:06:51] [INFO] [pipeline] [NORMALIZE][938c6cdb] 1 records normalized (in 0.00s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [MAP][938c6cdb] Applying Smart Field Mapper
+[2026-03-28 11:06:51] [INFO] [pipeline] [MAP][938c6cdb] Field mapping complete (in 0.00s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [SAVE][938c6cdb] Saving outputs
+[2026-03-28 11:06:51] [INFO] [pipeline] [SAVE][938c6cdb] Saved 3 files (in 0.01s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [PIPELINE] Total execution time: 2.36s | job_id=938c6cdb-5394-43a0-96d6-3b7c1a468980 | records=1
+[2026-03-28 11:06:51] [INFO] [pipeline] [JOB DONE] job_id=938c6cdb-5394-43a0-96d6-3b7c1a468980
+[2026-03-28 11:06:51] [INFO] [pipeline] [JOB START] job_id=ca4d5ef2-73f9-4970-aa11-a14afe4d4bd7 source=data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 11:06:51] [INFO] [pipeline] [DETECT][ca4d5ef2] Detecting source type for: data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 11:06:51] [INFO] [pipeline] [DETECT][ca4d5ef2] Source type -> pdf (in 0.00s)
+[2026-03-28 11:06:51] [INFO] [pipeline] [EXTRACT][ca4d5ef2] Extracting from pdf: data/input/TCS-NQT-Paper-1.pdf
+[2026-03-28 11:06:59] [INFO] [pipeline] [EXTRACT][ca4d5ef2] Extracted 27 raw records (in 8.41s)
+[2026-03-28 11:06:59] [INFO] [pipeline] [CLEAN][ca4d5ef2] Cleaning and deduplicating records
+[2026-03-28 11:06:59] [INFO] [pipeline] [CLEAN][ca4d5ef2] 27 records after cleaning (in 0.01s)
+[2026-03-28 11:06:59] [INFO] [pipeline] [NORMALIZE][ca4d5ef2] Normalizing to unified schema
+[2026-03-28 11:06:59] [INFO] [pipeline] [NORMALIZE][ca4d5ef2] 27 records normalized (in 0.00s)
+[2026-03-28 11:06:59] [INFO] [pipeline] [MAP][ca4d5ef2] Applying Smart Field Mapper
+[2026-03-28 11:06:59] [INFO] [pipeline] [MAP][ca4d5ef2] Field mapping complete (in 0.00s)
+[2026-03-28 11:06:59] [INFO] [pipeline] [SAVE][ca4d5ef2] Saving outputs
+[2026-03-28 11:06:59] [INFO] [pipeline] [SAVE][ca4d5ef2] Saved 3 files (in 0.02s)
+[2026-03-28 11:06:59] [INFO] [pipeline] [PIPELINE] Total execution time: 8.46s | job_id=ca4d5ef2-73f9-4970-aa11-a14afe4d4bd7 | records=27
+[2026-03-28 11:06:59] [INFO] [pipeline] [JOB DONE] job_id=ca4d5ef2-73f9-4970-aa11-a14afe4d4bd7
+[2026-03-28 11:06:59] [INFO] [pipeline] [BATCH DONE] total=3 success=3 failed=0 records=29 time=11.20s
+[2026-03-28 11:48:15] [INFO] [pipeline] [JOB START] job_id=7379b01b-ed13-40ab-9409-547e82314943 source=https://airheads.hpe.com/discussion
+[2026-03-28 11:48:15] [INFO] [pipeline] [DETECT][7379b01b] Detecting source type for: https://airheads.hpe.com/discussion
+[2026-03-28 11:48:15] [INFO] [pipeline] [DETECT][7379b01b] Source type -> url (in 0.00s)
+[2026-03-28 11:48:15] [INFO] [pipeline] [EXTRACT][7379b01b] Extracting from url: https://airheads.hpe.com/discussion
+[2026-03-28 11:48:19] [INFO] [pipeline] [EXTRACT][7379b01b] Extracted 1 raw records (in 3.42s)
+[2026-03-28 11:48:19] [INFO] [pipeline] [CLEAN][7379b01b] Cleaning and deduplicating records
+[2026-03-28 11:48:19] [INFO] [pipeline] [CLEAN][7379b01b] 1 records after cleaning (in 0.02s)
+[2026-03-28 11:48:19] [INFO] [pipeline] [NORMALIZE][7379b01b] Normalizing to unified schema
+[2026-03-28 11:48:19] [INFO] [pipeline] [NORMALIZE][7379b01b] 1 records normalized (in 0.00s)
+[2026-03-28 11:48:19] [INFO] [pipeline] [MAP][7379b01b] Applying Smart Field Mapper
+[2026-03-28 11:48:19] [INFO] [pipeline] [MAP][7379b01b] Field mapping complete (in 0.00s)
+[2026-03-28 11:48:19] [INFO] [pipeline] [SAVE][7379b01b] Saving outputs
+[2026-03-28 11:48:19] [INFO] [pipeline] [SAVE][7379b01b] Saved 3 files (in 0.01s)
+[2026-03-28 11:48:19] [INFO] [pipeline] [PIPELINE] Total execution time: 3.46s | job_id=7379b01b-ed13-40ab-9409-547e82314943 | records=1
+[2026-03-28 11:48:19] [INFO] [pipeline] [JOB DONE] job_id=7379b01b-ed13-40ab-9409-547e82314943
+[2026-03-28 13:18:24] [INFO] [pipeline] [JOB START] job_id=c27210b6-2d52-4acc-93b5-d08e638b5aa5 source=https://airheads.hpe.com/discussion
+[2026-03-28 13:18:24] [INFO] [pipeline] [DETECT][c27210b6] Detecting source type for: https://airheads.hpe.com/discussion
+[2026-03-28 13:18:24] [INFO] [pipeline] [DETECT][c27210b6] Source type -> url (in 0.00s)
+[2026-03-28 13:18:24] [INFO] [pipeline] [EXTRACT][c27210b6] Extracting from url: https://airheads.hpe.com/discussion
+[2026-03-28 13:18:27] [INFO] [pipeline] [EXTRACT][c27210b6] Extracted 1 raw records (in 3.31s)
+[2026-03-28 13:18:27] [INFO] [pipeline] [CLEAN][c27210b6] Cleaning and deduplicating records
+[2026-03-28 13:18:27] [INFO] [pipeline] [CLEAN][c27210b6] 1 records after cleaning (in 0.02s)
+[2026-03-28 13:18:27] [INFO] [pipeline] [NORMALIZE][c27210b6] Normalizing to unified schema
+[2026-03-28 13:18:27] [INFO] [pipeline] [NORMALIZE][c27210b6] 1 records normalized (in 0.00s)
+[2026-03-28 13:18:27] [INFO] [pipeline] [MAP][c27210b6] Applying Smart Field Mapper
+[2026-03-28 13:18:27] [INFO] [pipeline] [MAP][c27210b6] Field mapping complete (in 0.00s)
+[2026-03-28 13:18:27] [INFO] [pipeline] [SAVE][c27210b6] Saving outputs
+[2026-03-28 13:18:27] [INFO] [pipeline] [SAVE][c27210b6] Saved 3 files (in 0.01s)
+[2026-03-28 13:18:27] [INFO] [pipeline] [PIPELINE] Total execution time: 3.34s | job_id=c27210b6-2d52-4acc-93b5-d08e638b5aa5 | records=1
+[2026-03-28 13:18:27] [INFO] [pipeline] [JOB DONE] job_id=c27210b6-2d52-4acc-93b5-d08e638b5aa5
+[2026-03-28 13:27:36] [INFO] [pipeline] [JOB START] job_id=4a816dea-14d9-494b-be7f-6eff776cd8c2 source=https://airheads.hpe.com/discussion
+[2026-03-28 13:27:36] [INFO] [pipeline] [DETECT][4a816dea] Detecting source type for: https://airheads.hpe.com/discussion
+[2026-03-28 13:27:36] [INFO] [pipeline] [DETECT][4a816dea] Source type -> url (in 0.00s)
+[2026-03-28 13:27:36] [INFO] [pipeline] [EXTRACT][4a816dea] Extracting from url: https://airheads.hpe.com/discussion
+[2026-03-28 13:27:39] [INFO] [pipeline] [EXTRACT][4a816dea] Extracted 1 raw records (in 3.14s)
+[2026-03-28 13:27:39] [INFO] [pipeline] [CLEAN][4a816dea] Cleaning and deduplicating records
+[2026-03-28 13:27:39] [INFO] [pipeline] [CLEAN][4a816dea] 1 records after cleaning (in 0.01s)
+[2026-03-28 13:27:39] [INFO] [pipeline] [NORMALIZE][4a816dea] Normalizing to unified schema
+[2026-03-28 13:27:39] [INFO] [pipeline] [NORMALIZE][4a816dea] 1 records normalized (in 0.00s)
+[2026-03-28 13:27:39] [INFO] [pipeline] [MAP][4a816dea] Applying Smart Field Mapper
+[2026-03-28 13:27:39] [INFO] [pipeline] [MAP][4a816dea] Field mapping complete (in 0.00s)
+[2026-03-28 13:27:39] [INFO] [pipeline] [SAVE][4a816dea] Saving outputs
+[2026-03-28 13:27:39] [INFO] [pipeline] [SAVE][4a816dea] Saved 3 files (in 0.01s)
+[2026-03-28 13:27:39] [INFO] [pipeline] [PIPELINE] Total execution time: 3.17s | job_id=4a816dea-14d9-494b-be7f-6eff776cd8c2 | records=1
+[2026-03-28 13:27:39] [INFO] [pipeline] [JOB DONE] job_id=4a816dea-14d9-494b-be7f-6eff776cd8c2
+[2026-03-28 13:28:03] [INFO] [pipeline] [JOB START] job_id=a1709c30-b08b-40e2-82df-377a81870e15 source=http://localhost:8501/
+[2026-03-28 13:28:03] [INFO] [pipeline] [DETECT][a1709c30] Detecting source type for: http://localhost:8501/
+[2026-03-28 13:28:03] [INFO] [pipeline] [DETECT][a1709c30] Source type -> url (in 0.00s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [EXTRACT][a1709c30] Extracting from url: http://localhost:8501/
+[2026-03-28 13:28:03] [INFO] [pipeline] [EXTRACT][a1709c30] Extracted 1 raw records (in 0.02s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [CLEAN][a1709c30] Cleaning and deduplicating records
+[2026-03-28 13:28:03] [INFO] [pipeline] [CLEAN][a1709c30] 1 records after cleaning (in 0.00s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [NORMALIZE][a1709c30] Normalizing to unified schema
+[2026-03-28 13:28:03] [INFO] [pipeline] [NORMALIZE][a1709c30] 1 records normalized (in 0.00s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [MAP][a1709c30] Applying Smart Field Mapper
+[2026-03-28 13:28:03] [INFO] [pipeline] [MAP][a1709c30] Field mapping complete (in 0.00s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [SAVE][a1709c30] Saving outputs
+[2026-03-28 13:28:03] [INFO] [pipeline] [SAVE][a1709c30] Saved 3 files (in 0.00s)
+[2026-03-28 13:28:03] [INFO] [pipeline] [PIPELINE] Total execution time: 0.03s | job_id=a1709c30-b08b-40e2-82df-377a81870e15 | records=1
+[2026-03-28 13:28:03] [INFO] [pipeline] [JOB DONE] job_id=a1709c30-b08b-40e2-82df-377a81870e15
+[2026-03-28 13:28:44] [INFO] [pipeline] [JOB START] job_id=bdbb7698-b464-4525-b323-7b928cc3428a source=https://airheads.hpe.com/discussion
+[2026-03-28 13:28:44] [INFO] [pipeline] [DETECT][bdbb7698] Detecting source type for: https://airheads.hpe.com/discussion
+[2026-03-28 13:28:44] [INFO] [pipeline] [DETECT][bdbb7698] Source type -> url (in 0.00s)
+[2026-03-28 13:28:44] [INFO] [pipeline] [EXTRACT][bdbb7698] Extracting from url: https://airheads.hpe.com/discussion
+[2026-03-28 13:28:48] [INFO] [pipeline] [EXTRACT][bdbb7698] Extracted 1 raw records (in 3.84s)
+[2026-03-28 13:28:48] [INFO] [pipeline] [CLEAN][bdbb7698] Cleaning and deduplicating records
+[2026-03-28 13:28:48] [INFO] [pipeline] [CLEAN][bdbb7698] 1 records after cleaning (in 0.00s)
+[2026-03-28 13:28:48] [INFO] [pipeline] [NORMALIZE][bdbb7698] Normalizing to unified schema
+[2026-03-28 13:28:48] [INFO] [pipeline] [NORMALIZE][bdbb7698] 1 records normalized (in 0.00s)
+[2026-03-28 13:28:48] [INFO] [pipeline] [MAP][bdbb7698] Applying Smart Field Mapper
+[2026-03-28 13:28:48] [INFO] [pipeline] [MAP][bdbb7698] Field mapping complete (in 0.00s)
+[2026-03-28 13:28:48] [INFO] [pipeline] [SAVE][bdbb7698] Saving outputs
+[2026-03-28 13:28:48] [INFO] [pipeline] [SAVE][bdbb7698] Saved 3 files (in 0.01s)
+[2026-03-28 13:28:48] [INFO] [pipeline] [PIPELINE] Total execution time: 3.86s | job_id=bdbb7698-b464-4525-b323-7b928cc3428a | records=1
+[2026-03-28 13:28:48] [INFO] [pipeline] [JOB DONE] job_id=bdbb7698-b464-4525-b323-7b928cc3428a
+[2026-03-28 13:30:23] [INFO] [pipeline] [BATCH] Starting batch of 4 sources (parallel=True)
+[2026-03-28 13:30:23] [INFO] [pipeline] [JOB START] job_id=ef5963aa-5bf6-4503-91ed-567cb04aa0d3 source=C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\TCS-NQT-Paper-1.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][ef5963aa] Detecting source type for: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\TCS-NQT-Paper-1.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][ef5963aa] Source type -> pdf (in 0.00s)
+[2026-03-28 13:30:23] [INFO] [pipeline] [EXTRACT][ef5963aa] Extracting from pdf: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\TCS-NQT-Paper-1.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [JOB START] job_id=0cde1e60-8675-46df-952e-c8576dca0ec9 source=C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\download-resume.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][0cde1e60] Detecting source type for: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\download-resume.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][0cde1e60] Source type -> pdf (in 0.00s)
+[2026-03-28 13:30:23] [INFO] [pipeline] [EXTRACT][0cde1e60] Extracting from pdf: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\download-resume.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [JOB START] job_id=5ceb7b0c-99bd-4045-8ef2-461715f2574d source=https://airheads.hpe.com/discussion
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][5ceb7b0c] Detecting source type for: https://airheads.hpe.com/discussion
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][5ceb7b0c] Source type -> url (in 0.00s)
+[2026-03-28 13:30:23] [INFO] [pipeline] [EXTRACT][5ceb7b0c] Extracting from url: https://airheads.hpe.com/discussion
+[2026-03-28 13:30:23] [INFO] [pipeline] [JOB START] job_id=3d9accea-0355-4aff-9027-b9358adcb846 source=C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][3d9accea] Detecting source type for: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-28 13:30:23] [INFO] [pipeline] [DETECT][3d9accea] Source type -> pdf (in 0.00s)
+[2026-03-28 13:30:23] [INFO] [pipeline] [EXTRACT][3d9accea] Extracting from pdf: C:\Users\priya\OneDrive\Desktop\afzal\data\input\_uploads\Admit Card.pdf
+[2026-03-28 13:30:25] [INFO] [pipeline] [EXTRACT][3d9accea] Extracted 1 raw records (in 2.40s)
+[2026-03-28 13:30:25] [INFO] [pipeline] [CLEAN][3d9accea] Cleaning and deduplicating records
+[2026-03-28 13:30:25] [INFO] [pipeline] [CLEAN][3d9accea] 1 records after cleaning (in 0.08s)
+[2026-03-28 13:30:25] [INFO] [pipeline] [NORMALIZE][3d9accea] Normalizing to unified schema
+[2026-03-28 13:30:26] [INFO] [pipeline] [NORMALIZE][3d9accea] 1 records normalized (in 0.03s)
+[2026-03-28 13:30:26] [INFO] [pipeline] [MAP][3d9accea] Applying Smart Field Mapper
+[2026-03-28 13:30:26] [INFO] [pipeline] [MAP][3d9accea] Field mapping complete (in 0.03s)
+[2026-03-28 13:30:26] [INFO] [pipeline] [SAVE][3d9accea] Saving outputs
+[2026-03-28 13:30:26] [INFO] [pipeline] [SAVE][3d9accea] Saved 3 files (in 0.77s)
+[2026-03-28 13:30:26] [INFO] [pipeline] [PIPELINE] Total execution time: 3.48s | job_id=3d9accea-0355-4aff-9027-b9358adcb846 | records=1
+[2026-03-28 13:30:27] [INFO] [pipeline] [JOB DONE] job_id=3d9accea-0355-4aff-9027-b9358adcb846
+[2026-03-28 13:30:28] [INFO] [pipeline] [EXTRACT][5ceb7b0c] Extracted 1 raw records (in 5.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [CLEAN][5ceb7b0c] Cleaning and deduplicating records
+[2026-03-28 13:30:28] [INFO] [pipeline] [CLEAN][5ceb7b0c] 1 records after cleaning (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [NORMALIZE][5ceb7b0c] Normalizing to unified schema
+[2026-03-28 13:30:28] [INFO] [pipeline] [NORMALIZE][5ceb7b0c] 1 records normalized (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [MAP][5ceb7b0c] Applying Smart Field Mapper
+[2026-03-28 13:30:28] [INFO] [pipeline] [MAP][5ceb7b0c] Field mapping complete (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [SAVE][5ceb7b0c] Saving outputs
+[2026-03-28 13:30:28] [INFO] [pipeline] [SAVE][5ceb7b0c] Saved 3 files (in 0.01s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [PIPELINE] Total execution time: 5.03s | job_id=5ceb7b0c-99bd-4045-8ef2-461715f2574d | records=1
+[2026-03-28 13:30:28] [INFO] [pipeline] [JOB DONE] job_id=5ceb7b0c-99bd-4045-8ef2-461715f2574d
+[2026-03-28 13:30:28] [INFO] [pipeline] [EXTRACT][0cde1e60] Extracted 1 raw records (in 5.39s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [CLEAN][0cde1e60] Cleaning and deduplicating records
+[2026-03-28 13:30:28] [INFO] [pipeline] [CLEAN][0cde1e60] 1 records after cleaning (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [NORMALIZE][0cde1e60] Normalizing to unified schema
+[2026-03-28 13:30:28] [INFO] [pipeline] [NORMALIZE][0cde1e60] 1 records normalized (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [MAP][0cde1e60] Applying Smart Field Mapper
+[2026-03-28 13:30:28] [INFO] [pipeline] [MAP][0cde1e60] Field mapping complete (in 0.00s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [SAVE][0cde1e60] Saving outputs
+[2026-03-28 13:30:28] [INFO] [pipeline] [SAVE][0cde1e60] Saved 3 files (in 0.01s)
+[2026-03-28 13:30:28] [INFO] [pipeline] [PIPELINE] Total execution time: 5.41s | job_id=0cde1e60-8675-46df-952e-c8576dca0ec9 | records=1
+[2026-03-28 13:30:28] [INFO] [pipeline] [JOB DONE] job_id=0cde1e60-8675-46df-952e-c8576dca0ec9
+[2026-03-28 13:30:30] [INFO] [pipeline] [EXTRACT][ef5963aa] Extracted 27 raw records (in 7.01s)
+[2026-03-28 13:30:30] [INFO] [pipeline] [CLEAN][ef5963aa] Cleaning and deduplicating records
+[2026-03-28 13:30:30] [INFO] [pipeline] [CLEAN][ef5963aa] 27 records after cleaning (in 0.04s)
+[2026-03-28 13:30:30] [INFO] [pipeline] [NORMALIZE][ef5963aa] Normalizing to unified schema
+[2026-03-28 13:30:30] [INFO] [pipeline] [NORMALIZE][ef5963aa] 27 records normalized (in 0.00s)
+[2026-03-28 13:30:30] [INFO] [pipeline] [MAP][ef5963aa] Applying Smart Field Mapper
+[2026-03-28 13:30:30] [INFO] [pipeline] [MAP][ef5963aa] Field mapping complete (in 0.00s)
+[2026-03-28 13:30:30] [INFO] [pipeline] [SAVE][ef5963aa] Saving outputs
+[2026-03-28 13:30:30] [INFO] [pipeline] [SAVE][ef5963aa] Saved 3 files (in 0.01s)
+[2026-03-28 13:30:30] [INFO] [pipeline] [PIPELINE] Total execution time: 7.07s | job_id=ef5963aa-5bf6-4503-91ed-567cb04aa0d3 | records=27
+[2026-03-28 13:30:30] [INFO] [pipeline] [JOB DONE] job_id=ef5963aa-5bf6-4503-91ed-567cb04aa0d3
+[2026-03-28 13:30:30] [INFO] [pipeline] [BATCH DONE] total=4 success=4 failed=0 records=30 time=7.08s
+[2026-03-28 13:38:30] [INFO] [pipeline] [JOB START] job_id=bbabc768-274a-4748-81f7-c6323b2211a4 source=data/input/sample.csv
+[2026-03-28 13:38:30] [INFO] [pipeline] [DETECT][bbabc768] Detecting source type for: data/input/sample.csv
+[2026-03-28 13:38:30] [INFO] [pipeline] [DETECT][bbabc768] Source type -> csv (in 0.00s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [EXTRACT][bbabc768] Extracting from csv: data/input/sample.csv
+[2026-03-28 13:38:30] [INFO] [pipeline] [EXTRACT][bbabc768] Extracted 11 raw records (in 0.01s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [CLEAN][bbabc768] Cleaning and deduplicating records
+[2026-03-28 13:38:30] [INFO] [pipeline] [CLEAN][bbabc768] 10 records after cleaning (in 0.01s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [NORMALIZE][bbabc768] Normalizing to unified schema
+[2026-03-28 13:38:30] [INFO] [pipeline] [NORMALIZE][bbabc768] 10 records normalized (in 0.00s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [MAP][bbabc768] Applying Smart Field Mapper
+[2026-03-28 13:38:30] [INFO] [pipeline] [MAP][bbabc768] Field mapping complete (in 0.00s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [SAVE][bbabc768] Saving outputs
+[2026-03-28 13:38:30] [INFO] [pipeline] [SAVE][bbabc768] Saved 3 files (in 0.00s)
+[2026-03-28 13:38:30] [INFO] [pipeline] [PIPELINE] Total execution time: 0.03s | job_id=bbabc768-274a-4748-81f7-c6323b2211a4 | records=10
+[2026-03-28 13:38:30] [INFO] [pipeline] [JOB DONE] job_id=bbabc768-274a-4748-81f7-c6323b2211a4
+[2026-03-29 13:39:24] [INFO] [pipeline] [JOB START] job_id=40c6a0f6-6c83-4e66-bfbf-48500bba06bd source=https://example.com
+[2026-03-29 13:39:24] [INFO] [pipeline] [DETECT][40c6a0f6] Detecting source type for: https://example.com
+[2026-03-29 13:39:24] [INFO] [pipeline] [DETECT][40c6a0f6] Source type -> url (in 0.00s)
+[2026-03-29 13:39:24] [INFO] [pipeline] [EXTRACT][40c6a0f6] Extracting from url: https://example.com
+[2026-03-29 13:39:25] [WARNING] [pipeline] [EXTRACT] Attempt 1/3 failed for https://example.com: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)'))). Retrying in 2s...
+[2026-03-29 13:39:28] [WARNING] [pipeline] [EXTRACT] Attempt 2/3 failed for https://example.com: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)'))). Retrying in 4s...
+[2026-03-29 13:39:33] [WARNING] [pipeline] [EXTRACT] Attempt 3/3 failed for https://example.com: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)'))). Retrying in 8s...
+[2026-03-29 13:39:41] [ERROR] [pipeline] [JOB FAILED] job_id=40c6a0f6-6c83-4e66-bfbf-48500bba06bd source=https://example.com error=All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)'))) (after 17.10s)
+Traceback (most recent call last):
+  File "C:\Users\afzal\Downloads\afzal\afzal\pipeline\orchestrator.py", line 139, in run
+    raw_output = self._extract_with_retry(validated_source, source_type, job_id)
+  File "C:\Users\afzal\Downloads\afzal\afzal\pipeline\orchestrator.py", line 399, in _extract_with_retry
+    raise RuntimeError(
+        f"All {self.max_retries} extraction attempts failed for '{source}': {last_exc}"
+    )
+RuntimeError: All 3 extraction attempts failed for 'https://example.com': HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))
+
+[2026-03-29 15:03:01] [INFO] [pipeline] [JOB START] job_id=8fb085e7-e81b-4d09-b200-697a038453c4 source=https://en.wikipedia.org/wiki/Data_extraction
+[2026-03-29 15:03:01] [INFO] [pipeline] [DETECT][8fb085e7] Detecting source type for: https://en.wikipedia.org/wiki/Data_extraction
+[2026-03-29 15:03:01] [INFO] [pipeline] [DETECT][8fb085e7] Source type -> url (in 0.00s)
+[2026-03-29 15:03:01] [INFO] [pipeline] [EXTRACT][8fb085e7] Extracting from url: https://en.wikipedia.org/wiki/Data_extraction
+[2026-03-29 15:03:03] [INFO] [pipeline] [EXTRACT][8fb085e7] Extracted 1 raw records (in 2.30s)
+[2026-03-29 15:03:03] [INFO] [pipeline] [CLEAN][8fb085e7] Cleaning and deduplicating records
+[2026-03-29 15:03:03] [INFO] [pipeline] [CLEAN][8fb085e7] 1 records after cleaning (in 0.03s)
+[2026-03-29 15:03:03] [INFO] [pipeline] [NORMALIZE][8fb085e7] Normalizing to unified schema
+[2026-03-29 15:03:03] [INFO] [pipeline] [NORMALIZE][8fb085e7] 1 records normalized (in 0.00s)
+[2026-03-29 15:03:03] [INFO] [pipeline] [MAP][8fb085e7] Applying Smart Field Mapper
+[2026-03-29 15:03:03] [INFO] [pipeline] [MAP][8fb085e7] Field mapping complete (in 0.00s)
+[2026-03-29 15:03:03] [INFO] [pipeline] [SAVE][8fb085e7] Saving outputs
+[2026-03-29 15:03:03] [INFO] [pipeline] [SAVE][8fb085e7] Saved 3 files (in 0.01s)
+[2026-03-29 15:03:03] [INFO] [pipeline] [PIPELINE] Total execution time: 2.34s | job_id=8fb085e7-e81b-4d09-b200-697a038453c4 | records=1
+[2026-03-29 15:03:03] [INFO] [pipeline] [JOB DONE] job_id=8fb085e7-e81b-4d09-b200-697a038453c4
+[2026-03-29 20:50:21] [INFO] [pipeline] [JOB START] job_id=f1836bee-faf1-4712-b64a-6f531a715ef8 source=data/input/_uploads/10134d61_CN 1.1.pdf
+[2026-03-29 20:50:21] [INFO] [pipeline] [DETECT][f1836bee] Detecting source type for: data/input/_uploads/10134d61_CN 1.1.pdf
+[2026-03-29 20:50:21] [INFO] [pipeline] [DETECT][f1836bee] Source type -> pdf (in 0.00s)
+[2026-03-29 20:50:21] [INFO] [pipeline] [EXTRACT][f1836bee] Extracting from pdf: data/input/_uploads/10134d61_CN 1.1.pdf
+[2026-03-29 20:50:22] [WARNING] [pipeline] [EXTRACT] No records extracted from 'data/input/_uploads/10134d61_CN 1.1.pdf'. Source may be empty or unsupported.
+[2026-03-29 20:50:22] [INFO] [pipeline] [EXTRACT][f1836bee] Extracted 0 raw records (in 0.05s)
+[2026-03-29 20:50:22] [INFO] [pipeline] [CLEAN][f1836bee] Cleaning and deduplicating records
+[2026-03-29 20:50:22] [INFO] [pipeline] [CLEAN][f1836bee] 0 records after cleaning (in 0.00s)
+[2026-03-29 20:50:22] [INFO] [pipeline] [NORMALIZE][f1836bee] Normalizing to unified schema
+[2026-03-29 20:50:22] [INFO] [pipeline] [NORMALIZE][f1836bee] 0 records normalized (in 0.00s)
+[2026-03-29 20:50:22] [INFO] [pipeline] [MAP][f1836bee] Applying Smart Field Mapper
+[2026-03-29 20:50:22] [INFO] [pipeline] [MAP][f1836bee] Field mapping complete (in 0.00s)
+[2026-03-29 20:50:22] [INFO] [pipeline] [SAVE][f1836bee] Saving outputs
+[2026-03-29 20:50:22] [INFO] [pipeline] [SAVE][f1836bee] Saved 3 files (in 0.01s)
+[2026-03-29 20:50:22] [INFO] [pipeline] [PIPELINE] Total execution time: 0.07s | job_id=f1836bee-faf1-4712-b64a-6f531a715ef8 | records=0
+[2026-03-29 20:50:22] [INFO] [pipeline] [JOB DONE] job_id=f1836bee-faf1-4712-b64a-6f531a715ef8
